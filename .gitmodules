@@ -1,0 +1,6 @@
+[submodule "KTEngine"]
+	path = KTEngine
+	url = git@gitlab.com:khamitovsteam/ktengine.git
+[submodule "FNA"]
+	path = FNA
+	url = git@github.com:FNA-XNA/FNA.git

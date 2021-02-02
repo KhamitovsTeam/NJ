@@ -1,0 +1,10 @@
+<level width="84" height="48">
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="44" w="84" h="4" />
+  </Wall>
+  <Actor />
+  <Sceneries />
+  <Area>
+    <SpawnArea id="1" x="4" y="40" />
+  </Area>
+</level>

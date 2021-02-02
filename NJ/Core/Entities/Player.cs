@@ -7,6 +7,7 @@ namespace NJ
     {
         public const float Acceleration = 3000f;
         public const float Maxspeed = 320f;
+        public bool InNextRoom;
         
         public Animation Sprite;
         public Hitbox Collider;

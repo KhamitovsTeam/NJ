@@ -45,8 +45,11 @@
   <ItemGroup>
     <Compile Include="Core\Entities\Actor.cs" />
     <Compile Include="Core\Entities\Player.cs" />
+    <Compile Include="Core\Entities\Wall.cs" />
     <Compile Include="Core\Level.cs" />
     <Compile Include="Core\NJGame.cs" />
+    <Compile Include="Core\Room.cs" />
+    <Compile Include="Core\Tags.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +70,7 @@
     <Content Include="Content\Fonts\PressStart2P.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\Sprites\tile0.png" />
     <Content Include="x64\FAudio.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -111,7 +115,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\Levels\01_01.oel">
+    <None Include="Content\Levels\1.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Content\Levels\NJ.oep">

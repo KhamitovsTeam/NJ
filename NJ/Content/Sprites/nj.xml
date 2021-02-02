@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:adb4e084a66c6153cff895c162960cf8:03f14c3489d70c7c7fc503262eb220c8:d3984fd11420eed97005d3628e7c52b7$ -->
+<TextureAtlas imagePath="nj.png" width="64" height="16">
+    <SubTexture name="house" x="11" y="1" width="8" height="12"/>
+    <SubTexture name="player" x="21" y="1" rotated="true" width="8" height="12" frameX="0" frameY="0" frameWidth="16" frameHeight="8"/>
+    <SubTexture name="shoot" x="49" y="1" width="8" height="6"/>
+    <SubTexture name="sky" x="1" y="1" width="8" height="14" frameX="0" frameY="0" frameWidth="8" frameHeight="16"/>
+    <SubTexture name="tile0" x="59" y="1" width="4" height="4"/>
+    <SubTexture name="tree0" x="31" y="7" width="5" height="8"/>
+    <SubTexture name="tree1" x="38" y="7" width="5" height="8"/>
+    <SubTexture name="tree2" x="45" y="9" rotated="true" width="8" height="5"/>
+    <SubTexture name="tree3" x="55" y="9" rotated="true" width="8" height="5"/>
+    <SubTexture name="voron" x="31" y="1" width="16" height="4"/>
+</TextureAtlas>

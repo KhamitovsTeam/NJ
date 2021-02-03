@@ -43,6 +43,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Constants.cs" />
+    <Compile Include="Core\Controls.cs" />
     <Compile Include="Core\Entities\Actor.cs" />
     <Compile Include="Core\Entities\Player.cs" />
     <Compile Include="Core\Entities\Wall.cs" />
@@ -115,12 +117,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\Levels\1.oel">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Content\Levels\NJ.oep">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <Content Include="Content\Levels\1.oel">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\Levels\NJ.oep" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

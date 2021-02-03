@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Xml;
 using KTEngine;
+using Microsoft.Xna.Framework;
 
 namespace NJ
 {
     public class Level : Scene
     {
+        public static Level Instance;
+        
         public string ID;
         public int Width;
         public int Height;
@@ -25,11 +28,18 @@ namespace NJ
 
         private Player player;
 
+        public Level()
+        {
+            Instance = this;
+        }
+
         public override void Begin()
         {
             RoomID = 1;
             player = new Player();
             CurrentRoom = LoadRoom(null, RoomID.ToString(), true);
+            Camera.Position = new Vector2(CurrentRoom.X, CurrentRoom.Y);
+            //Camera.Position = Vector2.Zero;
         }
         
         public void AddNextRoom(Room lastRoom)
@@ -43,11 +53,12 @@ namespace NJ
                 Remove(entity);
         }
 
-        public Room LoadRoom(Room lastRoom, string roomFile, bool spawnPlayer = false)
+        private Room LoadRoom(Room lastRoom, string roomFile, bool spawnPlayer = false)
         {
             XmlElement xmlLevel = XML.Load("Levels/" + roomFile + ".oel")["level"];
             int width = xmlLevel.AttrInt("width");
             int height = xmlLevel.AttrInt("height");
+            
             Room room = new Room(this, "room" + roomFile, xmlLevel, width, height);
             
             if (lastRoom != null)
@@ -55,7 +66,14 @@ namespace NJ
             
             room.Grid = new Grid(4, 4, room.Columns, room.Rows);
             
-            XmlElement walls = xmlLevel?["Walls"];
+            XmlElement sceneries = room.Xml["Sceneries"];
+            if (sceneries != null)
+            {
+                foreach (XmlElement childNode in sceneries)
+                    LoadActor(childNode, room);
+            }
+            
+            XmlElement walls = room.Xml["Walls"];
             if (walls != null)
             {
                 foreach (XmlElement xmlWall in walls)
@@ -63,32 +81,41 @@ namespace NJ
                         true;
             }
 
-            XmlElement actors = xmlLevel?["Actors"];
+            XmlElement actors = room.Xml["Actors"];
             if (actors != null)
             {
                 foreach (XmlElement xmlActor in actors)
                 {
+                    if (ActorExists(xmlActor))
+                        LoadActor(xmlActor, room);
+                }
+            }
+            
+            XmlElement areas = room.Xml["Areas"];
+            if (areas != null)
+            {
+                foreach (XmlElement childNode in areas)
+                {
                     if (spawnPlayer)
                     {
-                        if (xmlActor.LocalName == "PlayerSpawn")
+                        if (childNode.Name.Equals("SpawnArea"))
                         {
-                            player.X = xmlActor.AttrInt("x") + 4;
-                            player.Y = xmlActor.AttrInt("y") + 4;
+                            player.X = childNode.AttrInt("x") + 2;
+                            player.Y = childNode.AttrInt("y") + 4;
                             Add(player);
                         }
                     }
-                    else
-                    {
-                        if (ActorExists(xmlActor))
-                            LoadActor(xmlActor, room);
-                    }
+                    
+                    if (!childNode.Name.Equals("SpawnArea"))
+                        LoadActor(childNode, room);
                 }
             }
+
             Add(new Wall(room.X, room.Y, room.Grid, this)).Tag = room.Name;
             UpdateLists();
             if (lastRoom != null)
             {
-                foreach (Base item in GetEntitiesByTag(room.Name))
+                foreach (var item in GetEntitiesByTag(room.Name))
                     item.Active = false;
             }
             return room;
@@ -119,7 +146,7 @@ namespace NJ
             Console.WriteLine("[bunker] Unindentified entity type {0}", actor.LocalName);
             return null;
         }
-        
+
         public bool ActorExists(XmlElement actor)
         {
             return Type.GetType("NJ." + actor.LocalName) != null;
@@ -161,6 +188,9 @@ namespace NJ
         public override void Render()
         {
             base.Render();
+            Draw.Begin();
+            Draw.Rect(0, 0, Width, Height, Color.Azure);
+            Draw.End();
             //Renderer.Begin();
             //Renderer.Rect(0.0f, 0.0f, (float) Ark.Width, (float) Ark.Height, Color.Black, this.fade);
             //Renderer.End();

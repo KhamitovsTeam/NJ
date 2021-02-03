@@ -27,7 +27,7 @@
   <LevelValueDefinitions />
   <LayerDefinitions>
     <LayerDefinition xsi:type="GridLayerDefinition">
-      <Name>Wall</Name>
+      <Name>Walls</Name>
       <Grid>
         <Width>4</Width>
         <Height>4</Height>
@@ -40,7 +40,7 @@
       <ExportMode>Rectangles</ExportMode>
     </LayerDefinition>
     <LayerDefinition xsi:type="EntityLayerDefinition">
-      <Name>Actor</Name>
+      <Name>Actors</Name>
       <Grid>
         <Width>4</Width>
         <Height>4</Height>
@@ -62,7 +62,7 @@
       </ScrollFactor>
     </LayerDefinition>
     <LayerDefinition xsi:type="EntityLayerDefinition">
-      <Name>Area</Name>
+      <Name>Areas</Name>
       <Grid>
         <Width>4</Width>
         <Height>4</Height>

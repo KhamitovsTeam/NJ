@@ -1,0 +1,136 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Grass id="0" x="16" y="64" type="4" />
+    <Grass id="1" x="32" y="64" type="3" />
+    <Grass id="2" x="48" y="64" type="4" />
+    <Grass id="3" x="176" y="64" type="3" />
+    <Grass id="4" x="160" y="64" type="4" />
+    <Grass id="5" x="288" y="160" type="4" />
+    <Grass id="6" x="224" y="160" type="3" />
+    <Grass id="7" x="208" y="160" type="3" />
+    <Grass id="8" x="192" y="160" type="4" />
+    <Grass id="9" x="48" y="160" type="4" />
+    <Grass id="10" x="32" y="160" type="3" />
+    <Grass id="11" x="64" y="160" type="4" />
+    <Liana id="12" x="0" y="32" type="5" />
+    <Liana id="13" x="16" y="16" type="5" />
+    <Liana id="14" x="32" y="16" type="5" />
+    <Liana id="15" x="48" y="16" type="5" />
+    <Liana id="16" x="64" y="16" type="5" />
+    <Liana id="17" x="224" y="16" type="6" />
+    <Liana id="18" x="208" y="16" type="5" />
+    <Liana id="19" x="256" y="80" type="5" />
+    <Liana id="20" x="192" y="16" type="5" />
+    <Liana id="21" x="176" y="16" type="6" />
+    <Liana id="22" x="160" y="16" type="5" />
+    <Liana id="23" x="192" y="96" type="5" />
+    <Liana id="24" x="176" y="112" type="6" />
+    <Liana id="25" x="160" y="112" type="6" />
+    <Liana id="26" x="144" y="112" type="6" />
+    <Liana id="27" x="128" y="128" type="5" />
+    <Liana id="28" x="112" y="128" type="6" />
+    <Liana id="29" x="96" y="128" type="5" />
+    <Liana id="30" x="80" y="128" type="5" />
+    <Liana id="31" x="32" y="128" type="5" />
+    <Liana id="32" x="16" y="128" type="6" />
+    <Back id="33" x="0" y="48" type="7" />
+    <Back id="34" x="16" y="32" type="8" />
+    <Back id="35" x="16" y="48" type="7" />
+    <Back id="36" x="32" y="32" type="8" />
+    <Back id="37" x="64" y="32" type="7" />
+    <Back id="38" x="48" y="32" type="8" />
+    <Back id="39" x="80" y="32" type="7" />
+    <Back id="40" x="80" y="16" type="8" />
+    <Back id="41" x="96" y="16" type="7" />
+    <Back id="42" x="112" y="16" type="8" />
+    <Back id="43" x="128" y="16" type="8" />
+    <Back id="44" x="144" y="16" type="8" />
+    <Back id="45" x="144" y="32" type="7" />
+    <Back id="46" x="128" y="32" type="7" />
+    <Back id="47" x="96" y="32" type="7" />
+    <Back id="48" x="112" y="48" type="7" />
+    <Back id="49" x="112" y="32" type="7" />
+    <Back id="50" x="96" y="48" type="8" />
+    <Back id="51" x="80" y="48" type="8" />
+    <Back id="52" x="160" y="32" type="7" />
+    <Back id="53" x="176" y="32" type="7" />
+    <Back id="54" x="224" y="32" type="7" />
+    <Back id="55" x="224" y="48" type="8" />
+    <Back id="56" x="208" y="48" type="8" />
+    <Back id="57" x="208" y="32" type="8" />
+    <Back id="58" x="224" y="64" type="7" />
+    <Back id="59" x="192" y="112" type="8" />
+    <Back id="60" x="176" y="144" type="7" />
+    <Back id="61" x="160" y="144" type="8" />
+    <Back id="62" x="144" y="144" type="7" />
+    <Back id="63" x="192" y="128" type="8" />
+    <Back id="64" x="224" y="96" type="7" />
+    <Back id="65" x="224" y="112" type="8" />
+    <Back id="66" x="64" y="128" type="7" />
+    <Back id="67" x="48" y="128" type="7" />
+    <Back id="68" x="0" y="128" type="7" />
+    <Back id="69" x="0" y="144" type="8" />
+    <Back id="70" x="16" y="144" type="7" />
+    <Back id="71" x="48" y="144" type="7" />
+    <Back id="72" x="80" y="144" type="8" />
+    <Back id="73" x="96" y="144" type="8" />
+    <Back id="74" x="112" y="144" type="7" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="16" />
+    <rect x="0" y="16" w="16" h="16" />
+    <rect x="0" y="80" w="208" h="16" />
+    <rect x="0" y="96" w="192" h="16" />
+    <rect x="0" y="112" w="144" h="16" />
+    <rect x="0" y="176" w="320" h="16" />
+    <rect x="144" y="128" w="48" h="16" />
+    <rect x="240" y="16" w="80" h="64" />
+    <rect x="240" y="80" w="16" h="96" />
+    <rect x="256" y="96" w="64" h="64" />
+    <rect x="256" y="160" w="32" h="16" />
+    <rect x="272" y="80" w="48" h="16" />
+    <rect x="304" y="160" w="16" h="16" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="0" y="64" />
+    <Coin id="1" x="16" y="64" />
+    <Coin id="2" x="32" y="64" />
+    <Coin id="3" x="48" y="48" />
+    <Coin id="4" x="48" y="48" />
+    <Coin id="5" x="64" y="64" />
+    <Coin id="6" x="80" y="64" />
+    <Coin id="7" x="96" y="64" />
+    <Coin id="8" x="112" y="64" />
+    <Coin id="9" x="128" y="64" />
+    <Coin id="10" x="144" y="64" />
+    <Coin id="11" x="160" y="48" />
+    <Coin id="12" x="176" y="48" />
+    <Coin id="13" x="192" y="64" />
+    <Coin id="14" x="208" y="80" />
+    <Coin id="15" x="208" y="64" />
+    <Coin id="16" x="208" y="96" />
+    <Coin id="17" x="208" y="112" />
+    <Coin id="18" x="208" y="128" />
+    <Coin id="19" x="208" y="144" />
+    <Coin id="20" x="208" y="160" />
+    <Coin id="21" x="192" y="160" />
+    <Coin id="22" x="176" y="160" />
+    <Coin id="23" x="160" y="160" />
+    <Coin id="24" x="144" y="160" />
+    <Coin id="25" x="128" y="160" />
+    <Coin id="26" x="112" y="160" />
+    <Coin id="27" x="96" y="160" />
+    <Coin id="28" x="80" y="160" />
+    <Coin id="29" x="64" y="144" />
+    <Coin id="30" x="48" y="160" />
+    <Coin id="31" x="32" y="160" />
+    <Coin id="32" x="16" y="160" />
+    <Coin id="33" x="0" y="160" />
+    <Walker2 id="34" x="176" y="64" reward="1" />
+    <Copter id="35" x="192" y="32" />
+    <Kitten id="36" x="144" y="112" type="4" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

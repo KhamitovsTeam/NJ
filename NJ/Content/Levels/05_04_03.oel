@@ -1,0 +1,156 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Back id="79" x="256" y="16" type="11" />
+    <Back id="79" x="272" y="16" type="11" />
+    <Back id="79" x="288" y="16" type="11" />
+    <Back id="79" x="208" y="16" type="11" />
+    <Back id="79" x="224" y="16" type="11" />
+    <Back id="79" x="240" y="16" type="11" />
+    <Back id="79" x="48" y="80" type="11" />
+    <Back id="79" x="64" y="80" type="11" />
+    <Back id="79" x="80" y="80" type="11" />
+    <Back id="79" x="0" y="80" type="11" />
+    <Back id="79" x="16" y="80" type="11" />
+    <Back id="79" x="32" y="80" type="11" />
+    <Back id="79" x="80" y="16" type="11" />
+    <Back id="79" x="96" y="16" type="11" />
+    <Back id="79" x="112" y="16" type="11" />
+    <Back id="79" x="32" y="16" type="11" />
+    <Back id="79" x="48" y="16" type="11" />
+    <Back id="79" x="64" y="16" type="11" />
+    <Back id="79" x="256" y="80" type="11" />
+    <Back id="79" x="272" y="80" type="11" />
+    <Back id="79" x="288" y="80" type="11" />
+    <Back id="79" x="208" y="80" type="11" />
+    <Back id="79" x="224" y="80" type="11" />
+    <Back id="79" x="240" y="80" type="11" />
+    <Back id="79" x="240" y="32" type="11" />
+    <Back id="79" x="256" y="32" type="11" />
+    <Back id="79" x="272" y="32" type="11" />
+    <Back id="79" x="192" y="32" type="11" />
+    <Back id="79" x="144" y="32" type="11" />
+    <Back id="79" x="224" y="32" type="11" />
+    <Back id="79" x="48" y="144" type="11" />
+    <Back id="79" x="64" y="144" type="11" />
+    <Back id="79" x="80" y="144" type="11" />
+    <Back id="79" x="0" y="144" type="11" />
+    <Back id="79" x="16" y="144" type="11" />
+    <Back id="79" x="32" y="144" type="11" />
+    <Back id="79" x="240" y="144" type="11" />
+    <Back id="79" x="256" y="144" type="11" />
+    <Back id="79" x="272" y="144" type="11" />
+    <Back id="79" x="192" y="144" type="11" />
+    <Back id="79" x="208" y="144" type="11" />
+    <Back id="79" x="224" y="144" type="11" />
+    <Back id="0" x="288" y="160" type="17" />
+    <Back id="1" x="288" y="48" type="16" />
+    <Back id="2" x="304" y="32" type="11" />
+    <Back id="3" x="304" y="144" type="11" />
+    <Back id="4" x="288" y="144" type="11" />
+    <Back id="5" x="304" y="160" type="11" />
+    <Back id="6" x="304" y="48" type="11" />
+    <Back id="7" x="16" y="32" type="16" />
+    <Back id="8" x="16" y="16" type="11" />
+    <Back id="9" x="0" y="16" type="11" />
+    <Back id="10" x="0" y="32" type="11" />
+    <Back id="11" x="32" y="32" type="11" />
+    <Back id="12" x="16" y="48" type="11" />
+    <Back id="13" x="128" y="144" type="11" />
+    <Back id="14" x="144" y="80" type="11" />
+    <Back id="15" x="160" y="80" type="11" />
+    <Back id="16" x="160" y="16" type="11" />
+    <Back id="17" x="176" y="80" type="11" />
+    <Back id="18" x="112" y="80" type="11" />
+    <Back id="19" x="160" y="144" type="11" />
+    <Back id="20" x="144" y="144" type="11" />
+    <Back id="21" x="288" y="96" type="11" />
+    <Back id="22" x="256" y="96" type="11" />
+    <Back id="23" x="240" y="96" type="11" />
+    <Back id="24" x="96" y="96" type="11" />
+    <Back id="25" x="80" y="96" type="11" />
+    <Back id="26" x="48" y="96" type="11" />
+    <Back id="27" x="32" y="96" type="11" />
+    <Back id="28" x="192" y="96" type="11" />
+    <Mouse id="29" x="128" y="160" />
+    <Mouse id="30" x="288" y="112" />
+    <Light id="31" x="16" y="96" />
+    <Light id="32" x="64" y="32" />
+    <Light id="33" x="208" y="32" />
+    <Light id="34" x="160" y="96" />
+    <Light id="35" x="304" y="96" />
+    <Tube id="106" x="0" y="80" type="1" rotate="90" />
+    <Tube id="106" x="16" y="80" type="1" rotate="90" />
+    <Tube id="106" x="32" y="80" type="1" rotate="90" />
+    <Tube id="106" x="48" y="80" type="1" rotate="90" />
+    <Tube id="106" x="64" y="80" type="1" rotate="90" />
+    <Tube id="106" x="80" y="80" type="1" rotate="90" />
+    <Tube id="106" x="96" y="80" type="1" rotate="90" />
+    <Tube id="106" x="112" y="80" type="1" rotate="90" />
+    <Tube id="106" x="128" y="80" type="1" rotate="90" />
+    <Tube id="106" x="144" y="80" type="0" rotate="90" />
+    <Tube id="106" x="160" y="80" type="1" rotate="90" />
+    <Tube id="106" x="176" y="80" type="1" rotate="90" />
+    <Tube id="106" x="192" y="80" type="1" rotate="90" />
+    <Tube id="106" x="208" y="80" type="1" rotate="90" />
+    <Tube id="106" x="224" y="80" type="0" rotate="90" />
+    <Tube id="106" x="240" y="80" type="1" rotate="90" />
+    <Tube id="106" x="256" y="80" type="1" rotate="90" />
+    <Tube id="106" x="272" y="80" type="1" rotate="90" />
+    <Tube id="106" x="288" y="80" type="1" rotate="90" />
+    <Tube id="106" x="304" y="80" type="1" rotate="90" />
+    <Tube id="77" x="0" y="144" type="1" rotate="90" />
+    <Tube id="77" x="16" y="144" type="1" rotate="90" />
+    <Tube id="77" x="32" y="144" type="1" rotate="90" />
+    <Tube id="77" x="48" y="144" type="1" rotate="90" />
+    <Tube id="77" x="64" y="144" type="1" rotate="90" />
+    <Tube id="77" x="80" y="144" type="1" rotate="90" />
+    <Tube id="77" x="96" y="144" type="1" rotate="90" />
+    <Tube id="77" x="112" y="144" type="1" rotate="90" />
+    <Tube id="77" x="128" y="144" type="1" rotate="90" />
+    <Tube id="77" x="144" y="144" type="1" rotate="90" />
+    <Tube id="77" x="160" y="144" type="1" rotate="90" />
+    <Tube id="77" x="176" y="144" type="1" rotate="90" />
+    <Tube id="36" x="192" y="144" type="2" rotate="90" />
+    <Tube id="37" x="192" y="160" type="1" rotate="0" />
+    <Tube id="38" x="192" y="176" type="0" rotate="0" />
+    <Back id="39" x="272" y="96" type="11" />
+    <Back id="40" x="176" y="16" type="11" />
+    <Back id="41" x="128" y="16" type="11" />
+    <Back id="42" x="112" y="32" type="11" />
+    <Back id="43" x="224" y="160" type="11" />
+    <Back id="44" x="112" y="160" type="11" />
+    <Back id="45" x="96" y="160" type="11" />
+    <Back id="46" x="80" y="160" type="11" />
+    <Dust id="47" x="32" y="16" type="0" />
+    <Dust id="48" x="96" y="48" type="2" />
+    <Dust id="49" x="176" y="32" type="1" />
+    <Dust id="50" x="272" y="16" type="0" />
+    <Dust id="51" x="240" y="80" type="1" />
+    <Dust id="52" x="160" y="96" type="0" />
+    <Dust id="53" x="64" y="96" type="2" />
+    <Dust id="54" x="32" y="144" type="1" />
+    <Dust id="55" x="256" y="144" type="0" />
+    <Cage id="56" x="80" y="112" type="4" />
+    <Cage id="57" x="64" y="112" type="3" />
+    <Cage id="58" x="192" y="48" type="4" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="16" />
+    <rect x="0" y="64" w="320" h="16" />
+    <rect x="0" y="128" w="320" h="16" />
+    <rect x="0" y="176" w="192" h="16" />
+    <rect x="224" y="176" w="96" h="16" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="144" y="16" />
+    <Coin id="1" x="128" y="32" />
+    <Coin id="2" x="160" y="32" />
+    <Walker1 id="3" x="48" y="48" reward="0" />
+    <Walker1 id="4" x="256" y="112" reward="0" />
+    <EggEnemy id="5" x="128" y="96" />
+    <EggEnemy id="6" x="240" y="32" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

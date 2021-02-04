@@ -1,7 +1,7 @@
 using KTEngine;
 using Microsoft.Xna.Framework.Input;
 
-namespace NJ
+namespace Chip
 {
     public class Controls
     {
@@ -10,12 +10,12 @@ namespace NJ
             // Left
             Input.Bind("left", Keys.Left);
             Input.Bind("left", Buttons.DPadLeft);
-            Input.Bind("left", new Input.Joystick(Input.Joystick.Types.LEFT, Input.Joystick.Directions.LEFT, 0.2f));
+            Input.Bind("left", new Input.Joystick(Input.Joystick.Types.LEFT, Input.Joystick.Directions.LEFT, 0.3f));
 
             // Right
             Input.Bind("right", Keys.Right);
             Input.Bind("right", Buttons.DPadRight);
-            Input.Bind("right", new Input.Joystick(Input.Joystick.Types.LEFT, Input.Joystick.Directions.RIGHT, 0.2f));
+            Input.Bind("right", new Input.Joystick(Input.Joystick.Types.LEFT, Input.Joystick.Directions.RIGHT, 0.3f));
 
             // Up
             Input.Bind("up", Keys.Up);
@@ -25,7 +25,7 @@ namespace NJ
             // Down
             Input.Bind("down", Keys.Down);
             Input.Bind("down", Buttons.DPadDown);
-            Input.Bind("down", new Input.Joystick(Input.Joystick.Types.LEFT, Input.Joystick.Directions.DOWN, 0.2f));
+            Input.Bind("down", new Input.Joystick(Input.Joystick.Types.LEFT, Input.Joystick.Directions.DOWN, 0.25f));
 
             // Jump
             Input.Bind("jump", Keys.X, Keys.Space);
@@ -50,6 +50,10 @@ namespace NJ
             // Pause
             Input.Bind("pause", Keys.Escape);
             Input.Bind("pause", Buttons.Start, Buttons.BigButton);
+
+            // Map
+            Input.Bind("map", Keys.M);
+            Input.Bind("map", Buttons.Back);
         }
     }
 }

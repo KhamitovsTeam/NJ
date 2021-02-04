@@ -1,0 +1,81 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Back id="17" x="16" y="144" type="14" />
+    <Back id="19" x="64" y="128" type="12" />
+    <Back id="20" x="16" y="16" type="11" />
+    <Back id="24" x="16" y="32" type="11" />
+    <Back id="28" x="96" y="112" type="11" />
+    <Back id="29" x="112" y="112" type="11" />
+    <Back id="30" x="112" y="128" type="11" />
+    <Back id="31" x="80" y="112" type="11" />
+    <Back id="32" x="16" y="112" type="11" />
+    <Back id="34" x="176" y="16" type="11" />
+    <Back id="35" x="192" y="16" type="11" />
+    <Back id="36" x="192" y="32" type="11" />
+    <Back id="37" x="176" y="32" type="11" />
+    <Back id="38" x="176" y="48" type="11" />
+    <Back id="39" x="208" y="16" type="11" />
+    <OfficeShell id="1" x="272" y="48" />
+    <OfficeShell id="2" x="256" y="144" />
+    <OfficeTumba id="3" x="288" y="160" />
+    <Back id="4" x="176" y="144" type="11" />
+    <Back id="5" x="192" y="160" type="11" />
+    <Back id="6" x="288" y="16" type="11" />
+    <Back id="7" x="288" y="32" type="11" />
+    <Back id="8" x="272" y="16" type="11" />
+    <Back id="9" x="288" y="48" type="11" />
+    <Back id="11" x="256" y="16" type="11" />
+    <Back id="12" x="304" y="112" type="11" />
+    <Back id="13" x="304" y="128" type="11" />
+    <Back id="14" x="288" y="128" type="11" />
+    <Back id="15" x="288" y="112" type="11" />
+    <Back id="16" x="208" y="112" type="11" />
+    <Back id="18" x="224" y="112" type="11" />
+    <Back id="21" x="240" y="112" type="11" />
+    <Back id="22" x="256" y="112" type="11" />
+    <Back id="23" x="256" y="128" type="11" />
+    <Back id="25" x="272" y="144" type="11" />
+    <Back id="26" x="272" y="112" type="11" />
+    <Back id="27" x="240" y="128" type="11" />
+    <Back id="33" x="240" y="176" type="11" />
+    <OfficeShell id="40" x="240" y="48" />
+    <OfficeCond id="42" x="32" y="32" />
+    <OfficeCond id="43" x="256" y="32" />
+    <BackSign id="44" x="208" y="144" type="52" />
+    <BackSign id="45" x="208" y="48" type="53" />
+    <OfficePlant id="10" x="208" y="64" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="16" />
+    <rect x="0" y="16" w="16" h="48" />
+    <rect x="0" y="96" w="176" h="16" />
+    <rect x="0" y="112" w="16" h="32" />
+    <rect x="0" y="176" w="112" h="16" />
+    <rect x="80" y="48" w="96" h="16" />
+    <rect x="128" y="16" w="48" h="32" />
+    <rect x="128" y="64" w="48" h="32" />
+    <rect x="128" y="112" w="48" h="80" />
+    <rect x="176" y="128" w="16" h="16" />
+    <rect x="192" y="96" w="128" h="16" />
+    <rect x="192" y="144" w="16" h="16" />
+    <rect x="304" y="16" w="16" h="80" />
+  </Wall>
+  <Actors>
+    <OfficeServers id="0" x="96" y="16" />
+    <OfficeServers id="2" x="96" y="64" />
+    <OfficeServers id="3" x="64" y="64" />
+    <OfficeServers id="4" x="64" y="144" />
+    <OfficeServers id="5" x="32" y="144" />
+    <OfficeServers id="7" x="32" y="64" />
+    <Kitten id="8" x="288" y="80" type="0" />
+    <Coin id="1" x="64" y="48" />
+    <Coin id="6" x="48" y="48" />
+    <Coin id="9" x="32" y="48" />
+  </Actors>
+  <Areas>
+    <ExitArea id="1" x="304" y="176" width="16" height="16" to="05_03" from="05_02" active="True" type="" />
+    <SpawnArea id="0" x="288" y="176" width="16" height="16" camX="640" camY="94" from="05_03" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

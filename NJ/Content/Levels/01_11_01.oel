@@ -1,0 +1,35 @@
+<level width="320" height="288">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Light id="0" x="112" y="208" />
+    <Light id="1" x="224" y="208" />
+    <Back id="2" x="32" y="192" type="7" />
+    <Back id="3" x="48" y="192" type="8" />
+    <Back id="4" x="64" y="192" type="7" />
+    <Back id="5" x="144" y="192" type="7" />
+    <Back id="6" x="160" y="192" type="8" />
+    <Back id="7" x="176" y="192" type="7" />
+    <Back id="8" x="192" y="192" type="8" />
+    <Back id="9" x="256" y="192" type="7" />
+    <Back id="10" x="272" y="192" type="8" />
+    <Back id="11" x="288" y="192" type="7" />
+    <Back id="12" x="304" y="192" type="8" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="192" />
+    <rect x="0" y="192" w="32" h="16" />
+    <rect x="0" y="208" w="16" h="16" />
+    <rect x="0" y="240" w="160" h="48" />
+    <rect x="160" y="272" w="160" h="16" />
+    <rect x="192" y="240" w="128" h="32" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="160" y="256" />
+    <Coin id="1" x="176" y="256" />
+  </Actors>
+  <Areas>
+    <ExitArea id="0" x="0" y="224" width="16" height="16" to="01_08" from="01_11" active="True" type="" />
+    <SpawnArea id="1" x="16" y="224" width="16" height="16" camX="0" camY="108" from="01_08" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

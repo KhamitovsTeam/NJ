@@ -1,0 +1,147 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Back id="79" x="256" y="16" type="11" />
+    <Back id="79" x="272" y="16" type="11" />
+    <Back id="79" x="288" y="16" type="11" />
+    <Back id="79" x="208" y="16" type="11" />
+    <Back id="79" x="224" y="16" type="11" />
+    <Back id="79" x="240" y="16" type="11" />
+    <Back id="79" x="160" y="16" type="11" />
+    <Back id="79" x="176" y="16" type="11" />
+    <Back id="79" x="192" y="16" type="11" />
+    <Back id="79" x="112" y="16" type="11" />
+    <Back id="79" x="128" y="16" type="11" />
+    <Back id="79" x="144" y="16" type="11" />
+    <Back id="79" x="48" y="16" type="11" />
+    <Back id="79" x="64" y="16" type="11" />
+    <Back id="79" x="80" y="16" type="11" />
+    <Back id="79" x="0" y="16" type="11" />
+    <Back id="79" x="16" y="16" type="11" />
+    <Back id="79" x="32" y="16" type="11" />
+    <Back id="79" x="192" y="32" type="11" />
+    <Back id="79" x="208" y="32" type="11" />
+    <Back id="79" x="144" y="32" type="11" />
+    <Back id="79" x="128" y="32" type="11" />
+    <Back id="79" x="176" y="32" type="11" />
+    <Back id="79" x="48" y="80" type="11" />
+    <Back id="79" x="64" y="80" type="11" />
+    <Back id="79" x="80" y="80" type="11" />
+    <Back id="79" x="0" y="80" type="11" />
+    <Back id="79" x="16" y="80" type="11" />
+    <Back id="79" x="32" y="80" type="11" />
+    <Back id="79" x="208" y="80" type="11" />
+    <Back id="79" x="224" y="80" type="11" />
+    <Back id="79" x="240" y="80" type="11" />
+    <Back id="79" x="160" y="80" type="11" />
+    <Back id="79" x="176" y="80" type="11" />
+    <Back id="79" x="192" y="80" type="11" />
+    <Back id="79" x="256" y="144" type="11" />
+    <Back id="79" x="272" y="144" type="11" />
+    <Back id="79" x="288" y="144" type="11" />
+    <Back id="79" x="208" y="144" type="11" />
+    <Back id="79" x="224" y="144" type="11" />
+    <Back id="79" x="240" y="144" type="11" />
+    <Back id="79" x="48" y="144" type="11" />
+    <Back id="79" x="64" y="144" type="11" />
+    <Back id="79" x="288" y="80" type="11" />
+    <Back id="79" x="0" y="144" type="11" />
+    <Back id="79" x="16" y="144" type="11" />
+    <Back id="79" x="32" y="144" type="11" />
+    <Mouse id="0" x="160" y="48" />
+    <Back id="1" x="64" y="32" type="11" />
+    <Back id="2" x="48" y="32" type="11" />
+    <Back id="3" x="16" y="32" type="11" />
+    <Back id="4" x="256" y="32" type="11" />
+    <Back id="5" x="288" y="32" type="11" />
+    <Back id="6" x="192" y="96" type="11" />
+    <Back id="7" x="208" y="96" type="11" />
+    <Back id="10" x="176" y="96" type="11" />
+    <Back id="11" x="64" y="96" type="11" />
+    <Back id="12" x="48" y="96" type="11" />
+    <Back id="13" x="32" y="96" type="11" />
+    <Back id="16" x="208" y="160" type="11" />
+    <Back id="17" x="160" y="144" type="11" />
+    <Back id="18" x="144" y="144" type="11" />
+    <Back id="19" x="128" y="144" type="11" />
+    <Back id="20" x="80" y="160" type="11" />
+    <Back id="21" x="64" y="160" type="11" />
+    <Back id="23" x="288" y="96" type="11" />
+    <Back id="24" x="288" y="112" type="11" />
+    <Back id="25" x="112" y="32" type="11" />
+    <Back id="26" x="112" y="96" type="11" />
+    <Back id="27" x="144" y="96" type="11" />
+    <Back id="28" x="128" y="80" type="11" />
+    <Back id="29" x="160" y="160" type="11" />
+    <Back id="30" x="0" y="112" type="11" />
+    <Light id="31" x="32" y="32" />
+    <Light id="32" x="160" y="32" />
+    <Light id="33" x="128" y="96" />
+    <Light id="34" x="272" y="96" />
+    <Tube id="77" x="0" y="80" type="1" rotate="90" />
+    <Tube id="77" x="16" y="80" type="1" rotate="90" />
+    <Tube id="77" x="32" y="80" type="1" rotate="90" />
+    <Tube id="77" x="48" y="80" type="1" rotate="90" />
+    <Tube id="77" x="64" y="80" type="1" rotate="90" />
+    <Tube id="77" x="80" y="80" type="1" rotate="90" />
+    <Tube id="77" x="96" y="80" type="1" rotate="90" />
+    <Tube id="77" x="112" y="80" type="1" rotate="90" />
+    <Tube id="77" x="128" y="80" type="1" rotate="90" />
+    <Tube id="77" x="144" y="80" type="1" rotate="90" />
+    <Tube id="77" x="160" y="80" type="1" rotate="90" />
+    <Tube id="77" x="176" y="80" type="1" rotate="90" />
+    <Tube id="77" x="192" y="80" type="1" rotate="90" />
+    <Tube id="77" x="208" y="80" type="1" rotate="90" />
+    <Tube id="77" x="224" y="80" type="4" rotate="180" />
+    <WaterDrop id="35" x="288" y="80" size="3" />
+    <WaterDrop id="36" x="80" y="160" size="1" />
+    <BackSign id="37" x="240" y="32" type="56" />
+    <BackSign id="38" x="240" y="96" type="56" />
+    <BackSign id="9" x="224" y="96" type="52" />
+    <BackSign id="8" x="224" y="32" type="51" />
+    <BackSign id="14" x="128" y="160" type="56" />
+    <BackSign id="15" x="112" y="160" type="53" />
+    <Dust id="22" x="0" y="32" type="0" />
+    <Dust id="39" x="96" y="16" type="2" />
+    <Dust id="40" x="192" y="32" type="1" />
+    <Dust id="41" x="272" y="32" type="2" />
+    <Dust id="42" x="256" y="96" type="0" />
+    <Dust id="43" x="208" y="96" type="1" />
+    <Dust id="44" x="80" y="96" type="2" />
+    <Dust id="45" x="96" y="128" type="0" />
+    <Dust id="46" x="16" y="96" type="1" />
+    <Dust id="47" x="224" y="144" type="0" />
+    <Dust id="48" x="16" y="144" type="2" />
+    <Cage id="49" x="144" y="48" type="3" />
+    <Cage id="50" x="128" y="48" type="3" />
+    <Cage id="51" x="144" y="32" type="4" />
+    <Cage id="52" x="240" y="160" type="3" />
+    <Cage id="53" x="224" y="160" type="5" />
+    <Cage id="54" x="16" y="160" type="3" />
+    <Cage id="55" x="288" y="160" type="4" />
+    <Cage id="56" x="288" y="48" type="5" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="16" />
+    <rect x="0" y="64" w="256" h="16" />
+    <rect x="0" y="128" w="80" h="16" />
+    <rect x="0" y="176" w="320" h="16" />
+    <rect x="80" y="144" w="16" h="16" />
+    <rect x="112" y="128" w="208" h="16" />
+    <rect x="272" y="80" w="16" h="16" />
+    <rect x="288" y="64" w="32" h="16" />
+    <rect x="304" y="16" w="16" h="48" />
+    <rect x="304" y="80" w="16" h="48" />
+    <rect x="304" y="144" w="16" h="32" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="176" y="144" />
+    <Coin id="1" x="192" y="144" />
+    <Coin id="2" x="192" y="160" />
+    <Coin id="3" x="176" y="160" />
+    <Walker1 id="4" x="256" y="160" reward="0" />
+    <EggEnemy id="5" x="80" y="32" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

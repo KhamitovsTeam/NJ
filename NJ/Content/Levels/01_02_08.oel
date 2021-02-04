@@ -1,0 +1,49 @@
+<level width="320" height="288">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Light id="34" x="144" y="16" />
+    <Back id="300" x="112" y="0" type="0" />
+    <Back id="301" x="160" y="32" type="0" />
+    <Back id="302" x="112" y="16" type="0" />
+    <Cable id="454" x="128" y="0" type="1" rotate="0" />
+    <Cable id="460" x="144" y="0" type="0" rotate="90" />
+    <Cable id="461" x="176" y="16" type="0" rotate="90" />
+    <Cable id="462" x="192" y="16" type="0" rotate="90" />
+    <Cable id="463" x="208" y="16" type="0" rotate="90" />
+    <Cable id="464" x="224" y="16" type="0" rotate="90" />
+    <Cable id="465" x="240" y="16" type="0" rotate="90" />
+    <Cable id="466" x="256" y="16" type="0" rotate="90" />
+    <Cable id="467" x="272" y="16" type="0" rotate="90" />
+    <Cable id="468" x="288" y="16" type="0" rotate="90" />
+    <Cable id="469" x="304" y="16" type="0" rotate="90" />
+    <Cable id="455" x="160" y="0" type="1" rotate="90" />
+    <Cable id="486" x="160" y="16" type="1" rotate="270" />
+    <Cable id="487" x="128" y="16" type="0" rotate="0" />
+    <Secretwall id="1" x="80" y="16" type="0" />
+    <Secretwall id="0" x="96" y="16" type="0" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="112" h="16" />
+    <rect x="0" y="16" w="80" h="272" />
+    <rect x="80" y="32" w="32" h="256" />
+    <rect x="112" y="48" w="208" h="240" />
+    <rect x="176" y="0" w="144" h="16" />
+  </Wall>
+  <Actors>
+    <Computer id="3" x="128" y="32" cutscene="cs120" />
+    <Coin id="51" x="176" y="32" />
+    <Coin id="52" x="192" y="32" />
+    <Coin id="53" x="208" y="32" />
+    <Coin id="54" x="224" y="32" />
+    <Coin id="55" x="240" y="32" />
+    <Coin id="56" x="256" y="32" />
+    <Coin id="57" x="272" y="32" />
+    <Coin id="58" x="288" y="32" />
+    <Coin id="59" x="304" y="32" />
+  </Actors>
+  <Areas>
+    <ExitArea id="0" x="80" y="16" width="16" height="16" to="01_06" from="01_02" active="True" type="" />
+    <SpawnArea id="1" x="96" y="16" width="16" height="16" camX="584" camY="510" from="01_06" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

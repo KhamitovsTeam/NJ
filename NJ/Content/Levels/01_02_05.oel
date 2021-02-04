@@ -1,0 +1,122 @@
+<level width="320" height="288">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Waterfall id="0" x="16" y="208" height="32" type="0" depth="-1" />
+    <Pipe id="1" x="16" y="192" type="0" />
+    <Light id="35" x="224" y="160" />
+    <Light id="36" x="288" y="160" />
+    <Back id="158" x="160" y="160" type="0" />
+    <Back id="159" x="176" y="160" type="0" />
+    <Back id="160" x="160" y="176" type="0" />
+    <Back id="279" x="192" y="160" type="0" />
+    <Back id="280" x="176" y="176" type="0" />
+    <Back id="281" x="160" y="192" type="0" />
+    <Back id="282" x="208" y="160" type="0" />
+    <Back id="283" x="224" y="160" type="1" />
+    <Back id="284" x="240" y="160" type="0" />
+    <Back id="285" x="256" y="160" type="0" />
+    <Back id="286" x="272" y="160" type="0" />
+    <Back id="287" x="288" y="160" type="2" />
+    <Back id="288" x="304" y="160" type="0" />
+    <Back id="59" x="16" y="144" type="0" />
+    <Back id="352" x="0" y="224" type="1" />
+    <Back id="353" x="80" y="224" type="0" />
+    <Back id="354" x="112" y="224" type="0" />
+    <Back id="355" x="96" y="224" type="0" />
+    <Back id="356" x="128" y="224" type="0" />
+    <Grass id="373" x="192" y="224" type="0" />
+    <Grass id="374" x="176" y="224" type="0" />
+    <Grass id="375" x="160" y="224" type="0" />
+    <Grass id="376" x="32" y="224" type="0" />
+    <Grass id="377" x="0" y="224" type="0" />
+    <Grass id="378" x="48" y="224" type="0" />
+    <Grass id="379" x="64" y="224" type="0" />
+    <Grass id="406" x="224" y="176" type="0" />
+    <Liana id="425" x="64" y="176" type="0" />
+    <Waterfallbottom id="456" x="16" y="224" />
+    <Cable id="492" x="304" y="176" type="0" rotate="90" />
+    <Cable id="493" x="288" y="176" type="0" rotate="90" />
+    <Cable id="494" x="272" y="176" type="0" rotate="90" />
+    <Cable id="495" x="256" y="176" type="0" rotate="90" />
+    <Cable id="496" x="240" y="176" type="0" rotate="90" />
+    <Cable id="497" x="224" y="176" type="0" rotate="90" />
+    <Cable id="498" x="208" y="176" type="0" rotate="90" />
+    <Cable id="499" x="160" y="208" type="0" rotate="90" />
+    <Cable id="500" x="176" y="208" type="0" rotate="90" />
+    <Cable id="501" x="192" y="176" type="1" rotate="0" />
+    <Cable id="503" x="192" y="192" type="0" rotate="0" />
+    <Cable id="504" x="192" y="208" type="1" rotate="180" />
+    <Cable id="505" x="144" y="208" type="0" rotate="90" />
+    <Cable id="506" x="128" y="208" type="0" rotate="90" />
+    <Cable id="507" x="112" y="208" type="0" rotate="90" />
+    <Cable id="508" x="96" y="208" type="0" rotate="90" />
+    <Cable id="509" x="80" y="208" type="0" rotate="90" />
+    <Cable id="510" x="64" y="208" type="0" rotate="90" />
+    <Cable id="511" x="48" y="208" type="0" rotate="90" />
+    <Cable id="512" x="32" y="208" type="0" rotate="90" />
+    <Cable id="513" x="16" y="208" type="0" rotate="90" />
+    <Cable id="514" x="0" y="208" type="0" rotate="90" />
+    <Grass id="2" x="144" y="112" type="0" />
+    <Liana id="3" x="144" y="80" type="0" />
+    <Liana id="4" x="64" y="112" type="0" />
+    <Kitten id="5" x="112" y="112" type="1" />
+    <Liana id="6" x="112" y="80" type="2" />
+    <Grass id="7" x="176" y="80" type="0" />
+    <Back id="8" x="160" y="80" type="0" />
+    <Back id="9" x="176" y="80" type="0" />
+    <Back id="10" x="192" y="80" type="2" />
+    <Back id="11" x="224" y="80" type="1" />
+    <Back id="12" x="256" y="80" type="0" />
+    <Back id="13" x="208" y="80" type="0" />
+    <Back id="14" x="240" y="80" type="0" />
+    <Back id="15" x="272" y="80" type="2" />
+    <Back id="16" x="288" y="80" type="0" />
+    <Back id="17" x="304" y="80" type="1" />
+    <Mouse id="18" x="288" y="80" />
+    <Mouse id="19" x="192" y="224" />
+    <Back id="20" x="144" y="80" type="3" />
+    <Back id="21" x="128" y="80" type="0" />
+    <Back id="22" x="144" y="96" type="0" />
+    <Liana id="23" x="16" y="16" type="0" />
+    <Back id="24" x="48" y="112" type="0" />
+    <Back id="25" x="16" y="80" type="0" />
+    <Back id="26" x="48" y="48" type="0" />
+    <Back id="27" x="16" y="16" type="0" />
+    <Back id="28" x="64" y="176" type="3" />
+    <Back id="29" x="64" y="192" type="0" />
+    <Back id="30" x="48" y="160" type="0" />
+    <Back id="31" x="48" y="176" type="0" />
+    <Grass id="32" x="112" y="112" type="0" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="32" h="16" />
+    <rect x="0" y="16" w="16" h="192" />
+    <rect x="0" y="240" w="320" h="48" />
+    <rect x="16" y="64" w="16" h="16" />
+    <rect x="16" y="128" w="16" h="16" />
+    <rect x="48" y="32" w="272" h="16" />
+    <rect x="48" y="96" w="64" h="16" />
+    <rect x="64" y="0" w="256" h="32" />
+    <rect x="64" y="48" w="256" h="32" />
+    <rect x="64" y="80" w="48" h="16" />
+    <rect x="64" y="160" w="96" h="16" />
+    <rect x="80" y="112" w="32" h="48" />
+    <rect x="80" y="176" w="80" h="32" />
+    <rect x="112" y="128" w="208" h="32" />
+    <rect x="160" y="96" w="160" h="32" />
+    <rect x="208" y="192" w="112" h="48" />
+  </Wall>
+  <Actors>
+    <Coin id="10" x="128" y="96" />
+    <Coin id="37" x="16" y="176" />
+    <Coin id="73" x="64" y="144" />
+    <Coin id="74" x="16" y="112" />
+    <Coin id="75" x="48" y="80" />
+    <Coin id="76" x="16" y="48" />
+    <Walker1 id="0" x="176" y="80" reward="1" />
+    <Coin id="1" x="48" y="16" />
+    <Walker1 id="2" x="144" y="224" reward="0" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

@@ -1,81 +1,77 @@
+﻿using KTEngine;
 using System.Xml;
-using KTEngine;
-using Microsoft.Xna.Framework;
 
-namespace NJ
+namespace Chip
 {
     public class Room
     {
-        public string Name;
         public XmlElement Xml;
+        public int ID;
+        public string Index = "";
+        public string Type = "";
         public int X;
         public int Y;
         public int Width;
         public int Height;
-        public Grid Grid;
-        public Vector2 Direction;
+        public int Depth;
+        public bool Active;
+        public bool Visited;
 
-        public int Columns => Width / 4;
-        public int Rows => Height / 4;
+        private Scene level;
 
-        private Level level;
-        
-        public Room(Level level, string name, XmlElement xml, int width, int height)
+        public int SceneX
         {
-            this.level = level;
-            Name = name;
-            Xml = xml;
-            Width = width;
-            Height = height;
+            get
+            {
+                if (level.GetType() == typeof(Test))
+                    return X * ((Test) level).RoomWidth;
+                return X * ((Level) level).RoomWidth;
+            }
         }
 
-        public void SetPosition(Room lastRoom)
+        public int SceneY
         {
-            if (lastRoom.Direction.X > 0.0)
+            get
             {
-                X = lastRoom.X + lastRoom.Width;
-                Y = lastRoom.Y;
+                if (level.GetType() == typeof(Test))
+                    return Y * ((Test) level).RoomHeight;
+                return Y * ((Level) level).RoomHeight;
             }
-            else if (lastRoom.Direction.X < 0.0)
-            {
-                X = lastRoom.X - Width;
-                Y = lastRoom.Y;
-            }
-            else if (lastRoom.Direction.Y > 0.0)
-            {
-                X = lastRoom.X;
-                Y = lastRoom.Y + lastRoom.Height;
-            }
-            else if (lastRoom.Direction.Y < 0.0)
-            {
-                X = lastRoom.X;
-                Y = lastRoom.Y - Height;
-            }
-            
-            Vector2 zero = Vector2.Zero;
-            Vector2 vector2 = Vector2.Zero;
-            XmlElement actors = Xml["Actors"];
-            if (actors != null)
-            {
-                foreach (XmlElement xml in actors)
-                {
-                    if (xml.LocalName == "Lock" && (xml.AttrInt("x") <= 0 && lastRoom.Direction.X > 0.0 || xml.AttrInt("x") + xml.AttrInt("width") >= Width && lastRoom.Direction.X < 0.0 || (xml.AttrInt("y") <= 0 && lastRoom.Direction.Y > 0.0 || xml.AttrInt("y") + xml.AttrInt("height") >= Height && lastRoom.Direction.Y < 0.0)))
-                    {
-                        vector2 = new Vector2(xml.AttrInt("x"), xml.AttrInt("y"));
-                        break;
-                    }
-                }   
-            }
-            
-            vector2.X += X;
-            vector2.Y += Y;
-            X += (int) zero.X;
-            Y += (int) zero.Y;
         }
 
-        public void OnRoomEnd()
+        public int SceneWidth
         {
-            level.AddNextRoom(this);
+            get
+            {
+                if (level.GetType() == typeof(Test))
+                    return Width * ((Test) level).RoomWidth;
+                return Width * ((Level) level).RoomWidth;
+            }
+        }
+
+        public int SceneHeight
+        {
+            get
+            {
+                if (level.GetType() == typeof(Test))
+                    return Height * ((Test) level).RoomHeight;
+                return Height * ((Level) level).RoomHeight;
+            }
+        }
+
+        public Room(Scene scene)
+        {
+            this.level = scene;
+        }
+
+        public bool IsType(string type)
+        {
+            return Type == type;
+        }
+
+        public void Reset()
+        {
+            Log.Message("Room: " + ID + " was resetted");
         }
     }
 }

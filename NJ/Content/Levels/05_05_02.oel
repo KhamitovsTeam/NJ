@@ -1,0 +1,43 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Window id="0" x="256" y="144" />
+    <Window id="1" x="256" y="160" />
+    <Window id="2" x="256" y="128" />
+    <Window id="3" x="256" y="112" />
+    <Window id="5" x="256" y="64" />
+    <Window id="6" x="256" y="80" />
+    <Window id="7" x="256" y="48" />
+    <Window id="8" x="256" y="32" />
+    <OfficeLight id="45" x="288" y="112" />
+    <Back id="5" x="288" y="32" type="11" />
+    <Back id="5" x="288" y="48" type="14" />
+    <Back id="5" x="304" y="32" type="11" />
+    <Back id="5" x="256" y="32" type="13" />
+    <Back id="5" x="256" y="48" type="14" />
+    <Back id="5" x="272" y="32" type="14" />
+    <Back id="27" x="304" y="112" type="13" />
+    <Back id="27" x="304" y="128" type="14" />
+    <Back id="27" x="288" y="112" type="13" />
+    <Back id="27" x="288" y="128" type="14" />
+    <Back id="27" x="272" y="112" type="11" />
+    <Back id="27" x="272" y="128" type="11" />
+    <OfficeTable id="27" x="272" y="48" />
+    <OfficeChair id="27" x="272" y="64" />
+    <Sky id="17" x="-16" y="16" type="0" count="3" />
+    <Sky id="17" x="-16" y="0" type="1" count="3" />
+    <Sky id="17" x="-16" y="-16" type="2" count="3" />
+    <OfficePlant id="4" x="304" y="144" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="240" y="0" w="80" h="32" />
+    <rect x="256" y="96" w="64" h="16" />
+    <rect x="256" y="176" w="64" h="16" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="272" y="160" />
+    <Coin id="1" x="288" y="160" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

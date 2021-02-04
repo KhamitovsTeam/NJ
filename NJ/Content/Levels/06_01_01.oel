@@ -1,0 +1,51 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <KittenShelf id="0" x="80" y="128" type="0" />
+    <KittenShelf id="1" x="144" y="128" type="1" />
+    <KittenShelf id="2" x="176" y="128" type="1" />
+    <KittenShelf id="3" x="128" y="128" type="0" />
+    <KittenShelf id="4" x="64" y="128" type="1" />
+    <Grass id="5" x="240" y="128" type="4" />
+    <Grass id="6" x="96" y="128" type="2" />
+    <Grass id="7" x="256" y="128" type="3" />
+    <Grass id="8" x="272" y="128" type="2" />
+    <Grass id="9" x="0" y="128" type="4" />
+    <Grass id="10" x="48" y="128" type="3" />
+    <Grass id="11" x="160" y="128" type="4" />
+    <Grass id="12" x="192" y="128" type="2" />
+    <Grass id="13" x="304" y="128" type="4" />
+    <Sky id="19" x="-16" y="32" type="0" count="5" />
+    <Rocket id="14" x="256" y="112" />
+    <Sky id="15" x="-16" y="16" type="1" count="5" />
+    <Sky id="16" x="-16" y="0" type="2" count="5" />
+    <Jumpthrough id="17" x="80" y="128" />
+    <Jumpthrough id="18" x="64" y="112" />
+    <Jumpthrough id="20" x="128" y="128" />
+    <Jumpthrough id="21" x="144" y="112" />
+    <Jumpthrough id="22" x="176" y="112" />
+    <KittenShelf id="23" x="192" y="128" type="0" />
+    <Jumpthrough id="24" x="192" y="128" />
+    <KittenShelf id="25" x="48" y="128" type="0" />
+    <Jumpthrough id="26" x="48" y="128" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="144" w="320" h="48" />
+  </Wall>
+  <Actors>
+    <Tree id="0" x="208" y="128" type="0" />
+    <Tree id="1" x="224" y="128" type="1" />
+    <Tree id="2" x="112" y="128" type="0" />
+    <Tree id="3" x="32" y="128" type="0" />
+    <Tree id="4" x="16" y="128" type="1" />
+    <Tree id="5" x="288" y="128" type="1" />
+  </Actors>
+  <Areas>
+    <DoorArea id="0" x="256" y="128" width="16" height="16" to="06_00" from="06_01" />
+    <SpawnArea id="1" x="256" y="128" width="16" height="16" camX="0" camY="0" from="06_00" />
+    <SpawnArea id="2" x="0" y="128" width="16" height="16" camX="0" camY="0" from="06_02" />
+    <ExitArea id="3" x="0" y="48" width="16" height="16" to="06_02" from="06_01" active="True" type="" />
+    <TriggerArea id="4" x="32" y="32" width="192" height="112" script="WeaponlessScript" enter="True" exit="True" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

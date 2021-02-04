@@ -1,0 +1,62 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <BackgroundStar id="0" x="0" y="0" type="4" />
+    <BackgroundStar id="1" x="64" y="144" type="4" />
+    <BackgroundStar id="2" x="0" y="176" type="4" />
+    <BackgroundStar id="3" x="16" y="80" type="0" />
+    <BackgroundStar id="4" x="96" y="32" type="1" />
+    <BackgroundStar id="5" x="128" y="160" type="3" />
+    <BackgroundStar id="6" x="80" y="96" type="3" />
+    <BackgroundStar id="7" x="128" y="0" type="4" />
+    <BackgroundStar id="8" x="48" y="32" type="4" />
+    <BackgroundStar id="9" x="0" y="128" type="4" />
+    <BackgroundStar id="10" x="64" y="176" type="4" />
+    <BackgroundStar id="11" x="128" y="80" type="4" />
+    <Back id="15" x="224" y="16" type="11" />
+    <Back id="16" x="272" y="64" type="11" />
+    <Back id="17" x="272" y="32" type="11" />
+    <Back id="18" x="304" y="16" type="11" />
+    <Back id="19" x="272" y="16" type="11" />
+    <Back id="20" x="240" y="16" type="11" />
+    <Back id="21" x="208" y="16" type="11" />
+    <Back id="22" x="208" y="32" type="11" />
+    <Back id="23" x="240" y="32" type="11" />
+    <Back id="24" x="256" y="32" type="11" />
+    <Back id="33" x="272" y="160" type="11" />
+    <Back id="34" x="304" y="96" type="11" />
+    <Back id="35" x="256" y="160" type="11" />
+    <Back id="36" x="272" y="144" type="11" />
+    <Back id="37" x="288" y="160" type="11" />
+    <Back id="38" x="272" y="176" type="11" />
+    <Mouse id="40" x="288" y="32" />
+    <Cage id="43" x="272" y="96" type="5" />
+    <Cage id="44" x="272" y="80" type="3" />
+    <Cage id="45" x="288" y="96" type="3" />
+    <OfficeCond id="46" x="256" y="16" />
+    <WaterDrop id="47" x="240" y="16" size="4" />
+    <Sky id="17" x="-16" y="16" type="0" count="2" />
+    <Sky id="17" x="-16" y="0" type="1" count="2" />
+    <Sky id="17" x="-16" y="-16" type="2" count="2" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="144" y="0" w="176" h="16" />
+    <rect x="144" y="16" w="64" h="176" />
+    <rect x="208" y="64" w="32" h="128" />
+    <rect x="240" y="80" w="16" h="96" />
+    <rect x="256" y="96" w="16" h="64" />
+    <rect x="272" y="112" w="48" h="32" />
+    <rect x="288" y="48" w="32" h="16" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="288" y="96" />
+    <Coin id="1" x="272" y="96" />
+    <Coin id="2" x="256" y="80" />
+    <Coin id="3" x="240" y="64" />
+    <Coin id="4" x="224" y="48" />
+    <Coin id="5" x="288" y="32" />
+    <Coin id="6" x="304" y="32" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

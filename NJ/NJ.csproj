@@ -1,126 +1,361 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{1D3947F5-B4D4-4F81-A3F8-28E8BA2BD0DA}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>NJ</RootNamespace>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{E94AD1B9-3A98-4E67-885A-24B3BA50E324}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chip</RootNamespace>
     <AssemblyName>NJ</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <OutputPath>bin\x86\Debug\</OutputPath>
     <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
+  <!--<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />-->
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NJGame.cs" />
+    <Compile Include="Core\Commands.cs" />
     <Compile Include="Core\Constants.cs" />
+    <Compile Include="Core\DBG.cs" />
+    <Compile Include="Core\Dialogs.cs" />
+    <Compile Include="Core\FancyText.cs" />
+    <Compile Include="Core\Fonts.cs" />
+    <Compile Include="Core\GFX.cs" />
     <Compile Include="Core\Controls.cs" />
-    <Compile Include="Core\Entities\Actor.cs" />
-    <Compile Include="Core\Entities\Player.cs" />
-    <Compile Include="Core\Entities\Wall.cs" />
-    <Compile Include="Core\Level.cs" />
-    <Compile Include="Core\NJGame.cs" />
+    <Compile Include="Core\Language.cs" />
+    <Compile Include="Core\OST.cs" />
+    <Compile Include="Core\ParticlePresets.cs" />
+    <Compile Include="Core\Powerup.cs" />
+    <Compile Include="Core\Renderers\GameplayBuffers.cs" />
+    <Compile Include="Core\Renderers\GameplayRenderer.cs" />
+    <Compile Include="Core\Renderers\HiresRenderer.cs" />
     <Compile Include="Core\Room.cs" />
+    <Compile Include="Core\SFX.cs" />
     <Compile Include="Core\Tags.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Core\Texts.cs" />
+    <Compile Include="Core\Weapon.cs" />
+    <Compile Include="Entities\Actors\Actor.cs" />
+    <Compile Include="Entities\Actors\Areas\DoorArea.cs" />
+    <Compile Include="Entities\Actors\Areas\ExitArea.cs" />
+    <Compile Include="Entities\Actors\Areas\SpawnArea.cs" />
+    <Compile Include="Entities\Actors\Areas\TriggerArea.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bomb.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\BossWithEye.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\Professor.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\Boss1.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\Boss2.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\Boss3.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\BossFromRock.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\BossFromRock2.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\BossRocket.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\BossTree.cs" />
+    <Compile Include="Entities\Actors\Enemies\Bosses\BugBoss.cs" />
+    <Compile Include="Entities\Actors\Enemies\Common\Enemy.cs" />
+    <Compile Include="Entities\Actors\Enemies\Common\ExplodePieces.cs" />
+    <Compile Include="Entities\Actors\Enemies\Flying\FireBug.cs" />
+    <Compile Include="Entities\Actors\Enemies\Flying\Copter.cs" />
+    <Compile Include="Entities\Actors\Enemies\Flying\CopterWorld3.cs" />
+    <Compile Include="Entities\Actors\Enemies\Static\Laser.cs" />
+    <Compile Include="Entities\Actors\Enemies\Static\WaterfallWater.cs" />
+    <Compile Include="Entities\Actors\Enemies\Static\Spikes.cs" />
+    <Compile Include="Entities\Actors\Enemies\Static\Water.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\EggEnemy.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\EnemyWalker.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\Walker5.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\Walker1.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\Walker2.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\Walker3.cs" />
+    <Compile Include="Entities\Actors\Enemies\Walkers\Walker4.cs" />
+    <Compile Include="Entities\Actors\IExplodable.cs" />
+    <Compile Include="Entities\Actors\IShootable.cs" />
+    <Compile Include="Entities\Actors\Objects\Arcade.cs" />
+    <Compile Include="Entities\Actors\Objects\Box.cs" />
+    <Compile Include="Entities\Actors\Objects\Building.cs" />
+    <Compile Include="Entities\Actors\Objects\Heart.cs" />
+    <Compile Include="Entities\Actors\Objects\Coin.cs" />
+    <Compile Include="Entities\Actors\Objects\Blocker.cs" />
+    <Compile Include="Entities\Actors\Objects\Tv.cs" />
+    <Compile Include="Entities\Actors\Objects\Switcher.cs" />
+    <Compile Include="Entities\Actors\Objects\Computer.cs" />
+    <Compile Include="Entities\Actors\Objects\Doorjamb.cs" />
+    <Compile Include="Entities\Actors\Objects\Elevator.cs" />
+    <Compile Include="Entities\Actors\Objects\ElevatorRope.cs" />
+    <Compile Include="Entities\Actors\Objects\FakeWall.cs" />
+    <Compile Include="Entities\Actors\Objects\GoodRobot.cs" />
+    <Compile Include="Entities\Actors\Objects\Jumpthrough.cs" />
+    <Compile Include="Entities\Actors\Objects\Kitten.cs" />
+    <Compile Include="Entities\Actors\Objects\KittenInCage.cs" />
+    <Compile Include="Entities\Actors\Objects\KittenShelf.cs" />
+    <Compile Include="Entities\Actors\Objects\LevelWall.cs" />
+    <Compile Include="Entities\Actors\Objects\Mine.cs" />
+    <Compile Include="Entities\Actors\Objects\Moveplatform.cs" />
+    <Compile Include="Entities\Actors\Objects\OfficeMonitor.cs" />
+    <Compile Include="Entities\Actors\Objects\OfficeServers.cs" />
+    <Compile Include="Entities\Actors\Objects\Rewards\RewardCoin.cs" />
+    <Compile Include="Entities\Actors\Objects\Rewards\RewardHeart.cs" />
+    <Compile Include="Entities\Actors\Objects\Rewards\RewardKitten.cs" />
+    <Compile Include="Entities\Actors\Objects\Rock.cs" />
+    <Compile Include="Entities\Actors\Objects\Savepoint.cs" />
+    <Compile Include="Entities\Actors\Objects\Star.cs" />
+    <Compile Include="Entities\Actors\Objects\StonePieces.cs" />
+    <Compile Include="Entities\Actors\Objects\Trash.cs" />
+    <Compile Include="Entities\Actors\Objects\Treadmill.cs" />
+    <Compile Include="Entities\Actors\Objects\Washer.cs" />
+    <Compile Include="Entities\Actors\Objects\Window.cs" />
+    <Compile Include="Entities\Actors\Player.cs" />
+    <Compile Include="Entities\Actors\Projectiles\Bullet.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Arrow.cs" />
+    <Compile Include="Entities\Actors\Sceneries\BackTree.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Flag.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Actors\Sceneries\OfficePlant.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeCooler.cs" />
+    <Compile Include="Entities\Actors\Sceneries\CagePlatform.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Platform.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Chain.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Back.cs" />
+    <Compile Include="Entities\Actors\Sceneries\BackgroundPlanet.cs" />
+    <Compile Include="Entities\Actors\Sceneries\BackgroundStar.cs" />
+    <Compile Include="Entities\Actors\Sceneries\BackSign.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Bed.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Cable.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Dust.cs" />
+    <Compile Include="Entities\Actors\Sceneries\MovementCage.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Cage.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Chair.cs" />
+    <Compile Include="Entities\Actors\Sceneries\CityBuilding.cs" />
+    <Compile Include="Entities\Actors\Sceneries\CityBuildingBuck.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Cond.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Door.cs" />
+    <Compile Include="Entities\Actors\Sceneries\ExitSign.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Fly.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Glitch.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Grass.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Liana.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Light.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Mouse.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeChair.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeCond.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeLight.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeShell.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeTable.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OfficeTumba.cs" />
+    <Compile Include="Entities\Actors\Sceneries\OldSward.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Panel.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Pipe.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Plant.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Radar.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Rocket.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Secretwall.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Shest.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Sky.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Table.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Tree.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Tube.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Vessel.cs" />
+    <Compile Include="Entities\Actors\Sceneries\WaterDrop.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Waterfall.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Waterfallbottom.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Waterfall_old.cs" />
+    <Compile Include="Entities\Actors\Sceneries\Wc.cs" />
+    <Compile Include="Entities\Cutscenes\CS100_RocketLanding.cs" />
+    <Compile Include="Entities\Cutscenes\CS120_ShowElevator.cs" />
+    <Compile Include="Entities\Cutscenes\CS121_StartElevator.cs" />
+    <Compile Include="Entities\Cutscenes\CS325_BossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS321_BossTreeKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS331_RockBossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS341_BugBossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS321_RockBossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS231_RootBossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS151_RoofBossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS122_BossKilled.cs" />
+    <Compile Include="Entities\Cutscenes\CS123_KittensSaved.cs" />
+    <Compile Include="Entities\Cutscenes\CS235_OpenDoor3.cs" />
+    <Compile Include="Entities\Cutscenes\CS238_OpenDoor5.cs" />
+    <Compile Include="Entities\Cutscenes\CS234_OpenDoor4.cs" />
+    <Compile Include="Entities\Cutscenes\CS245_OpenDoor2.cs" />
+    <Compile Include="Entities\Cutscenes\CS225_OpenDoor1.cs" />
+    <Compile Include="Entities\Cutscenes\CS521_OpenDoor.cs" />
+    <Compile Include="Entities\Cutscenes\CS349_DisableLaser.cs" />
+    <Compile Include="Entities\Cutscenes\CS310_DisableLaser.cs" />
+    <Compile Include="Entities\Cutscenes\CS130_DisableLaser.cs" />
+    <Compile Include="Entities\Cutscenes\CutsceneEntity.cs" />
+    <Compile Include="Entities\Cutscenes\Cutscenes.cs" />
+    <Compile Include="Entities\Effects\BulletBurst.cs" />
+    <Compile Include="Entities\Effects\Explosion.cs" />
+    <Compile Include="Entities\Effects\Smoke.cs" />
+    <Compile Include="Entities\Powerups\Powerups.cs" />
+    <Compile Include="Entities\Scripts\Script.cs" />
+    <Compile Include="Entities\Scripts\GoodRobotDialogScript.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\SlowWalkScript.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\MiniBoss_030205.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\WeaponlessScript.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Weapons\Pistol.cs" />
+    <Compile Include="Entities\Weapons\Weapons.cs" />
+    <Compile Include="Entities\World\BackTiles.cs" />
+    <Compile Include="Entities\World\LightLine.cs" />
+    <Compile Include="Entities\World\Wall.cs" />
+    <Compile Include="GUI\ButtonUI.cs" />
+    <Compile Include="GUI\Components\Menu\MenuButton.cs" />
+    <Compile Include="GUI\Components\Menu\MenuItem.cs" />
+    <Compile Include="GUI\Components\ProgressBar.cs" />
+    <Compile Include="GUI\Components\SaveLoadIcon.cs" />
+    <Compile Include="GUI\HUD.cs" />
+    <Compile Include="GUI\Overlays\OverlayComponent.cs" />
+    <Compile Include="GUI\Overlays\OverlayDialog.cs" />
+    <Compile Include="GUI\Overlays\OverlayMap.cs" />
+    <Compile Include="GUI\Overlays\OverlayPause.cs" />
+    <Compile Include="GUI\Overlays\OverlayPowerup.cs" />
+    <Compile Include="GUI\Overlays\OverlayWorldSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenes\Credits.cs" />
+    <Compile Include="Scenes\EmulatorBoy\Classic.cs" />
+    <Compile Include="Scenes\EmulatorBoy\ClassicObject.cs" />
+    <Compile Include="Scenes\EmulatorBoy\Emulator.cs" />
+    <Compile Include="Scenes\EmulatorBoy\Sample\SampleClassic.cs" />
+    <Compile Include="Scenes\EmulatorBoy\Wellboy\WellboyClassic.cs" />
+    <Compile Include="Scenes\FileSelect.cs" />
+    <Compile Include="Scenes\GameOver.cs" />
+    <Compile Include="Scenes\Loader.cs" />
+    <Compile Include="Scenes\End.cs" />
+    <Compile Include="Scenes\SettingsScene.cs" />
+    <Compile Include="Scenes\Test.cs" />
+    <Compile Include="Scenes\Title.cs" />
+    <Compile Include="Scenes\Level.cs" />
+    <Compile Include="Scenes\MainMenu.cs" />
+    <Compile Include="Utils\ActiveFont.cs" />
+    <Compile Include="Utils\DialogItem.cs" />
+    <Compile Include="Utils\RunThread.cs" />
+    <Compile Include="Utils\SaveLoad\EntityID.cs" />
+    <Compile Include="Utils\SaveLoad\LevelData.cs" />
+    <Compile Include="Utils\SaveLoad\PlayerData.cs" />
+    <Compile Include="Utils\SaveLoad\SaveData.cs" />
+    <Compile Include="Utils\SaveLoad\Session.cs" />
+    <Compile Include="Utils\SaveLoad\Settings.cs" />
+    <Compile Include="Utils\SaveLoad\UserIO.cs" />
+    <Compile Include="Scenes\WorldSelect\World.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FNA\FNA.csproj">
+    <!-- Include the Content directory -->
+    <Content Include="Content\**\*.*" Exclude="**\Graphics\SOURCES\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FNA\FNA.csproj">
       <Project>{35253ce1-c864-4cd3-8249-4d1319748e8f}</Project>
       <Name>FNA</Name>
     </ProjectReference>
-    <ProjectReference Include="..\KTEngine\KTEngine.csproj">
+    <ProjectReference Include="..\..\KTEngine\KTEngine.csproj">
       <Project>{1d03a1b2-7fe7-4fd3-998e-bf8331d99f8a}</Project>
       <Name>KTEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Fonts\PressStart2P.fnt">
+    <None Include="Content\Levels\01_11_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Fonts\PressStart2P.png">
+    </None>
+    <None Include="Content\Levels\01_11_02.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Sprites\tile0.png" />
-    <Content Include="x64\FAudio.dll">
+    </None>
+    <None Include="Content\Levels\01_11_03.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x64\FNA3D.dll">
+    </None>
+    <None Include="Content\Levels\01_11_04.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x64\libtheorafile.dll">
+    </None>
+    <None Include="Content\Levels\01_12_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="osx\libFAudio.0.dylib">
+    </None>
+    <None Include="Content\Levels\03_07_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="osx\libFNA3D.0.dylib">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="osx\libMoltenVK.dylib">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="osx\libSDL2-2.0.0.dylib">
+    </None>
+    <None Include="Content\Levels\03_07_02.oel" />
+    <None Include="Content\Levels\03_08_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="osx\libtheorafile.dylib">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="osx\libvulkan.1.dylib">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x64\SDL2.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x86\FAudio.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x86\FNA3D.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x86\libtheorafile.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x86\SDL2.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\Levels\1.oel">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <None Include="Content\Levels\NJ.oep" />
-  </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <!-- Include the Content directory -->
+  <!--  <Content Include="Content\**\*.*" Exclude="**\Graphics\SOURCES\**">-->
+  <!--    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
+  <!--  </Content>-->
 </Project>

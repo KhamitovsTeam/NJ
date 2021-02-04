@@ -1,0 +1,116 @@
+<level width="320" height="288">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <BackgroundStar id="183" x="96" y="160" type="1" />
+    <BackgroundStar id="183" x="112" y="112" type="3" />
+    <BackgroundStar id="183" x="272" y="96" type="0" />
+    <BackgroundStar id="183" x="208" y="144" type="1" />
+    <BackgroundStar id="183" x="80" y="80" type="3" />
+    <BackgroundStar id="183" x="208" y="80" type="2" />
+    <BackgroundStar id="183" x="32" y="208" type="4" />
+    <BackgroundStar id="183" x="64" y="176" type="4" />
+    <BackgroundStar id="183" x="112" y="208" type="4" />
+    <BackgroundStar id="183" x="128" y="176" type="4" />
+    <BackgroundStar id="183" x="128" y="176" type="4" />
+    <BackgroundStar id="183" x="192" y="208" type="4" />
+    <BackgroundStar id="183" x="160" y="192" type="4" />
+    <BackgroundStar id="183" x="272" y="160" type="4" />
+    <BackgroundStar id="183" x="160" y="128" type="4" />
+    <BackgroundStar id="183" x="160" y="128" type="4" />
+    <BackgroundStar id="183" x="32" y="128" type="4" />
+    <BackgroundStar id="183" x="240" y="176" type="4" />
+    <BackgroundStar id="183" x="192" y="160" type="4" />
+    <BackgroundStar id="183" x="64" y="224" type="4" />
+    <BackgroundStar id="183" x="80" y="192" type="4" />
+    <BackgroundStar id="183" x="80" y="192" type="4" />
+    <BackgroundStar id="183" x="224" y="208" type="4" />
+    <BackgroundStar id="183" x="224" y="208" type="4" />
+    <BackgroundStar id="183" x="160" y="240" type="4" />
+    <Grass id="183" x="240" y="256" type="2" />
+    <Grass id="183" x="224" y="256" type="2" />
+    <Grass id="183" x="208" y="256" type="2" />
+    <Tree id="183" x="256" y="256" type="0" />
+    <Tree id="183" x="288" y="256" type="0" />
+    <Grass id="183" x="48" y="256" type="2" />
+    <Grass id="183" x="16" y="256" type="2" />
+    <Grass id="183" x="112" y="256" type="2" />
+    <Tree id="183" x="128" y="256" type="0" />
+    <Tree id="183" x="0" y="256" type="0" />
+    <Building id="0" x="304" y="256" type="5" />
+    <Building id="0" x="240" y="256" type="5" />
+    <Building id="0" x="256" y="256" type="5" />
+    <Building id="0" x="256" y="240" type="5" />
+    <Building id="0" x="240" y="240" type="5" />
+    <Building id="0" x="304" y="240" type="5" />
+    <Building id="0" x="304" y="224" type="5" />
+    <Building id="0" x="240" y="224" type="5" />
+    <Building id="0" x="256" y="224" type="5" />
+    <Building id="0" x="256" y="208" type="5" />
+    <Building id="0" x="240" y="208" type="3" />
+    <Building id="0" x="304" y="208" type="5" />
+    <Building id="0" x="304" y="192" type="5" />
+    <Building id="0" x="240" y="192" type="3" />
+    <Building id="0" x="256" y="192" type="5" />
+    <Building id="0" x="256" y="176" type="4" />
+    <Building id="0" x="240" y="176" type="2" />
+    <Building id="0" x="304" y="176" type="5" />
+    <Building id="0" x="304" y="160" type="5" />
+    <Building id="0" x="304" y="144" type="4" />
+    <Building id="0" x="272" y="144" type="2" />
+    <Building id="0" x="272" y="160" type="3" />
+    <Building id="0" x="272" y="176" type="5" />
+    <Building id="0" x="272" y="192" type="5" />
+    <Building id="0" x="272" y="208" type="5" />
+    <Building id="0" x="272" y="224" type="5" />
+    <Building id="0" x="272" y="240" type="5" />
+    <Building id="0" x="272" y="256" type="5" />
+    <Building id="0" x="224" y="256" type="5" />
+    <Building id="0" x="208" y="256" type="3" />
+    <Building id="0" x="208" y="240" type="3" />
+    <Building id="0" x="224" y="240" type="5" />
+    <Building id="0" x="224" y="224" type="4" />
+    <Building id="0" x="208" y="224" type="2" />
+    <Building id="2" x="288" y="144" type="4" />
+    <Building id="3" x="288" y="160" type="5" />
+    <Building id="4" x="288" y="176" type="5" />
+    <Building id="5" x="288" y="192" type="5" />
+    <Building id="6" x="288" y="208" type="5" />
+    <Building id="7" x="288" y="224" type="5" />
+    <Building id="8" x="288" y="240" type="5" />
+    <Building id="9" x="288" y="256" type="5" />
+    <Building id="12" x="48" y="256" type="5" />
+    <Building id="13" x="48" y="240" type="2" />
+    <Building id="14" x="64" y="240" type="4" />
+    <Building id="15" x="64" y="256" type="5" />
+    <Building id="16" x="80" y="240" type="6" />
+    <Building id="17" x="80" y="256" type="5" />
+    <Building id="18" x="96" y="256" type="6" />
+    <Building id="19" x="32" y="256" type="2" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="272" w="320" h="16" />
+  </Wall>
+  <Actors>
+    <Jumpthrough id="0" x="272" y="144" />
+    <Jumpthrough id="0" x="304" y="144" />
+    <Jumpthrough id="0" x="240" y="176" />
+    <Jumpthrough id="0" x="256" y="176" />
+    <Jumpthrough id="0" x="208" y="224" />
+    <Jumpthrough id="0" x="224" y="224" />
+    <Door id="1" x="272" y="256" />
+    <Jumpthrough id="10" x="288" y="144" />
+    <Heart id="11" x="64" y="208" />
+    <Jumpthrough id="20" x="48" y="240" />
+    <Jumpthrough id="21" x="64" y="240" />
+    <Jumpthrough id="22" x="80" y="240" />
+    <Jumpthrough id="23" x="96" y="256" />
+    <Jumpthrough id="24" x="32" y="256" />
+  </Actors>
+  <Areas>
+    <ExitArea id="26" x="304" y="128" width="16" height="16" to="01_01" from="01_09" active="False" type="start" />
+    <SpawnArea id="4" x="288" y="128" width="16" height="16" camX="0" camY="30" from="01_01" />
+    <DoorArea id="0" x="272" y="256" width="16" height="16" to="01_10" from="01_09" />
+    <SpawnArea id="1" x="272" y="256" width="16" height="16" camX="0" camY="108" from="01_10" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

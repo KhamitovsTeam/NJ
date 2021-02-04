@@ -1,0 +1,49 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Secretwall id="0" x="304" y="64" type="2" />
+    <Secretwall id="1" x="288" y="64" type="2" />
+    <Secretwall id="2" x="272" y="64" type="2" />
+    <Secretwall id="3" x="256" y="64" type="2" />
+    <Secretwall id="4" x="240" y="64" type="2" />
+    <Secretwall id="5" x="224" y="64" type="2" />
+    <Secretwall id="6" x="192" y="64" type="2" />
+    <Secretwall id="7" x="176" y="64" type="2" />
+    <Secretwall id="8" x="160" y="64" type="2" />
+    <Secretwall id="9" x="144" y="64" type="2" />
+    <Secretwall id="10" x="128" y="64" type="2" />
+    <Secretwall id="11" x="112" y="64" type="2" />
+    <Secretwall id="12" x="80" y="64" type="2" />
+    <Secretwall id="13" x="64" y="64" type="2" />
+    <Secretwall id="14" x="48" y="64" type="2" />
+    <Secretwall id="15" x="32" y="64" type="2" />
+    <Secretwall id="16" x="16" y="64" type="2" />
+    <Secretwall id="17" x="0" y="64" type="2" />
+    <Secretwall id="18" x="208" y="64" type="2" />
+    <Secretwall id="19" x="96" y="64" type="2" />
+    <Back id="60" x="112" y="32" type="5" />
+    <Back id="60" x="192" y="144" type="6" />
+    <Back id="60" x="80" y="112" type="5" />
+    <Liana id="20" x="112" y="32" type="0" />
+    <Liana id="21" x="192" y="144" type="6" />
+    <Grass id="22" x="80" y="112" type="4" />
+    <Grass id="23" x="112" y="32" type="2" />
+    <Grass id="24" x="192" y="144" type="2" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="32" />
+    <rect x="0" y="32" w="112" h="32" />
+    <rect x="0" y="80" w="320" h="32" />
+    <rect x="0" y="112" w="80" h="80" />
+    <rect x="80" y="128" w="240" h="16" />
+    <rect x="80" y="144" w="112" h="48" />
+    <rect x="96" y="112" w="224" h="16" />
+    <rect x="112" y="48" w="208" h="16" />
+    <rect x="128" y="32" w="192" h="16" />
+    <rect x="192" y="160" w="128" h="32" />
+    <rect x="208" y="144" w="112" h="16" />
+  </Wall>
+  <Actors />
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

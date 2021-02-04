@@ -1,0 +1,8 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries />
+  <Wall exportMode="Rectangles" />
+  <Actors />
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

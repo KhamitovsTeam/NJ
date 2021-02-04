@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Levels>
+    <Level id="01_00" name="Rocket" roomWidth="320" roomHeight="192">
+        <Set name="intro" count="1" rooms="01" />
+    </Level>
+    <Level id="01_01" name="Entrance" roomWidth="1280" roomHeight="512">
+        <Set name="intro" count="1" rooms="01" />
+    </Level>
+    <Level id="01_02" name="Basement" roomWidth="320" roomHeight="288">
+        <Set name="intro" count="4" rooms="02,09,10,11" />
+        <Set name="room" count="4" rooms="03,04,05,06" />
+        <Set name="room2" count="4" rooms="00,00,08,07" />
+    </Level>
+    <Level id="01_03" name="Basement2" roomWidth="320" roomHeight="288">
+        <Set name="room" count="2" rooms="03,04" />
+        <Set name="intro" count="2" rooms="02,01" />
+    </Level>
+    <Level id="01_04" name="loft" roomWidth="320" roomHeight="288">
+        <Set name="room" count="2" rooms="03,04" />
+        <Set name="intro" count="2" rooms="01,02" />
+    </Level>
+    <Level id="01_05" name="roof" roomWidth="320" roomHeight="288">
+        <Set name="room" count="1" rooms="01" />
+    </Level>
+  <Level id="01_06" name="secret room with sward" roomWidth="320" roomHeight="288">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="01_07" name="secret room" roomWidth="320" roomHeight="288">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="01_08" name="secret mario room" roomWidth="320" roomHeight="288">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+    <Level id="01_09" name="secret room on planet" roomWidth="320" roomHeight="288">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="01_10" name="secret door" roomWidth="320" roomHeight="288">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="01_11" name="secret mario room door" roomWidth="320" roomHeight="288">
+    <Set name="room" count="4" rooms="01,02,03,04" />
+  </Level>
+  <Level id="01_12" name="secret mario room end" roomWidth="320" roomHeight="288">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+    <Level id="02_00" name="Rocket" roomWidth="320" roomHeight="192">
+        <Set name="intro" count="1" rooms="01" />
+    </Level>
+    <Level id="02_01" name="wood1" roomWidth="320" roomHeight="192">
+        <Set name="room" count="2" rooms="05,06" />
+        <Set name="room" count="2" rooms="04,00" />
+        <Set name="room" count="2" rooms="03,00" />
+        <Set name="room" count="2" rooms="02,01" />
+    </Level> 
+    <Level id="02_02" name="wood2" roomWidth="320" roomHeight="192">
+        <Set name="room" count="1" rooms="05" />
+        <Set name="room" count="1" rooms="04" />
+        <Set name="room" count="1" rooms="03" />
+        <Set name="room" count="1" rooms="02" />
+    </Level>
+    <Level id="02_03" name="root1" roomWidth="320" roomHeight="192">
+        <Set name="room" count="3" rooms="00,01,00" />
+        <Set name="room" count="3" rooms="00,02,06" />
+        <Set name="room" count="3" rooms="04,03,05" />
+        <Set name="room" count="3" rooms="00,00,07" />
+        <Set name="room" count="3" rooms="00,00,08" />
+    </Level>
+    <Level id="02_04" name="root2" roomWidth="320" roomHeight="192">
+        <Set name="room" count="2" rooms="01,00" />
+        <Set name="room" count="2" rooms="02,06" />
+        <Set name="room" count="2" rooms="03,04" />
+        <Set name="room" count="2" rooms="05,00" />
+    </Level>
+  <Level id="02_05" name="secret room on a tree" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="02_06" name="secret room in roots" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="03_00" name="Rocket" roomWidth="320" roomHeight="192">
+      <Set name="intro" count="1" rooms="01" />
+    </Level>
+    <Level id="03_01" name="world3" roomWidth="320" roomHeight="192">
+        <Set name="room" count="3" rooms="09,10,11" />
+        <Set name="room" count="3" rooms="06,07,08" />
+        <Set name="room" count="3" rooms="03,04,05" />
+        <Set name="room" count="3" rooms="00,01,02" />
+    </Level>
+    <Level id="03_02" name="world3" roomWidth="320" roomHeight="192">
+        <Set name="room" count="3" rooms="01,05,08" />
+        <Set name="room" count="3" rooms="02,06,09" />
+        <Set name="room" count="3" rooms="03,07,10" />
+        <Set name="room" count="3" rooms="04,00,11" />
+    </Level>
+    <Level id="03_03" name="mirror0302" roomWidth="320" roomHeight="192">
+        <Set name="room" count="3" rooms="04,05,11" />
+        <Set name="room" count="3" rooms="03,06,10" />
+        <Set name="room" count="3" rooms="02,07,09" />
+        <Set name="room" count="3" rooms="01,00,08" />
+    </Level>
+    <Level id="03_04" name="mirror0301" roomWidth="320" roomHeight="192">
+        <Set name="room" count="3" rooms="01,02,03" />
+        <Set name="room" count="3" rooms="04,05,06" />
+        <Set name="room" count="3" rooms="07,08,09" />
+        <Set name="room" count="3" rooms="10,11,12" />
+    </Level>
+    <Level id="03_05" name="world3_rocks" roomWidth="320" roomHeight="192">
+      <Set name="room" count="1" rooms="01" />
+    </Level>
+    <Level id="03_06" name="world3_rocks" roomWidth="320" roomHeight="192">
+      <Set name="room" count="1" rooms="00" />
+    </Level>
+    <Level id="03_07" name="world3_secret" roomWidth="320" roomHeight="192">
+      <Set name="room" count="1" rooms="01" />
+      <Set name="room" count="1" rooms="02" />
+    </Level>
+  <Level id="03_08" name="world3_secret" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="05_00" name="Rocket" roomWidth="320" roomHeight="192">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="05_01" name="Roof" roomWidth="320" roomHeight="192">
+    <Set name="room" count="3" rooms="01,02,03" />
+  </Level>
+  <Level id="05_02" name="Office" roomWidth="320" roomHeight="192">
+    <Set name="room" count="3" rooms="01,02,03" />
+    <Set name="room" count="3" rooms="04,05,06" />
+  </Level>
+  <Level id="05_03" name="Buildings" roomWidth="320" roomHeight="192">
+    <Set name="room" count="2" rooms="01,02" />
+    <Set name="room" count="2" rooms="03,04" />
+    <Set name="room" count="2" rooms="05,06" />
+    <Set name="room" count="2" rooms="07,08" />
+  </Level>
+  <Level id="05_04" name="Underground" roomWidth="320" roomHeight="192">
+    <Set name="room" count="4" rooms="01,02,03,04" />
+    <Set name="room" count="4" rooms="05,00,06,00" />
+    <Set name="room" count="4" rooms="07,00,08,09" />
+    <Set name="room" count="4" rooms="10,00,00,11" />
+  </Level>
+  <Level id="05_05" name="Underground" roomWidth="320" roomHeight="192">
+    <Set name="room" count="3" rooms="01,02,03" />
+    <Set name="room" count="3" rooms="04,05,06" />
+  </Level>
+  <Level id="05_06" name="secret room in office" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="05_07" name="secret room in office" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="05_08" name="secret room in undeground" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="06_00" name="Rocket" roomWidth="320" roomHeight="192">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="06_01" name="Underground" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+  <Level id="06_02" name="Underground" roomWidth="320" roomHeight="192">
+    <Set name="room" count="1" rooms="01" />
+  </Level>
+</Levels>

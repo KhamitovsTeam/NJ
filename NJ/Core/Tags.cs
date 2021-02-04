@@ -1,8 +1,30 @@
-namespace NJ
+namespace Chip
 {
     public enum Tags
     {
-        Solid = 0,
-        Player = 1
+        LevelWall,
+        Solid,
+        Arcade,
+        Box,
+        Computer,
+        SavePoint,
+        FakeWall,
+        Player,
+        PlayerBullet,
+        Enemy,
+        Item,
+        Door,
+        Water,
+        Piece,
+        Sceneries,
+        Rocket,
+        RocketPanel,
+        HiddenPlace,
+        Acid,
+        Bomb,
+        Rope,
+        HUD,
+        Trigger,
+        Reward
     }
 }

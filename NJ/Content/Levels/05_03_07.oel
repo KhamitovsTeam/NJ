@@ -1,0 +1,94 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Back id="0" x="16" y="16" type="11" />
+    <Back id="1" x="32" y="16" type="11" />
+    <Back id="2" x="16" y="32" type="11" />
+    <Back id="3" x="32" y="32" type="11" />
+    <Back id="4" x="16" y="48" type="11" />
+    <Back id="5" x="48" y="16" type="11" />
+    <Back id="6" x="80" y="16" type="11" />
+    <Back id="7" x="64" y="16" type="11" />
+    <Back id="8" x="48" y="32" type="11" />
+    <Back id="9" x="16" y="112" type="11" />
+    <Back id="10" x="16" y="128" type="11" />
+    <Back id="11" x="32" y="112" type="11" />
+    <Back id="12" x="16" y="144" type="11" />
+    <Back id="13" x="32" y="128" type="11" />
+    <Back id="14" x="48" y="112" type="11" />
+    <Back id="15" x="208" y="16" type="11" />
+    <Back id="16" x="192" y="16" type="11" />
+    <Back id="17" x="176" y="16" type="11" />
+    <Back id="18" x="160" y="16" type="11" />
+    <Back id="19" x="176" y="32" type="11" />
+    <Back id="20" x="192" y="32" type="11" />
+    <Back id="21" x="144" y="16" type="11" />
+    <Back id="22" x="128" y="16" type="11" />
+    <Back id="25" x="288" y="16" type="11" />
+    <Back id="26" x="288" y="32" type="11" />
+    <Back id="27" x="272" y="16" type="11" />
+    <Back id="28" x="224" y="64" type="11" />
+    <Back id="29" x="240" y="64" type="11" />
+    <Back id="30" x="112" y="48" type="11" />
+    <Back id="31" x="96" y="64" type="11" />
+    <Back id="32" x="80" y="64" type="11" />
+    <Back id="33" x="240" y="160" type="11" />
+    <Back id="34" x="208" y="160" type="11" />
+    <Back id="35" x="224" y="160" type="11" />
+    <Back id="36" x="176" y="160" type="11" />
+    <Back id="37" x="96" y="112" type="11" />
+    <Back id="38" x="112" y="112" type="11" />
+    <Back id="39" x="144" y="112" type="11" />
+    <Back id="40" x="128" y="112" type="11" />
+    <Back id="41" x="128" y="128" type="11" />
+    <Back id="42" x="112" y="128" type="11" />
+    <Back id="43" x="144" y="128" type="11" />
+    <Back id="44" x="160" y="112" type="11" />
+    <Back id="45" x="272" y="112" type="11" />
+    <Back id="46" x="256" y="112" type="11" />
+    <Back id="47" x="240" y="112" type="11" />
+    <Back id="48" x="256" y="128" type="11" />
+    <Back id="49" x="64" y="112" type="11" />
+    <OfficeLight id="51" x="160" y="16" />
+    <OfficeChair id="50" x="176" y="48" />
+    <Mouse id="52" x="160" y="160" />
+    <Mouse id="53" x="16" y="160" />
+    <Mouse id="54" x="96" y="160" />
+    <Mouse id="55" x="64" y="160" />
+    <Mouse id="56" x="256" y="160" />
+    <OfficeCond id="57" x="224" y="128" />
+    <WaterDrop id="58" x="96" y="112" size="4" />
+    <OfficeCond id="59" x="144" y="32" />
+    <Secretwall id="23" x="0" y="112" type="0" />
+    <OfficePlant id="24" x="288" y="48" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="16" />
+    <rect x="0" y="16" w="16" h="96" />
+    <rect x="0" y="128" w="16" h="64" />
+    <rect x="16" y="80" w="304" h="32" />
+    <rect x="16" y="176" w="304" h="16" />
+    <rect x="192" y="112" w="16" h="16" />
+    <rect x="192" y="160" w="16" h="16" />
+  </Wall>
+  <Actors>
+    <Washer id="0" x="272" y="144" />
+    <Trash id="1" x="32" y="144" />
+    <Trash id="2" x="64" y="144" />
+    <Trash id="3" x="112" y="144" />
+    <OfficeServers id="4" x="48" y="48" />
+    <OfficeServers id="5" x="80" y="48" />
+    <OfficeServers id="6" x="112" y="48" />
+    <OfficeServers id="7" x="192" y="48" />
+    <OfficeServers id="8" x="224" y="48" />
+    <OfficeServers id="9" x="256" y="48" />
+    <Coin id="10" x="304" y="160" />
+    <Coin id="11" x="288" y="128" />
+    <Coin id="12" x="272" y="128" />
+  </Actors>
+  <Areas>
+    <SpawnArea id="0" x="16" y="112" width="16" height="16" camX="0" camY="588" from="05_06" />
+    <ExitArea id="1" x="0" y="112" width="16" height="16" to="05_06" from="05_03" active="True" type="" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

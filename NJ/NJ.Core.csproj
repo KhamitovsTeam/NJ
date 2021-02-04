@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+		<Platforms>x64</Platforms>
+	</PropertyGroup>
+	<PropertyGroup>
+		<EnableDefaultItems>false</EnableDefaultItems>
+		<AssemblyName>NJ</AssemblyName>
+		<RootNamespace>Chip</RootNamespace>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GameSettingsPropsFilePath>$(SolutionDir)Game.Settings.props</GameSettingsPropsFilePath>
+	</PropertyGroup>
+	<Import Project="$(GameSettingsPropsFilePath)" Condition="Exists('$(GameSettingsPropsFilePath)')" />
+	<Target Name="ValidatePropsFilePath" BeforeTargets="BeforeBuild">
+		<Message Importance="High" Text="No property overrides found at '$(GameSettingsPropsFilePath)'" Condition="!Exists('$(GameSettingsPropsFilePath)')" />
+		<Message Importance="High" Text="Loaded property overrides from '$(GameSettingsPropsFilePath)'" Condition="Exists('$(GameSettingsPropsFilePath)')" />
+	</Target>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+	  <DefineConstants>TRACE;DEBUG;NETSTANDARD;NETSTANDARD2_0</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+    <Compile Include="**/*.cs" Exclude="**/*.csproj; Content/Content-Goes-Here.txt; obj/**/*.cs; obj_core/**/*.*" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\FNA\FNA.Core.csproj" />
+	  <ProjectReference Include="..\..\KTEngine\KTEngine.Core.csproj" />
+	</ItemGroup>
+
+</Project>

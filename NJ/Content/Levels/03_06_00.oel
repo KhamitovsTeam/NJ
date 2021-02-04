@@ -1,0 +1,69 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <BackgroundStar id="0" x="64" y="64" type="4" />
+    <BackgroundStar id="2" x="144" y="32" type="3" />
+    <BackgroundStar id="3" x="240" y="48" type="2" />
+    <BackgroundStar id="4" x="32" y="32" type="1" />
+    <BackgroundStar id="5" x="256" y="0" type="2" />
+    <BackgroundStar id="6" x="80" y="0" type="3" />
+    <BackgroundStar id="7" x="96" y="32" type="4" />
+    <BackgroundStar id="9" x="160" y="48" type="4" />
+    <BackgroundStar id="10" x="192" y="16" type="4" />
+    <BackgroundStar id="11" x="176" y="0" type="4" />
+    <BackgroundStar id="12" x="272" y="64" type="4" />
+    <BackgroundStar id="14" x="48" y="16" type="4" />
+    <BackgroundStar id="15" x="112" y="16" type="4" />
+    <BackgroundStar id="16" x="288" y="16" type="4" />
+    <BackgroundStar id="17" x="16" y="32" type="4" />
+    <BackgroundStar id="18" x="32" y="0" type="2" />
+    <BackgroundStar id="19" x="224" y="16" type="4" />
+    <BackgroundStar id="20" x="0" y="16" type="4" />
+    <BackgroundStar id="21" x="304" y="48" type="3" />
+    <BackgroundStar id="22" x="0" y="48" type="0" />
+    <Back id="25" x="304" y="128" type="19" />
+    <Back id="26" x="288" y="128" type="18" />
+    <Back id="1" x="272" y="128" type="18" />
+    <Back id="8" x="256" y="128" type="18" />
+    <Back id="13" x="240" y="128" type="18" />
+    <Back id="23" x="224" y="128" type="18" />
+    <Back id="24" x="208" y="128" type="18" />
+    <Back id="27" x="192" y="112" type="11" />
+    <Back id="28" x="192" y="128" type="11" />
+    <Back id="29" x="176" y="112" type="11" />
+    <Back id="30" x="160" y="112" type="11" />
+    <Back id="31" x="80" y="96" type="11" />
+    <Back id="32" x="64" y="112" type="11" />
+    <Back id="33" x="64" y="128" type="11" />
+    <Back id="34" x="112" y="96" type="11" />
+    <Back id="35" x="96" y="96" type="11" />
+    <Back id="36" x="128" y="112" type="11" />
+    <Back id="37" x="112" y="112" type="11" />
+    <Back id="38" x="144" y="112" type="11" />
+    <Back id="39" x="80" y="112" type="11" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="96" w="80" h="16" />
+    <rect x="0" y="112" w="64" h="80" />
+    <rect x="32" y="80" w="272" h="16" />
+    <rect x="48" y="64" w="16" h="16" />
+    <rect x="64" y="144" w="16" h="48" />
+    <rect x="80" y="64" w="176" h="16" />
+    <rect x="80" y="160" w="240" h="32" />
+    <rect x="96" y="48" w="48" h="16" />
+    <rect x="112" y="32" w="16" h="16" />
+    <rect x="128" y="96" w="176" h="16" />
+    <rect x="144" y="144" w="176" h="16" />
+    <rect x="192" y="48" w="32" h="16" />
+    <rect x="208" y="112" w="112" h="16" />
+  </Wall>
+  <Actors>
+    <Kitten id="0" x="96" y="144" type="4" />
+  </Actors>
+  <Areas>
+    <SpawnArea id="1" x="288" y="128" width="16" height="16" camX="0" camY="0" from="03_05" />
+    <ExitArea id="0" x="304" y="128" width="16" height="16" to="03_05" from="03_06" active="True" type="" />
+    <TriggerArea id="2" x="64" y="96" width="192" height="64" script="WeaponlessScript" enter="True" exit="True" />
+  </Areas>
+  <BackTiles exportMode="Rectangles" />
+</level>

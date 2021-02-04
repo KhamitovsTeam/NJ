@@ -1,0 +1,25 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <Grass id="0" x="272" y="144" type="3" />
+    <Grass id="1" x="96" y="32" type="4" />
+    <Grass id="2" x="32" y="160" type="4" />
+    <Liana id="3" x="96" y="32" type="5" />
+    <Back id="4" x="32" y="160" type="7" />
+    <Back id="5" x="272" y="144" type="8" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="0" w="320" h="32" />
+    <rect x="0" y="32" w="96" h="128" />
+    <rect x="0" y="160" w="32" h="32" />
+    <rect x="32" y="176" w="288" h="16" />
+    <rect x="48" y="160" w="272" h="16" />
+    <rect x="96" y="48" w="224" h="96" />
+    <rect x="96" y="144" w="176" h="16" />
+    <rect x="112" y="32" w="208" h="16" />
+    <rect x="288" y="144" w="32" h="16" />
+  </Wall>
+  <Actors />
+  <Areas />
+  <BackTiles exportMode="Rectangles" />
+</level>

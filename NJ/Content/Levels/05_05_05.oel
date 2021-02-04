@@ -1,0 +1,88 @@
+<level width="320" height="192">
+  <camera x="0" y="0" />
+  <Sceneries>
+    <CityBuilding id="0" x="0" y="80" type="3" />
+    <CityBuilding id="1" x="64" y="80" type="2" />
+    <CityBuilding id="2" x="128" y="80" type="0" />
+    <CityBuilding id="3" x="192" y="80" type="1" />
+    <Back id="4" x="0" y="160" type="11" />
+    <Back id="5" x="16" y="160" type="11" />
+    <Back id="6" x="32" y="160" type="11" />
+    <Back id="7" x="64" y="160" type="16" />
+    <Back id="8" x="112" y="160" type="11" />
+    <Back id="9" x="128" y="160" type="11" />
+    <Back id="10" x="144" y="160" type="11" />
+    <Back id="11" x="160" y="160" type="11" />
+    <Back id="12" x="272" y="128" type="11" />
+    <Back id="14" x="288" y="128" type="11" />
+    <Back id="15" x="288" y="32" type="11" />
+    <Back id="16" x="304" y="32" type="11" />
+    <Back id="17" x="304" y="128" type="11" />
+    <Back id="18" x="192" y="160" type="11" />
+    <Back id="19" x="304" y="160" type="11" />
+    <Back id="20" x="288" y="160" type="11" />
+    <Back id="21" x="272" y="160" type="11" />
+    <Back id="22" x="256" y="160" type="11" />
+    <Mouse id="23" x="80" y="160" />
+    <Mouse id="24" x="16" y="160" />
+    <Mouse id="25" x="224" y="160" />
+    <BackgroundStar id="26" x="176" y="32" type="4" />
+    <BackgroundStar id="28" x="32" y="48" type="4" />
+    <BackgroundStar id="29" x="16" y="16" type="4" />
+    <BackgroundStar id="30" x="96" y="32" type="4" />
+    <BackgroundStar id="31" x="128" y="0" type="4" />
+    <BackgroundStar id="32" x="240" y="16" type="4" />
+    <BackgroundStar id="33" x="208" y="0" type="4" />
+    <BackgroundStar id="34" x="64" y="0" type="4" />
+    <BackgroundStar id="36" x="208" y="48" type="4" />
+    <CityBuildingBuck id="37" x="160" y="48" type="0" />
+    <CityBuildingBuck id="38" x="64" y="48" type="0" />
+    <CityBuildingBuck id="39" x="0" y="48" type="0" />
+    <CityBuildingBuck id="27" x="48" y="48" type="1" />
+    <CityBuildingBuck id="35" x="224" y="48" type="1" />
+    <CityBuildingBuck id="40" x="112" y="48" type="0" />
+    <Window id="41" x="256" y="48" />
+    <Window id="42" x="256" y="32" />
+    <Window id="43" x="256" y="16" />
+    <Window id="44" x="256" y="0" />
+    <Back id="46" x="288" y="0" type="14" />
+    <Back id="46" x="272" y="0" type="11" />
+    <Back id="46" x="256" y="0" type="14" />
+    <Back id="46" x="288" y="16" type="14" />
+    <Back id="46" x="272" y="16" type="11" />
+    <Back id="46" x="256" y="16" type="14" />
+    <Back id="46" x="304" y="0" type="14" />
+    <Doorjamb id="45" x="256" y="128" />
+    <Tree id="13" x="224" y="128" type="0" />
+    <Tree id="47" x="96" y="128" type="0" />
+    <Tree id="48" x="96" y="128" type="0" />
+    <OfficePlant id="49" x="272" y="32" />
+  </Sceneries>
+  <Wall exportMode="Rectangles">
+    <rect x="0" y="144" w="320" h="16" />
+    <rect x="0" y="176" w="320" h="16" />
+    <rect x="256" y="64" w="64" h="64" />
+  </Wall>
+  <Actors>
+    <Coin id="0" x="96" y="160" />
+    <Coin id="1" x="176" y="160" />
+    <Coin id="2" x="208" y="160" />
+    <Coin id="3" x="144" y="160" />
+    <Coin id="4" x="48" y="160" />
+    <Tv id="5" x="272" y="0" type="3" />
+  </Actors>
+  <Areas />
+  <BackTiles exportMode="Rectangles">
+    <rect x="0" y="32" w="16" h="112" />
+    <rect x="16" y="64" w="176" h="80" />
+    <rect x="32" y="32" w="16" h="32" />
+    <rect x="48" y="48" w="16" h="16" />
+    <rect x="80" y="32" w="16" h="32" />
+    <rect x="96" y="48" w="16" h="16" />
+    <rect x="128" y="48" w="16" h="16" />
+    <rect x="160" y="32" w="16" h="32" />
+    <rect x="192" y="80" w="48" h="64" />
+    <rect x="208" y="64" w="32" h="16" />
+    <rect x="224" y="32" w="16" h="32" />
+  </BackTiles>
+</level>

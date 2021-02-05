@@ -12,7 +12,7 @@ namespace Chip
 
         public virtual void Shoot(Vector2 pointing)
         {
-            Bullet.Burst(ScenePosition + Vector2.UnitY * 2f + pointing, pointing, BulletCount, BulletSpeed, Vector2.Zero);
+            Bullet.Burst(ScenePosition + Vector2.UnitY + pointing, pointing, BulletCount, BulletSpeed, Vector2.Zero);
             SFX.Play(Sound);
             SaveData.Instance.TotalShots++;
         }

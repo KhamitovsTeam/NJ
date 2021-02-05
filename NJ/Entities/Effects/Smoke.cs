@@ -15,7 +15,7 @@ namespace Chip
             : base(0, 0)
         {
             graphic = Add(new Graphic(GFX.Game["effects/smoke"],
-                new Rectangle(16 * Utils.Range(0, 4), 0, 16, 16)));
+                new Rectangle(8 * Utils.Range(0, 4), 0, 8, 8)));
             graphic.CenterOrigin();
         }
 

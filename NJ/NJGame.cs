@@ -23,7 +23,7 @@ namespace Chip
             Screen.Fullscreen = true;
 #else
             //Engine.Instance.Screen.SnapScaleToPixels = false;
-            Screen.SetScale(Settings.Instance.WindowScale);
+            Screen.SetScale(8);//Settings.Instance.WindowScale
             Screen.Fullscreen = Settings.Instance.Fullscreen;
             Graphics.SynchronizeWithVerticalRetrace = Settings.Instance.VSync;
             Graphics.ApplyChanges();

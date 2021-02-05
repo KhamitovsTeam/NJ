@@ -82,7 +82,6 @@ namespace Chip
 
         private void ActivateBegin()
         {
-            Level.HUD.SetEnemy(this);
             sprite.Play("awake");
         }
 
@@ -181,7 +180,6 @@ namespace Chip
         public override void DyingBegin()
         {
             MoveCollider.Collidable = false;
-            Level.HUD.ClearEnemy();
             state.Set("dead");
         }
 

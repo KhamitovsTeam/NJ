@@ -27,7 +27,10 @@ namespace Chip
             next = xml.Attr("to");
             prev = xml.Attr("from");
 
-            MoveCollider = Add(new Hitbox(-8, -height / 2, width, height));
+            X = offset.X;
+            Y = offset.Y;
+
+            MoveCollider = Add(new Hitbox(-width/2, -height/2, width, height));
 
             Active = xml.AttrBool("active", false);
             Type = xml.Attr("type");

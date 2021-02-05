@@ -9,7 +9,7 @@ namespace Chip
         public BulletBurst()
             : base(0, 0)
         {
-            sprite = Add(new Animation(GFX.Game["effects/bulletburst"], 16, 16, Clear));
+            sprite = Add(new Animation(GFX.Game["effects/bulletburst"], 2, 6, Clear));
             sprite.CenterOrigin();
             sprite.Add("play", 15f, false, 0, 1, 2);
         }

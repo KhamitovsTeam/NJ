@@ -41,7 +41,7 @@ namespace Chip
 
         private IEnumerator GenerateWalls()
         {
-            Tilemap tiles = Add(new Tilemap(GFX.Game[TexturePath + "tiles"], 16, 16, Grid.Columns, Grid.Rows));
+            Tilemap tiles = Add(new Tilemap(GFX.Game[TexturePath + "tiles"], 4, 4, Grid.Columns, Grid.Rows));
             for (int i = 0; i < Grid.Columns; ++i)
             {
                 for (int j = 0; j < Grid.Rows; ++j)

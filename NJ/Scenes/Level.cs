@@ -29,8 +29,6 @@ namespace Chip
         public bool InCutscene;
         public bool LockCamera;
 
-        public HUD HUD { get; private set; }
-
         #endregion
 
         #region Private Variables
@@ -136,8 +134,6 @@ namespace Chip
             OverlayPowerup overlayPowerup = new OverlayPowerup(this);
             OverlayDialog overlayDialog = new OverlayDialog(this);
             OverlayWorldSelector overlayWorldSelector = new OverlayWorldSelector(this);
-
-            HUD = new HUD(this);
 
             //DiscordStatus.SetStatus("Level: " + ID);
 
@@ -266,7 +262,7 @@ namespace Chip
             base.Render();
 
             Draw.Begin(BlendState.AlphaBlend, SamplerState.PointClamp);
-            const float padding = 6 * 16;
+            const float padding = 6 * 4;
             if (Camera.X < -(double)padding)
                 Draw.Rect(Camera.X, Camera.Y, Math.Abs(Camera.X) - padding, Engine.Instance.Screen.Height, Constants.Background, 1f);
             if (Camera.Y < -(double)padding)
@@ -287,8 +283,6 @@ namespace Chip
                 }
             }
 #endif
-
-            HUD.Render();
 
             Draw.End();
         }
@@ -375,9 +369,9 @@ namespace Chip
 
         private IEnumerator LoadMap()
         {
-            Grid = new Grid(16, 16, Width / 16, Height / 16);
+            Grid = new Grid(4, 4, Width / 4, Height / 4);
             Grid[0, 0, Grid.Columns, Grid.Rows] = true;
-            GridBack = new Grid(16, 16, Width / 16, Height / 16);
+            GridBack = new Grid(4, 4, Width / 4, Height / 4);
             GridBack[0, 0, GridBack.Columns, GridBack.Rows] = true;
 
             Wall = Add(new Wall("terrain/" + ID + "/", Grid, this));
@@ -407,10 +401,10 @@ namespace Chip
         private void LoadRoom(Room room)
         {
             room.Active = false;
-            Grid[room.X * RoomWidth / 16, room.Y * RoomHeight / 16,
-                room.Width * RoomWidth / 16, room.Height * RoomHeight / 16] = false;
-            GridBack[room.X * RoomWidth / 16, room.Y * RoomHeight / 16,
-                room.Width * RoomWidth / 16, room.Height * RoomHeight / 16] = false;
+            Grid[room.X * RoomWidth / 4, room.Y * RoomHeight / 4,
+                room.Width * RoomWidth / 4, room.Height * RoomHeight / 4] = false;
+            GridBack[room.X * RoomWidth / 4, room.Y * RoomHeight / 4,
+                room.Width * RoomWidth / 4, room.Height * RoomHeight / 4] = false;
             LoadEmbed(room.Xml, room, new Vector2(room.SceneX, room.SceneY), true);
         }
 
@@ -426,17 +420,17 @@ namespace Chip
             if (wall != null)
             {
                 foreach (XmlElement xmlElement in wall)
-                    Grid[(int)((offset.X + (double)xmlElement.AttrInt("x")) / 16.0),
-                        (int)((offset.Y + (double)xmlElement.AttrInt("y")) / 16.0), xmlElement.AttrInt("w") / 16,
-                        xmlElement.AttrInt("h") / 16] = true;
+                    Grid[(int)((offset.X + (double)xmlElement.AttrInt("x")) / 4f),
+                        (int)((offset.Y + (double)xmlElement.AttrInt("y")) / 4f), xmlElement.AttrInt("w") / 4,
+                        xmlElement.AttrInt("h") / 4] = true;
             }
             XmlElement backTiles = xml["BackTiles"];
             if (backTiles != null)
             {
                 foreach (XmlElement xmlElement in backTiles)
-                    GridBack[(int)((offset.X + (double)xmlElement.AttrInt("x")) / 16.0),
-                        (int)((offset.Y + (double)xmlElement.AttrInt("y")) / 16.0), xmlElement.AttrInt("w") / 16,
-                        xmlElement.AttrInt("h") / 16] = true;
+                    GridBack[(int)((offset.X + (double)xmlElement.AttrInt("x")) / 4f),
+                        (int)((offset.Y + (double)xmlElement.AttrInt("y")) / 4f), xmlElement.AttrInt("w") / 4,
+                        xmlElement.AttrInt("h") / 4] = true;
             }
             XmlElement actors = xml["Actors"];
             if (actors != null)
@@ -454,8 +448,8 @@ namespace Chip
                         Vector2 vector2 = offset + new Vector2(childNode.AttrInt("x"), childNode.AttrInt("y"));
                         SpawnArea spawnArea = new SpawnArea
                         {
-                            X = vector2.X,
-                            Y = vector2.Y,
+                            X = vector2.X - 2,
+                            Y = vector2.Y - 4,
                             FromLevel = childNode.Attr("from"),
                             CameraX = childNode.AttrFloat("camX"),
                             CameraY = childNode.AttrFloat("camY")
@@ -477,7 +471,8 @@ namespace Chip
                 return;
             Actor instance = (Actor)Activator.CreateInstance(type);
             Add(instance, layer);
-            instance.CreateFromXml(actor, room, offset, this);
+            Vector2 vector2 = offset + new Vector2(actor.AttrInt("x") + 2, actor.AttrInt("y") + 2);
+            instance.CreateFromXml(actor, room, vector2, this);
         }
 
         private T LoadActor<T>(T actor, string roomtype = "normal") where T : Actor
@@ -690,7 +685,7 @@ namespace Chip
                     Engine.ClearColor = Constants.DarkGreen;
                     break;
                 case "01_01":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.LightGreen;
                     break;
                 case "01_05":
                     fillColor = Constants.NormalGreen;

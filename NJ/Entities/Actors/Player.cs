@@ -27,8 +27,8 @@ namespace Chip
         private const int AccelerationAir = 600;
         private const int FrictionNormal = 900;
         private const int FrictionAir = 800;
-        private const int Jump = -140;
-        private const int Gravity = 900;
+        private const int Jump = -60;
+        private const int Gravity = 500;
         private const int GravityWall = 300;
         private const int UpwardCornerCorrection = 4;
         private const float JumpDuration = 0.2f;
@@ -36,10 +36,10 @@ namespace Chip
         private const float ShootTimeout = 0.2f;
         private const float LightTime = 0.3f;
 
-        private readonly Vector2 maxSpeedNormal = new Vector2(90f, 0.0f);
-        private readonly Vector2 maxSpeedSlow = new Vector2(38f, 0.0f);
-        private readonly Vector2 maxSpeedAir = new Vector2(112f, 200f);
-        private readonly Vector2 maxSpeedWall = new Vector2(112f, 40f);
+        private readonly Vector2 maxSpeedNormal = new Vector2(25f, 0.0f);
+        private readonly Vector2 maxSpeedSlow = new Vector2(15f, 0.0f);
+        private readonly Vector2 maxSpeedAir = new Vector2(30f, 200f);
+        private readonly Vector2 maxSpeedWall = new Vector2(30f, 40f);
 
         #endregion
 
@@ -128,7 +128,7 @@ namespace Chip
             Sprite = Add(XML.LoadSprite<Animation>(GFX.Game, GFX.Sprites, GetType().Name, AnimationGotItemHide));
 
             // Player collider
-            MoveCollider = Add(new Hitbox(-3, -5, 6, 13));
+            MoveCollider = Add(new Hitbox(-2, -4, 4, 8));
             MoveCollider.Tag((int)Tags.Player);
 
             // Player states

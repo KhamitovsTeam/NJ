@@ -16,7 +16,7 @@ namespace Chip
         {
             Depth = -2;
 
-            MoveCollider = Add(new Hitbox(0, 6, 1, 1));
+            MoveCollider = Add(new Hitbox(-2, -4, 5, 8));
             MoveCollider.Tag((int)Tags.HiddenPlace);
         }
 
@@ -25,11 +25,14 @@ namespace Chip
             base.CreateFromXml(xml, room, offset, level);
             _type = xml.AttrInt("type");
 
-            _sprite = new Animation(GFX.Game["sceneries/tree" + _type], 16, 16);
+            X = offset.X;
+            Y = offset.Y + 2;
+
+            _sprite = new Animation(GFX.Game["sceneries/tree" + _type], 5, 8);
             Add(_sprite);
             _sprite.Add("idle", 0f, 0);
-            _sprite.Origin.X = 8f;
-            _sprite.Origin.Y = 8f;
+            _sprite.Origin.X = 2f;
+            _sprite.Origin.Y = 4f;
             _sprite.Play("idle");
         }
     }

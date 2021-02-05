@@ -1,6 +1,28 @@
 <level width="84" height="48">
   <camera x="0" y="320" />
-  <Sceneries />
+  <Sceneries>
+    <Sky id="24" x="0" y="0" type="0" count="1" />
+    <Sky id="24" x="4" y="0" type="0" count="1" />
+    <Sky id="24" x="8" y="0" type="0" count="1" />
+    <Sky id="24" x="12" y="0" type="0" count="1" />
+    <Sky id="24" x="16" y="0" type="0" count="1" />
+    <Sky id="24" x="20" y="0" type="0" count="1" />
+    <Sky id="24" x="24" y="0" type="0" count="1" />
+    <Sky id="24" x="28" y="0" type="0" count="1" />
+    <Sky id="24" x="32" y="0" type="0" count="1" />
+    <Sky id="24" x="36" y="0" type="0" count="1" />
+    <Sky id="24" x="40" y="0" type="0" count="1" />
+    <Sky id="24" x="44" y="0" type="0" count="1" />
+    <Sky id="24" x="48" y="0" type="0" count="1" />
+    <Sky id="24" x="52" y="0" type="0" count="1" />
+    <Sky id="24" x="56" y="0" type="0" count="1" />
+    <Sky id="24" x="60" y="0" type="0" count="1" />
+    <Sky id="24" x="64" y="0" type="0" count="1" />
+    <Sky id="24" x="68" y="0" type="0" count="1" />
+    <Sky id="24" x="72" y="0" type="0" count="1" />
+    <Sky id="24" x="76" y="0" type="0" count="1" />
+    <Sky id="24" x="80" y="0" type="0" count="1" />
+  </Sceneries>
   <Wall exportMode="Rectangles">
     <rect x="0" y="36" w="84" h="12" />
     <rect x="24" y="32" w="36" h="4" />

@@ -109,7 +109,7 @@
   </Actors>
   <Areas>
     <SpawnArea id="0" x="32" y="112" width="16" height="16" camX="0" camY="30" from="03_03" />
-    <ExitArea id="1" x="0" y="112" width="16" height="16" to="03_03" from="03_04" active="True" type="" />
+    <ExitArea id="1" x="0" y="112" width="2" height="16" to="03_03" from="03_04" active="True" type="" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

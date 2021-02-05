@@ -1,9 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Levels>
-    <Level id="01_00" name="Rocket" roomWidth="84" roomHeight="48">
-        <Set name="intro" count="1" rooms="01" />
-    </Level>
-  <Level id="01_01" name="Rocket" roomWidth="84" roomHeight="48">
+  <Level id="01_00" name="forest_first" roomWidth="84" roomHeight="48">
+      <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="01_01" name="forest_second" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="01_02" name="forest_third" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="01_03" name="forest_fourth" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="01_04" name="forest_fifth" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="01_05" name="forest_hole" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="02_00" name="grave_first" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="02_01" name="grave_second" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="02_02" name="grave_third" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="02_03" name="grave_fourth" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="02_04" name="grave_fifth" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
 </Levels>

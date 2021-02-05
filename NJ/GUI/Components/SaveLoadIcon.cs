@@ -30,7 +30,7 @@ namespace Chip
         {
             _savingText = Add(new Text(Fonts.MainFont, Texts.MainText["saver_saving"], Vector2.Zero, Constants.DarkGreen, Text.HorizontalAlign.Right, Text.VerticalAlign.Bottom));
 
-            _cat = Add(new Animation(GFX.Gui["loader_cat"], 16, 16));
+            _cat = Add(new Animation(GFX.Gui["loader_cat"], 8, 8));
             _cat.Add("walk", 4f, true, 0, 1, 2, 3);
             _cat.Play("walk");
 

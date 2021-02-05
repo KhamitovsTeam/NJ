@@ -107,19 +107,6 @@ namespace Chip
             SetLevelMusic();
 
             LoadActor(Player, "intro");
-            if (Session != null)
-            {
-                // Прыжок в некоторых уровнях при переходе (типа выпрыгивает снизу вверх)
-                // Facing: -1 влево, 1 вправо
-                // Если Facing не задать, то прыгнет в ту сторону, в которую смотрел до прыжка
-                if (Session.ToLevel == "01_03" && Session.FromLevel == "01_02" ||
-                    Session.ToLevel == "01_05" && Session.FromLevel == "01_04")
-                {
-                    Player.PlayerData.Facing = -1;
-                    Player.Push.X = Player.PlayerData.Facing * 160f;
-                    Player.Push.Y = -220f;
-                }
-            }
 
             CurrentRoom = GetPlayerRoom();
             CurrentRoom.Visited = true;
@@ -687,48 +674,34 @@ namespace Chip
                 case "01_01":
                     fillColor = Constants.LightGreen;
                     break;
+                case "01_02":
+                    fillColor = Constants.LightGreen;
+                    break;
+                case "01_03":
+                    fillColor = Constants.LightGreen;
+                    break;
+                case "01_04":
+                    fillColor = Constants.LightGreen;
+                    break;
                 case "01_05":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "01_06":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "01_07":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "01_09":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "01_10":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "01_11":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "01_12":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.LightGreen;
                     break;
                 case "02_00":
                     fillColor = Constants.LightGreen;
                     break;
                 case "02_01":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.LightGreen;
                     break;
                 case "02_02":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.LightGreen;
                     break;
                 case "02_03":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.LightGreen;
                     break;
                 case "02_04":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.LightGreen;
                     break;
-                case "02_05":
-                    fillColor = Constants.NormalGreen;
-                    break;
-                case "02_06":
-                    fillColor = Constants.NormalGreen;
-                    break;
+               
                 case "03_00":
                     fillColor = Constants.LightGreen;
                     break;

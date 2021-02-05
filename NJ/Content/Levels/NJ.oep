@@ -9,8 +9,8 @@
     <Height>48</Height>
   </LevelDefaultSize>
   <LevelMinimumSize>
-    <Width>4</Width>
-    <Height>4</Height>
+    <Width>2</Width>
+    <Height>2</Height>
   </LevelMinimumSize>
   <LevelMaximumSize>
     <Width>2048</Width>
@@ -64,8 +64,8 @@
     <LayerDefinition xsi:type="EntityLayerDefinition">
       <Name>Areas</Name>
       <Grid>
-        <Width>4</Width>
-        <Height>4</Height>
+        <Width>2</Width>
+        <Height>2</Height>
       </Grid>
       <ScrollFactor>
         <X>1</X>
@@ -216,7 +216,7 @@
     </EntityDefinition>
     <EntityDefinition Name="ExitArea" Limit="-1" ResizableX="true" ResizableY="true" Rotatable="false" RotateIncrement="15">
       <Size>
-        <Width>4</Width>
+        <Width>2</Width>
         <Height>4</Height>
       </Size>
       <Origin>

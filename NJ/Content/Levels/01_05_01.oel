@@ -1,70 +1,28 @@
-<level width="320" height="288">
-  <camera x="0" y="0" />
-  <Sceneries>
-    <BackgroundStar id="0" x="48" y="112" type="0" />
-    <BackgroundStar id="1" x="112" y="64" type="0" />
-    <BackgroundStar id="2" x="16" y="96" type="0" />
-    <BackgroundStar id="3" x="128" y="192" type="0" />
-    <BackgroundStar id="4" x="208" y="144" type="0" />
-    <BackgroundStar id="5" x="304" y="192" type="0" />
-    <BackgroundStar id="6" x="304" y="128" type="0" />
-    <BackgroundStar id="7" x="112" y="128" type="0" />
-    <BackgroundStar id="8" x="192" y="176" type="0" />
-    <BackgroundStar id="9" x="224" y="80" type="0" />
-    <BackgroundStar id="10" x="32" y="32" type="0" />
-    <BackgroundStar id="11" x="96" y="32" type="0" />
-    <BackgroundStar id="12" x="16" y="64" type="0" />
-    <BackgroundStar id="13" x="144" y="16" type="0" />
-    <BackgroundStar id="14" x="160" y="96" type="0" />
-    <BackgroundStar id="15" x="256" y="32" type="0" />
-    <BackgroundStar id="16" x="288" y="80" type="0" />
-    <BackgroundStar id="17" x="304" y="16" type="0" />
-    <BackgroundStar id="18" x="176" y="48" type="3" />
-    <BackgroundStar id="19" x="64" y="128" type="0" />
-    <BackgroundStar id="20" x="16" y="128" type="0" />
-    <BackgroundStar id="21" x="256" y="160" type="0" />
-    <BackgroundStar id="22" x="80" y="224" type="0" />
-    <BackgroundStar id="23" x="240" y="80" type="0" />
-    <BackgroundStar id="24" x="288" y="48" type="0" />
-    <BackgroundStar id="25" x="192" y="32" type="0" />
-    <BackgroundStar id="26" x="176" y="80" type="0" />
-    <BackgroundStar id="27" x="128" y="48" type="0" />
-    <BackgroundStar id="28" x="64" y="64" type="0" />
-    <BackgroundStar id="29" x="80" y="80" type="0" />
-    <BackgroundStar id="30" x="48" y="160" type="4" />
-    <BackgroundStar id="31" x="144" y="224" type="4" />
-    <BackgroundStar id="32" x="192" y="224" type="4" />
-    <BackgroundStar id="33" x="224" y="192" type="4" />
-    <BackgroundStar id="34" x="256" y="224" type="4" />
-    <BackgroundStar id="35" x="272" y="144" type="4" />
-    <BackgroundStar id="36" x="256" y="128" type="4" />
-    <BackgroundStar id="37" x="224" y="112" type="4" />
-    <BackgroundStar id="38" x="176" y="160" type="4" />
-    <BackgroundStar id="39" x="144" y="144" type="4" />
-    <BackgroundStar id="40" x="160" y="192" type="4" />
-    <BackgroundStar id="41" x="112" y="240" type="4" />
-    <BackgroundStar id="42" x="304" y="224" type="4" />
-    <BackgroundStar id="43" x="160" y="240" type="4" />
-    <BackgroundStar id="44" x="272" y="192" type="4" />
-    <BackgroundStar id="45" x="288" y="160" type="4" />
-    <BackgroundStar id="46" x="112" y="96" type="4" />
-    <BackgroundStar id="47" x="176" y="112" type="4" />
-    <BackgroundStar id="48" x="16" y="160" type="4" />
-    <BackgroundStar id="49" x="80" y="160" type="4" />
-    <BackgroundStar id="51" x="0" y="192" type="4" />
-    <BackgroundStar id="54" x="112" y="208" type="4" />
-    <BackgroundStar id="55" x="224" y="240" type="4" />
-  </Sceneries>
+<level width="84" height="48">
+  <camera x="0" y="320" />
+  <Sceneries />
   <Wall exportMode="Rectangles">
-    <rect x="0" y="256" w="288" h="32" />
+    <rect x="0" y="0" w="44" h="8" />
+    <rect x="0" y="8" w="24" h="4" />
+    <rect x="0" y="12" w="20" h="4" />
+    <rect x="0" y="16" w="16" h="32" />
+    <rect x="16" y="28" w="4" h="20" />
+    <rect x="20" y="32" w="4" h="16" />
+    <rect x="24" y="36" w="60" h="12" />
+    <rect x="32" y="8" w="12" h="4" />
+    <rect x="36" y="12" w="12" h="4" />
+    <rect x="40" y="16" w="12" h="4" />
+    <rect x="44" y="20" w="12" h="4" />
+    <rect x="52" y="0" w="32" h="4" />
+    <rect x="68" y="32" w="16" h="4" />
+    <rect x="72" y="4" w="12" h="4" />
+    <rect x="72" y="28" w="12" h="4" />
+    <rect x="76" y="8" w="8" h="20" />
   </Wall>
-  <Actors>
-    <BossRocket id="0" x="0" y="176" cutscene="" />
-    <Movedoor id="1" x="288" y="256" MoveToLeft="True" />
-  </Actors>
+  <Actors />
   <Areas>
-    <SpawnArea id="0" x="304" y="240" width="16" height="16" camX="89" camY="97" from="01_04" />
-    <ExitArea id="1" x="288" y="272" width="32" height="16" to="01_04" from="01_05" active="True" type="start" />
+    <ExitArea id="0" x="44" y="0" width="2" height="4" to="01_03" from="01_05" active="True" type="" />
+    <SpawnArea id="1" x="44" y="4" width="4" height="8" camX="0" camY="0" from="01_03" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

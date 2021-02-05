@@ -1,89 +1,44 @@
-<level width="320" height="288">
-  <camera x="0" y="0" />
+<level width="84" height="48">
+  <camera x="0" y="320" />
   <Sceneries>
-    <Mouse id="0" x="288" y="96" />
-    <Mouse id="1" x="80" y="96" />
-    <Back id="2" x="48" y="160" type="1" />
-    <Back id="3" x="32" y="160" type="0" />
-    <Back id="4" x="80" y="80" type="0" />
-    <Back id="5" x="96" y="80" type="0" />
-    <Back id="6" x="112" y="80" type="1" />
-    <Back id="7" x="128" y="80" type="0" />
-    <Back id="8" x="64" y="80" type="2" />
-    <Back id="9" x="48" y="80" type="0" />
-    <Back id="10" x="32" y="80" type="1" />
-    <Back id="11" x="32" y="96" type="3" />
-    <Back id="12" x="32" y="112" type="0" />
-    <Back id="13" x="288" y="144" type="0" />
-    <Back id="14" x="256" y="144" type="1" />
-    <Back id="15" x="240" y="144" type="0" />
-    <Back id="16" x="272" y="144" type="3" />
-    <Back id="17" x="224" y="144" type="0" />
-    <Back id="18" x="208" y="144" type="1" />
-    <Back id="19" x="288" y="160" type="1" />
-    <Back id="20" x="192" y="144" type="0" />
-    <Back id="21" x="176" y="144" type="2" />
-    <Back id="22" x="288" y="16" type="0" />
-    <Back id="23" x="272" y="16" type="2" />
-    <Back id="24" x="288" y="32" type="1" />
-    <Back id="25" x="288" y="80" type="0" />
-    <Back id="26" x="288" y="96" type="0" />
-    <Back id="27" x="272" y="96" type="0" />
-    <Back id="28" x="272" y="80" type="0" />
-    <Back id="29" x="256" y="96" type="0" />
-    <Back id="30" x="240" y="96" type="0" />
-    <Back id="31" x="0" y="16" type="2" />
-    <Back id="32" x="16" y="16" type="0" />
-    <Back id="33" x="32" y="16" type="3" />
-    <Back id="34" x="176" y="16" type="0" />
-    <Back id="35" x="160" y="16" type="1" />
-    <Back id="36" x="144" y="16" type="3" />
-    <Back id="37" x="128" y="16" type="2" />
-    <Liana id="38" x="256" y="16" type="2" />
-    <Cage id="39" x="288" y="160" type="2" />
-    <Back id="41" x="272" y="176" type="4" />
-    <Back id="42" x="272" y="192" type="4" />
-    <Back id="43" x="272" y="208" type="4" />
-    <Back id="44" x="272" y="224" type="4" />
-    <Back id="45" x="272" y="240" type="4" />
-    <Back id="46" x="272" y="256" type="4" />
-    <Back id="47" x="272" y="272" type="4" />
+    <Sky id="24" x="0" y="0" type="0" count="1" />
+    <Sky id="24" x="4" y="0" type="0" count="1" />
+    <Sky id="24" x="8" y="0" type="0" count="1" />
+    <Sky id="24" x="12" y="0" type="0" count="1" />
+    <Sky id="24" x="16" y="0" type="0" count="1" />
+    <Sky id="24" x="20" y="0" type="0" count="1" />
+    <Sky id="24" x="24" y="0" type="0" count="1" />
+    <Sky id="24" x="28" y="0" type="0" count="1" />
+    <Sky id="24" x="32" y="0" type="0" count="1" />
+    <Sky id="24" x="36" y="0" type="0" count="1" />
+    <Sky id="24" x="40" y="0" type="0" count="1" />
+    <Sky id="24" x="44" y="0" type="0" count="1" />
+    <Sky id="24" x="48" y="0" type="0" count="1" />
+    <Sky id="24" x="52" y="0" type="0" count="1" />
+    <Sky id="24" x="56" y="0" type="0" count="1" />
+    <Sky id="24" x="60" y="0" type="0" count="1" />
+    <Sky id="24" x="64" y="0" type="0" count="1" />
+    <Sky id="24" x="68" y="0" type="0" count="1" />
+    <Sky id="24" x="72" y="0" type="0" count="1" />
+    <Sky id="24" x="76" y="0" type="0" count="1" />
+    <Sky id="24" x="80" y="0" type="0" count="1" />
+    <Tree id="24" x="16" y="28" type="0" />
+    <Tree id="24" x="64" y="28" type="1" />
   </Sceneries>
   <Wall exportMode="Rectangles">
-    <rect x="0" y="0" w="320" h="16" />
-    <rect x="0" y="80" w="32" h="208" />
-    <rect x="32" y="144" w="16" h="16" />
-    <rect x="32" y="176" w="240" h="112" />
-    <rect x="64" y="112" w="256" h="32" />
-    <rect x="288" y="176" w="32" h="112" />
-    <rect x="304" y="16" w="16" h="96" />
-    <rect x="304" y="144" w="16" h="32" />
+    <rect x="0" y="36" w="36" h="12" />
+    <rect x="36" y="40" w="8" h="8" />
+    <rect x="52" y="40" w="32" h="8" />
+    <rect x="60" y="36" w="24" h="4" />
   </Wall>
-  <Actors>
-    <Treadmill id="7" x="0" y="64" width="272" direction="-1" />
-    <Walker1 id="0" x="80" y="160" reward="0" />
-    <Walker1 id="1" x="224" y="96" reward="0" />
-    <Walker2 id="2" x="192" y="96" reward="1" />
-    <Coin id="3" x="112" y="32" />
-    <Coin id="4" x="96" y="32" />
-    <Coin id="5" x="80" y="32" />
-    <Coin id="6" x="240" y="32" />
-    <Coin id="8" x="224" y="32" />
-    <Coin id="9" x="208" y="32" />
-    <Coin id="10" x="32" y="128" />
-    <Coin id="11" x="96" y="96" />
-    <Coin id="12" x="112" y="96" />
-    <Coin id="13" x="128" y="96" />
-    <Coin id="14" x="272" y="96" />
-    <Coin id="15" x="256" y="96" />
-    <Coin id="16" x="240" y="96" />
-    <Coin id="17" x="160" y="160" />
-    <Coin id="18" x="144" y="160" />
-    <Coin id="19" x="128" y="160" />
-  </Actors>
+  <Actors />
   <Areas>
-    <SpawnArea id="0" x="272" y="160" width="16" height="16" camX="320" camY="428" from="01_02" />
-    <ExitArea id="1" x="272" y="192" width="16" height="16" to="01_02" from="01_03" active="True" type="start" />
+    <ExitArea id="3" x="82" y="32" width="2" height="4" to="01_04" from="01_03" active="True" type="" />
+    <SpawnArea id="3" x="76" y="28" width="4" height="8" camX="0" camY="0" from="01_04" />
+    <SpawnArea id="3" x="6" y="28" width="4" height="8" camX="0" camY="0" from="01_02" />
+    <ExitArea id="3" x="0" y="32" width="2" height="4" to="01_02" from="01_03" active="True" type="" />
+    <ExitArea id="0" x="44" y="40" width="8" height="4" to="01_05" from="01_03" active="True" type="" />
+    <SpawnArea id="1" x="40" y="32" width="4" height="8" camX="0" camY="0" from="01_05" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

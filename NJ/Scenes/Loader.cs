@@ -19,7 +19,7 @@ namespace Chip
         {
             this.session = session ?? new Session();
 
-            cat = new Animation(GFX.Gui["loader_cat"], 16, 16);
+            cat = new Animation(GFX.Gui["loader_cat"], 8, 8);
             cat.Add("walk", 4f, true, 0, 1, 2, 3);
             cat.Play("walk");
         }

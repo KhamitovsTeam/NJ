@@ -730,51 +730,6 @@
             <key type="filename">sceneries/tube3.png</key>
             <key type="filename">sceneries/tube4.png</key>
             <key type="filename">sceneries/tube5.png</key>
-            <key type="filename">terrain/01_00/wall_rocket.png</key>
-            <key type="filename">terrain/01_02/tiles_dark.png</key>
-            <key type="filename">terrain/01_02/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_02/tiles_shadow.png</key>
-            <key type="filename">terrain/01_02/tiles_some_shadow.png</key>
-            <key type="filename">terrain/01_03/tiles_dark.png</key>
-            <key type="filename">terrain/01_03/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_03/tiles_shadow.png</key>
-            <key type="filename">terrain/01_03/tiles_some_shadow.png</key>
-            <key type="filename">terrain/01_04/tiles_dark.png</key>
-            <key type="filename">terrain/01_04/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_04/tiles_shadow.png</key>
-            <key type="filename">terrain/01_04/tiles_some_shadow.png</key>
-            <key type="filename">terrain/01_05/tiles_dark.png</key>
-            <key type="filename">terrain/01_05/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_05/tiles_shadow.png</key>
-            <key type="filename">terrain/01_05/tiles_some_shadow.png</key>
-            <key type="filename">terrain/01_06/tiles_dark.png</key>
-            <key type="filename">terrain/01_06/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_06/tiles_shadow.png</key>
-            <key type="filename">terrain/01_06/tiles_some_shadow.png</key>
-            <key type="filename">terrain/01_07/tiles_dark.png</key>
-            <key type="filename">terrain/01_07/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_07/tiles_shadow.png</key>
-            <key type="filename">terrain/01_07/tiles_some_shadow.png</key>
-            <key type="filename">terrain/01_08/tiles_dark.png</key>
-            <key type="filename">terrain/01_08/tiles_more_dark.png</key>
-            <key type="filename">terrain/01_08/tiles_shadow.png</key>
-            <key type="filename">terrain/01_08/tiles_some_shadow.png</key>
-            <key type="filename">terrain/02_00/wall_rocket.png</key>
-            <key type="filename">terrain/03_00/wall_rocket.png</key>
-            <key type="filename">terrain/03_05/wall_rocket.png</key>
-            <key type="filename">terrain/03_06/wall_rocket.png</key>
-            <key type="filename">terrain/05_00/wall_rocket.png</key>
-            <key type="filename">terrain/05_01/wall_rocket.png</key>
-            <key type="filename">terrain/05_02/wall_rocket.png</key>
-            <key type="filename">terrain/05_03/wall_rocket.png</key>
-            <key type="filename">terrain/05_04/wall_rocket.png</key>
-            <key type="filename">terrain/05_05/wall_rocket.png</key>
-            <key type="filename">terrain/05_06/wall_rocket.png</key>
-            <key type="filename">terrain/05_07/wall_rocket.png</key>
-            <key type="filename">terrain/05_08/wall_rocket.png</key>
-            <key type="filename">terrain/06_00/wall_rocket.png</key>
-            <key type="filename">terrain/06_01/wall_rocket.png</key>
-            <key type="filename">terrain/06_02/wall_rocket.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1512,7 +1467,6 @@
                 <false/>
             </struct>
             <key type="filename">sceneries/planet.png</key>
-            <key type="filename">terrain/01_09/background_planet.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1687,40 +1641,15 @@
                 <false/>
             </struct>
             <key type="filename">terrain/01_00/tiles.png</key>
-            <key type="filename">terrain/01_06/tiles.png</key>
-            <key type="filename">terrain/01_07/tiles.png</key>
-            <key type="filename">terrain/01_08/tiles.png</key>
-            <key type="filename">terrain/01_09/tiles.png</key>
-            <key type="filename">terrain/01_10/tiles.png</key>
-            <key type="filename">terrain/01_11/tiles.png</key>
-            <key type="filename">terrain/01_12/tiles.png</key>
             <key type="filename">terrain/02_00/tiles.png</key>
             <key type="filename">terrain/02_02/tiles.png</key>
             <key type="filename">terrain/02_03/tiles.png</key>
             <key type="filename">terrain/02_04/tiles.png</key>
-            <key type="filename">terrain/02_05/tiles.png</key>
-            <key type="filename">terrain/02_06/tiles.png</key>
             <key type="filename">terrain/03_00/tiles.png</key>
             <key type="filename">terrain/03_01/tiles.png</key>
             <key type="filename">terrain/03_02/tiles.png</key>
             <key type="filename">terrain/03_03/tiles.png</key>
             <key type="filename">terrain/03_04/tiles.png</key>
-            <key type="filename">terrain/03_05/tiles.png</key>
-            <key type="filename">terrain/03_06/tiles.png</key>
-            <key type="filename">terrain/03_07/tiles.png</key>
-            <key type="filename">terrain/03_08/tiles.png</key>
-            <key type="filename">terrain/05_00/tiles.png</key>
-            <key type="filename">terrain/05_01/tiles.png</key>
-            <key type="filename">terrain/05_02/tiles.png</key>
-            <key type="filename">terrain/05_03/tiles.png</key>
-            <key type="filename">terrain/05_04/tiles.png</key>
-            <key type="filename">terrain/05_05/tiles.png</key>
-            <key type="filename">terrain/05_06/tiles.png</key>
-            <key type="filename">terrain/05_07/tiles.png</key>
-            <key type="filename">terrain/05_08/tiles.png</key>
-            <key type="filename">terrain/06_00/tiles.png</key>
-            <key type="filename">terrain/06_01/tiles.png</key>
-            <key type="filename">terrain/06_02/tiles.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1737,13 +1666,8 @@
             </struct>
             <key type="filename">terrain/01_01/tiles.png</key>
             <key type="filename">terrain/01_02/tiles.png</key>
-            <key type="filename">terrain/01_02/tiles__.png</key>
             <key type="filename">terrain/01_03/tiles.png</key>
             <key type="filename">terrain/01_04/tiles.png</key>
-            <key type="filename">terrain/01_05/tiles.png</key>
-            <key type="filename">terrain/01_06/tiles__.png</key>
-            <key type="filename">terrain/01_07/tiles__.png</key>
-            <key type="filename">terrain/01_08/tiles__.png</key>
             <key type="filename">terrain/02_01/tiles.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1759,14 +1683,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">terrain/01_02/jumpthrough.png</key>
-            <key type="filename">terrain/01_03/jumpthrough.png</key>
-            <key type="filename">terrain/01_04/jumpthrough.png</key>
-            <key type="filename">terrain/01_05/jumpthrough.png</key>
-            <key type="filename">terrain/01_06/jumpthrough.png</key>
-            <key type="filename">terrain/01_07/jumpthrough.png</key>
-            <key type="filename">terrain/01_08/jumpthrough.png</key>
-            <key type="filename">terrain/01_09/jumpthrough.png</key>
+            <key type="filename">terrain/01_05/tiles.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1775,9 +1692,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>16,2,32,4</rect>
+                <rect>4,17,8,34</rect>
                 <key>scale9Paddings</key>
-                <rect>16,2,32,4</rect>
+                <rect>4,17,8,34</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

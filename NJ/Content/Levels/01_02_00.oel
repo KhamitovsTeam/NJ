@@ -1,9 +1,0 @@
-<level width="320" height="288">
-  <Sceneries />
-  <Wall exportMode="Rectangles">
-    <rect x="0" y="0" w="320" h="288" />
-  </Wall>
-  <Actors />
-  <Areas />
-  <BackTiles exportMode="Rectangles" />
-</level>

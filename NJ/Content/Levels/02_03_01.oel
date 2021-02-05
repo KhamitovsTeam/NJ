@@ -1,198 +1,40 @@
-<level width="320" height="192">
+<level width="84" height="48">
   <camera x="0" y="0" />
   <Sceneries>
-    <Back id="0" x="256" y="32" type="7" />
-    <Back id="1" x="240" y="32" type="8" />
-    <Back id="2" x="224" y="32" type="7" />
-    <Back id="3" x="208" y="32" type="8" />
-    <Liana id="4" x="256" y="16" type="5" />
-    <Liana id="5" x="240" y="16" type="5" />
-    <Liana id="6" x="208" y="16" type="5" />
-    <Liana id="7" x="224" y="16" type="6" />
-    <Liana id="8" x="192" y="32" type="5" />
-    <Liana id="9" x="176" y="64" type="6" />
-    <Liana id="10" x="160" y="64" type="5" />
-    <Liana id="11" x="272" y="80" type="5" />
-    <Liana id="12" x="272" y="144" type="6" />
-    <Liana id="13" x="288" y="160" type="5" />
-    <Liana id="14" x="256" y="144" type="6" />
-    <Liana id="15" x="240" y="128" type="5" />
-    <Liana id="16" x="224" y="112" type="5" />
-    <Liana id="17" x="256" y="64" type="6" />
-    <Liana id="18" x="192" y="144" type="5" />
-    <Liana id="19" x="128" y="96" type="6" />
-    <Liana id="20" x="112" y="96" type="5" />
-    <Back id="21" x="272" y="0" type="7" />
-    <Back id="22" x="288" y="16" type="8" />
-    <Back id="23" x="272" y="16" type="8" />
-    <Back id="24" x="288" y="80" type="7" />
-    <Back id="25" x="272" y="96" type="8" />
-    <Back id="26" x="256" y="80" type="7" />
-    <Back id="27" x="192" y="64" type="7" />
-    <Back id="28" x="176" y="80" type="8" />
-    <Back id="29" x="160" y="80" type="8" />
-    <Back id="30" x="144" y="64" type="8" />
-    <Back id="31" x="128" y="48" type="7" />
-    <Back id="32" x="112" y="32" type="7" />
-    <Back id="33" x="80" y="16" type="8" />
-    <Back id="34" x="80" y="16" type="7" />
-    <Back id="35" x="96" y="16" type="7" />
-    <Back id="36" x="64" y="16" type="8" />
-    <Back id="37" x="48" y="16" type="7" />
-    <Back id="38" x="48" y="32" type="8" />
-    <Back id="39" x="32" y="48" type="7" />
-    <Back id="40" x="32" y="64" type="8" />
-    <Back id="41" x="48" y="80" type="8" />
-    <Back id="42" x="64" y="80" type="8" />
-    <Back id="43" x="80" y="64" type="7" />
-    <Back id="44" x="112" y="112" type="8" />
-    <Back id="45" x="144" y="96" type="7" />
-    <Back id="46" x="144" y="96" type="7" />
-    <Back id="47" x="128" y="112" type="8" />
-    <Back id="48" x="256" y="160" type="8" />
-    <Back id="49" x="272" y="160" type="8" />
-    <Back id="50" x="240" y="176" type="7" />
-    <Back id="51" x="240" y="176" type="7" />
-    <Back id="52" x="288" y="176" type="7" />
-    <Back id="53" x="240" y="144" type="7" />
-    <Back id="54" x="208" y="96" type="7" />
-    <Back id="55" x="208" y="80" type="8" />
-    <Back id="56" x="192" y="96" type="8" />
-    <Back id="57" x="80" y="144" type="8" />
-    <Back id="58" x="32" y="144" type="7" />
-    <Back id="59" x="32" y="144" type="8" />
-    <Back id="60" x="48" y="160" type="7" />
-    <Back id="61" x="48" y="144" type="8" />
-    <Back id="62" x="64" y="144" type="7" />
-    <Back id="63" x="112" y="176" type="8" />
-    <Back id="64" x="128" y="176" type="8" />
-    <Back id="65" x="80" y="176" type="7" />
-    <Back id="66" x="64" y="176" type="8" />
-    <Back id="67" x="16" y="144" type="7" />
-    <Back id="68" x="16" y="16" type="7" />
-    <Back id="69" x="192" y="160" type="8" />
-    <Back id="70" x="208" y="48" type="8" />
-    <Liana id="71" x="112" y="16" type="5" />
-    <Liana id="72" x="128" y="32" type="6" />
-    <Liana id="73" x="144" y="48" type="6" />
-    <Liana id="74" x="96" y="112" type="5" />
-    <Liana id="75" x="32" y="16" type="5" />
-    <Liana id="76" x="16" y="48" type="5" />
-    <Liana id="77" x="48" y="16" type="5" />
-    <Liana id="78" x="64" y="64" type="5" />
-    <Liana id="79" x="64" y="128" type="6" />
-    <Liana id="80" x="80" y="112" type="5" />
-    <Liana id="81" x="176" y="160" type="5" />
-    <Liana id="82" x="128" y="160" type="5" />
-    <Liana id="83" x="112" y="160" type="5" />
-    <Liana id="84" x="96" y="176" type="6" />
-    <Liana id="85" x="16" y="128" type="5" />
-    <Liana id="86" x="240" y="64" type="5" />
-    <Liana id="87" x="208" y="160" type="6" />
-    <Grass id="88" x="16" y="64" type="4" />
-    <Grass id="89" x="32" y="80" type="3" />
-    <Grass id="90" x="48" y="96" type="3" />
-    <Grass id="91" x="64" y="96" type="4" />
-    <Grass id="92" x="80" y="80" type="4" />
-    <Grass id="93" x="96" y="32" type="2" />
-    <Grass id="94" x="112" y="48" type="4" />
-    <Grass id="95" x="128" y="64" type="4" />
-    <Grass id="96" x="272" y="48" type="3" />
-    <Grass id="97" x="288" y="96" type="3" />
-    <Grass id="98" x="272" y="96" type="4" />
-    <Grass id="99" x="256" y="96" type="3" />
-    <Grass id="100" x="240" y="80" type="3" />
-    <Grass id="101" x="224" y="48" type="3" />
-    <Grass id="102" x="240" y="32" type="4" />
-    <Grass id="103" x="256" y="32" type="4" />
-    <Grass id="104" x="224" y="128" type="3" />
-    <Grass id="105" x="208" y="112" type="2" />
-    <Grass id="106" x="192" y="96" type="3" />
-    <Grass id="107" x="176" y="96" type="3" />
-    <Grass id="108" x="160" y="96" type="3" />
-    <Grass id="109" x="144" y="112" type="3" />
-    <Grass id="110" x="128" y="112" type="3" />
-    <Grass id="111" x="112" y="128" type="4" />
-    <Grass id="112" x="96" y="128" type="3" />
-    <Grass id="113" x="16" y="160" type="4" />
-    <Grass id="114" x="48" y="32" type="4" />
-    <Grass id="115" x="16" y="16" type="5" />
+    <Sky id="3" x="0" y="0" type="0" count="1" />
+    <Sky id="4" x="4" y="0" type="0" count="1" />
+    <Sky id="5" x="8" y="0" type="0" count="1" />
+    <Sky id="6" x="12" y="0" type="0" count="1" />
+    <Sky id="7" x="16" y="0" type="0" count="1" />
+    <Sky id="8" x="20" y="0" type="0" count="1" />
+    <Sky id="9" x="24" y="0" type="0" count="1" />
+    <Sky id="10" x="28" y="0" type="0" count="1" />
+    <Sky id="11" x="32" y="0" type="0" count="1" />
+    <Sky id="12" x="36" y="0" type="0" count="1" />
+    <Sky id="13" x="40" y="0" type="0" count="1" />
+    <Sky id="14" x="44" y="0" type="0" count="1" />
+    <Sky id="15" x="48" y="0" type="0" count="1" />
+    <Sky id="16" x="52" y="0" type="0" count="1" />
+    <Sky id="17" x="56" y="0" type="0" count="1" />
+    <Sky id="18" x="60" y="0" type="0" count="1" />
+    <Sky id="19" x="64" y="0" type="0" count="1" />
+    <Sky id="20" x="68" y="0" type="0" count="1" />
+    <Sky id="21" x="72" y="0" type="0" count="1" />
+    <Sky id="22" x="76" y="0" type="0" count="1" />
+    <Sky id="23" x="80" y="0" type="0" count="1" />
+    <Tree id="0" x="20" y="28" type="0" />
+    <Tree id="1" x="32" y="28" type="0" />
+    <Tree id="2" x="44" y="28" type="0" />
   </Sceneries>
   <Wall exportMode="Rectangles">
-    <rect x="0" y="0" w="272" h="16" />
-    <rect x="0" y="16" w="16" h="176" />
-    <rect x="16" y="32" w="16" h="16" />
-    <rect x="16" y="80" w="16" h="48" />
-    <rect x="16" y="176" w="16" h="16" />
-    <rect x="32" y="96" w="16" h="48" />
-    <rect x="48" y="48" w="64" h="16" />
-    <rect x="48" y="64" w="16" h="16" />
-    <rect x="48" y="112" w="32" h="16" />
-    <rect x="48" y="128" w="16" h="16" />
-    <rect x="64" y="32" w="32" h="16" />
-    <rect x="80" y="96" w="32" h="16" />
-    <rect x="96" y="64" w="32" h="32" />
-    <rect x="96" y="144" w="96" h="16" />
-    <rect x="96" y="160" w="16" h="16" />
-    <rect x="128" y="16" w="80" h="16" />
-    <rect x="128" y="80" w="16" h="16" />
-    <rect x="128" y="128" w="96" h="16" />
-    <rect x="144" y="32" w="48" h="16" />
-    <rect x="144" y="160" w="32" h="32" />
-    <rect x="160" y="48" w="32" h="16" />
-    <rect x="160" y="112" w="48" h="16" />
-    <rect x="208" y="144" w="32" h="16" />
-    <rect x="208" y="176" w="32" h="16" />
-    <rect x="224" y="64" w="16" h="48" />
-    <rect x="224" y="160" w="16" h="16" />
-    <rect x="240" y="48" w="32" h="16" />
-    <rect x="240" y="96" w="16" h="32" />
-    <rect x="256" y="112" w="64" h="32" />
-    <rect x="272" y="64" w="16" h="16" />
-    <rect x="288" y="144" w="32" h="16" />
-    <rect x="304" y="0" w="16" h="112" />
-    <rect x="304" y="160" w="16" h="32" />
+    <rect x="0" y="36" w="84" h="12" />
   </Wall>
-  <Actors>
-    <Coin id="0" x="64" y="16" />
-    <Coin id="1" x="80" y="16" />
-    <Coin id="2" x="96" y="32" />
-    <Coin id="3" x="112" y="48" />
-    <Coin id="4" x="128" y="64" />
-    <Coin id="5" x="48" y="32" />
-    <Coin id="6" x="32" y="48" />
-    <Coin id="7" x="32" y="64" />
-    <Coin id="8" x="80" y="80" />
-    <Coin id="9" x="48" y="96" />
-    <Coin id="10" x="64" y="96" />
-    <Coin id="11" x="256" y="80" />
-    <Coin id="12" x="256" y="96" />
-    <Coin id="13" x="272" y="96" />
-    <Coin id="14" x="240" y="80" />
-    <Coin id="15" x="256" y="32" />
-    <Coin id="16" x="240" y="32" />
-    <Coin id="17" x="224" y="48" />
-    <Coin id="18" x="208" y="64" />
-    <Coin id="19" x="192" y="80" />
-    <Coin id="20" x="176" y="96" />
-    <Coin id="21" x="160" y="96" />
-    <Coin id="22" x="144" y="80" />
-    <Coin id="23" x="144" y="96" />
-    <Coin id="24" x="144" y="112" />
-    <Coin id="25" x="128" y="112" />
-    <Coin id="26" x="112" y="128" />
-    <Coin id="27" x="96" y="128" />
-    <Coin id="28" x="16" y="160" />
-    <Coin id="29" x="32" y="176" />
-    <Coin id="30" x="48" y="176" />
-    <Coin id="32" x="192" y="144" />
-    <Star id="33" x="80" y="64" />
-    <Walker1 id="34" x="64" y="96" reward="0" />
-    <Walker2 id="35" x="160" y="96" reward="1" />
-    <Kitten id="31" x="208" y="160" type="0" />
-  </Actors>
+  <Actors />
   <Areas>
-    <SpawnArea id="0" x="288" y="32" width="16" height="16" camX="456" camY="14" from="02_02" />
+    <SpawnArea id="1" x="6" y="28" width="4" height="8" camX="0" camY="0" from="02_02" />
+    <ExitArea id="0" x="82" y="32" width="2" height="4" to="02_04" from="02_03" active="True" type="" />
+    <SpawnArea id="2" x="76" y="28" width="4" height="8" camX="0" camY="0" from="02_04" />
+    <ExitArea id="3" x="0" y="32" width="2" height="4" to="02_02" from="02_03" active="True" type="" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

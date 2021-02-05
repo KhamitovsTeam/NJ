@@ -44,7 +44,7 @@ namespace Chip
             Level = level;
             Room = room;
             Tag = "room" + Room.ID;
-            X = spawn.X + 8f;
+            X = spawn.X + 2f;
             Y = spawn.Y + 8f;
         }
 

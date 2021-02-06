@@ -22,7 +22,13 @@
     <Sky id="21" x="72" y="0" type="0" count="1" />
     <Sky id="22" x="76" y="0" type="0" count="1" />
     <Sky id="23" x="80" y="0" type="0" count="1" />
-    <Tree id="0" x="20" y="28" type="0" />
+    <Tree id="0" x="20" y="28" type="1" />
+    <Grave id="2" x="68" y="28" type="2" />
+    <Grave id="2" x="60" y="28" type="1" />
+    <Grave id="2" x="52" y="28" type="2" />
+    <Grave id="2" x="44" y="28" type="3" />
+    <Grave id="2" x="36" y="28" type="1" />
+    <Grave id="2" x="28" y="28" type="1" />
   </Sceneries>
   <Wall exportMode="Rectangles">
     <rect x="0" y="36" w="84" h="12" />

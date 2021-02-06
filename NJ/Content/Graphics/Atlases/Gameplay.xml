@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:1fa0abd12a6108373d8040bb6eb014da:602527cf6ff2f1db951c42eb405878cb:2b2448431d228a272c2ec50b117434b3$ -->
+<!-- $TexturePacker:SmartUpdate:5c7a4e19c6d14c2c1762e8a1f97aca77:4b724745b6eedd3388669fe206afbfd6:2b2448431d228a272c2ec50b117434b3$ -->
 <TextureAtlas imagePath="Gameplay.png" width="1019" height="571">
     <SubTexture name="bullet" x="964" y="406" width="2" height="2"/>
     <SubTexture name="effects/bulletburst" x="792" y="96" width="6" height="6"/>
@@ -8,13 +8,13 @@
     <SubTexture name="effects/pattern0" x="840" y="342" width="6" height="6"/>
     <SubTexture name="effects/pattern1" x="846" y="376" width="6" height="6"/>
     <SubTexture name="effects/pattern2" x="922" y="342" width="2" height="2"/>
-    <SubTexture name="effects/pattern3" x="398" y="391" width="6" height="6"/>
-    <SubTexture name="effects/pattern4" x="894" y="456" width="6" height="6"/>
-    <SubTexture name="effects/pattern5" x="798" y="96" width="6" height="6"/>
-    <SubTexture name="effects/pattern6" x="840" y="348" width="6" height="6"/>
-    <SubTexture name="effects/pattern7" x="804" y="96" width="6" height="6"/>
-    <SubTexture name="effects/piece0" x="154" y="565" width="6" height="6"/>
-    <SubTexture name="effects/piece1" x="160" y="565" width="6" height="6"/>
+    <SubTexture name="effects/pattern3" x="860" y="408" width="6" height="6"/>
+    <SubTexture name="effects/pattern4" x="398" y="391" width="6" height="6"/>
+    <SubTexture name="effects/pattern5" x="894" y="456" width="6" height="6"/>
+    <SubTexture name="effects/pattern6" x="798" y="96" width="6" height="6"/>
+    <SubTexture name="effects/pattern7" x="840" y="348" width="6" height="6"/>
+    <SubTexture name="effects/piece0" x="804" y="96" width="6" height="6"/>
+    <SubTexture name="effects/piece1" x="154" y="565" width="6" height="6"/>
     <SubTexture name="effects/pieces0" x="968" y="102" width="3" height="3"/>
     <SubTexture name="effects/pieces1" x="406" y="265" width="2" height="2"/>
     <SubTexture name="effects/pieces2" x="334" y="531" width="2" height="2"/>
@@ -87,7 +87,7 @@
     <SubTexture name="objects/stone1" x="998" y="438" width="5" height="5"/>
     <SubTexture name="objects/stone2" x="38" y="567" width="6" height="4"/>
     <SubTexture name="objects/stone3" x="1016" y="134" width="3" height="8"/>
-    <SubTexture name="objects/stone4" x="807" y="32" width="4" height="4"/>
+    <SubTexture name="objects/stone4" x="592" y="533" width="4" height="4"/>
     <SubTexture name="objects/switcher" x="971" y="86" width="48" height="48"/>
     <SubTexture name="objects/teleport" x="884" y="465" width="16" height="16"/>
     <SubTexture name="objects/treadmill" x="692" y="336" width="64" height="48"/>
@@ -166,6 +166,14 @@
     <SubTexture name="sceneries/glitch_2" x="608" y="533" width="48" height="16"/>
     <SubTexture name="sceneries/glitch_3" x="608" y="549" width="48" height="16"/>
     <SubTexture name="sceneries/grass_world2" x="0" y="567" width="38" height="4"/>
+    <SubTexture name="sceneries/grave0" x="446" y="553" width="4" height="8"/>
+    <SubTexture name="sceneries/grave1" x="807" y="32" width="4" height="8"/>
+    <SubTexture name="sceneries/grave2" x="176" y="556" width="4" height="8"/>
+    <SubTexture name="sceneries/grave3" x="672" y="517" width="4" height="8"/>
+    <SubTexture name="sceneries/house0" x="852" y="408" width="8" height="8"/>
+    <SubTexture name="sceneries/house1" x="1000" y="270" width="8" height="8"/>
+    <SubTexture name="sceneries/house2" x="708" y="188" width="8" height="8"/>
+    <SubTexture name="sceneries/house3" x="911" y="189" width="8" height="8"/>
     <SubTexture name="sceneries/kitten_shelf0" x="1003" y="438" width="16" height="16"/>
     <SubTexture name="sceneries/kitten_shelf1" x="952" y="102" width="16" height="32"/>
     <SubTexture name="sceneries/kitten_shelf2" x="995" y="198" width="24" height="32"/>

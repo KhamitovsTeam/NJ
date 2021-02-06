@@ -25,6 +25,7 @@
     <Tree id="24" x="40" y="28" type="1" />
     <Tree id="24" x="16" y="28" type="0" />
     <Tree id="24" x="64" y="28" type="1" />
+    <House id="0" x="52" y="28" type="1" />
   </Sceneries>
   <Wall exportMode="Rectangles">
     <rect x="0" y="36" w="84" h="12" />

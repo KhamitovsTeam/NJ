@@ -1,9 +1,7 @@
 <level width="84" height="48">
   <camera x="0" y="0" />
   <Sceneries>
-    <Tree id="0" x="32" y="20" type="1" />
-    <Tree id="1" x="12" y="28" type="0" />
-    <Tree id="2" x="60" y="28" type="1" />
+    <Tree id="1" x="4" y="24" type="0" />
     <Sky id="3" x="0" y="0" type="0" count="1" />
     <Sky id="4" x="4" y="0" type="0" count="1" />
     <Sky id="5" x="8" y="0" type="0" count="1" />
@@ -25,15 +23,18 @@
     <Sky id="21" x="72" y="0" type="0" count="1" />
     <Sky id="22" x="76" y="0" type="0" count="1" />
     <Sky id="23" x="80" y="0" type="0" count="1" />
+    <House id="2" x="64" y="28" type="0" />
+    <House id="0" x="32" y="24" type="1" />
+    <House id="24" x="52" y="28" type="2" />
+    <House id="25" x="20" y="24" type="0" />
   </Sceneries>
   <Wall exportMode="Rectangles">
-    <rect x="0" y="36" w="84" h="12" />
-    <rect x="20" y="32" w="28" h="4" />
-    <rect x="28" y="28" w="12" h="4" />
+    <rect x="0" y="32" w="48" h="16" />
+    <rect x="48" y="36" w="36" h="12" />
   </Wall>
   <Actors />
   <Areas>
-    <SpawnArea id="1" x="4" y="28" width="4" height="8" camX="0" camY="0" from="wellboy" />
+    <SpawnArea id="1" x="12" y="24" width="4" height="8" camX="0" camY="0" from="wellboy" />
     <ExitArea id="0" x="82" y="32" width="2" height="4" to="01_01" from="01_00" active="True" type="" />
     <SpawnArea id="2" x="76" y="28" width="4" height="8" camX="0" camY="0" from="01_01" />
   </Areas>

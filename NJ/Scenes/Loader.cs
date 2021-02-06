@@ -7,7 +7,7 @@ namespace Chip
 {
     public class Loader : Scene
     {
-        private readonly Text loadingText = new Text(Fonts.MainFont, Texts.MainText["loader_loading"], Vector2.Zero, Constants.DarkGreen, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private readonly Text loadingText = new Text(Fonts.MainFont, Texts.MainText["loader_loading"], Vector2.Zero, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
         private readonly Animation cat;
 
         private readonly Session session;
@@ -61,7 +61,7 @@ namespace Chip
         public override void OverlayRender()
         {
             Draw.BeginOverlay(BlendState.AlphaBlend, SamplerState.PointClamp);
-            Draw.Rect(0, 0, Engine.Instance.Screen.Width, Engine.Instance.Screen.Height, Constants.Background);
+            Draw.Rect(0, 0, Engine.Instance.Screen.Width, Engine.Instance.Screen.Height, Constants.Dark);
             loadingText.X = Engine.Instance.Screen.Width - loadingText.Width - cat.Width * 1.5f;
             loadingText.Y = Engine.Instance.Screen.Height - loadingText.Height - 8f;
             cat.X = loadingText.X + loadingText.Width;

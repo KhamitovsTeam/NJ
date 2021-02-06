@@ -174,7 +174,7 @@ namespace Chip
         {
             base.Render();
             if (_hintVisible)
-                ButtonUI.Render(_hintPosition, "", Constants.LightGreen, "action", 1f);
+                ButtonUI.Render(_hintPosition, "", Constants.Light, "action", 1f);
         }
     }
 }

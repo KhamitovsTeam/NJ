@@ -10,10 +10,10 @@ namespace Chip
         private readonly Animation _ship;
         private readonly Animation _shipFire;
 
-        private Text _gamename = new Text(Fonts.MainFont, Texts.MainText["gamename"], Vector2.One, Constants.Background, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
-        private Text _title = new Text(Fonts.MainFont, Texts.MainText["end_title"], Vector2.One, Constants.Background, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
-        private readonly Text _version = new Text(Fonts.MainFont, "version", Vector2.One, Constants.LightGreen, Text.HorizontalAlign.Left, Text.VerticalAlign.Bottom);
-        private readonly Text _copyright = new Text(Fonts.MainFont, Texts.MainText["copyright"], Vector2.One, Constants.LightGreen, Text.HorizontalAlign.Right, Text.VerticalAlign.Bottom);
+        private Text _gamename = new Text(Fonts.MainFont, Texts.MainText["gamename"], Vector2.One, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private Text _title = new Text(Fonts.MainFont, Texts.MainText["end_title"], Vector2.One, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private readonly Text _version = new Text(Fonts.MainFont, "version", Vector2.One, Constants.Light, Text.HorizontalAlign.Left, Text.VerticalAlign.Bottom);
+        private readonly Text _copyright = new Text(Fonts.MainFont, Texts.MainText["copyright"], Vector2.One, Constants.Light, Text.HorizontalAlign.Right, Text.VerticalAlign.Bottom);
 
         private readonly Particles _starsSystem;
         private Vector2 _center;
@@ -92,7 +92,7 @@ namespace Chip
         public override void Render()
         {
             Draw.Begin();
-            Draw.Rect(-5, -5, Engine.Instance.Screen.Width + 10, Engine.Instance.Screen.Height + 10, Constants.NormalGreen);
+            Draw.Rect(-5, -5, Engine.Instance.Screen.Width + 10, Engine.Instance.Screen.Height + 10, Constants.Light);
             Draw.End();
             base.Render();
         }
@@ -114,7 +114,7 @@ namespace Chip
             _version.RenderAt(4f, Engine.Instance.Screen.Height - 4f);
             _copyright.RenderAt(Engine.Instance.Screen.Width - 4f, Engine.Instance.Screen.Height - 4f);
 
-            ButtonUI.Render(new Vector2(Engine.Instance.Screen.Width / 2f, Engine.Instance.Screen.Height - Engine.Instance.Screen.Height / 4f), Texts.MainText["pause_restart"], Constants.Background, "confirm", 1f);
+            ButtonUI.Render(new Vector2(Engine.Instance.Screen.Width / 2f, Engine.Instance.Screen.Height - Engine.Instance.Screen.Height / 4f), Texts.MainText["pause_restart"], Constants.Dark, "confirm", 1f);
 
             Draw.End();
         }

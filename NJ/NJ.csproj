@@ -123,7 +123,6 @@
     <Compile Include="Entities\Actors\Enemies\Walkers\Walker4.cs" />
     <Compile Include="Entities\Actors\IExplodable.cs" />
     <Compile Include="Entities\Actors\IShootable.cs" />
-    <Compile Include="Entities\Actors\Objects\Arcade.cs" />
     <Compile Include="Entities\Actors\Objects\Box.cs" />
     <Compile Include="Entities\Actors\Objects\Building.cs" />
     <Compile Include="Entities\Actors\Objects\Heart.cs" />
@@ -266,24 +265,12 @@
     <Compile Include="GUI\Components\SaveLoadIcon.cs" />
     <Compile Include="GUI\Overlays\OverlayComponent.cs" />
     <Compile Include="GUI\Overlays\OverlayDialog.cs" />
-    <Compile Include="GUI\Overlays\OverlayMap.cs" />
     <Compile Include="GUI\Overlays\OverlayPause.cs" />
     <Compile Include="GUI\Overlays\OverlayPowerup.cs" />
-    <Compile Include="GUI\Overlays\OverlayWorldSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scenes\Credits.cs" />
-    <Compile Include="Scenes\EmulatorBoy\Classic.cs" />
-    <Compile Include="Scenes\EmulatorBoy\ClassicObject.cs" />
-    <Compile Include="Scenes\EmulatorBoy\Emulator.cs" />
-    <Compile Include="Scenes\EmulatorBoy\Sample\SampleClassic.cs" />
-    <Compile Include="Scenes\EmulatorBoy\Wellboy\WellboyClassic.cs" />
-    <Compile Include="Scenes\FileSelect.cs" />
     <Compile Include="Scenes\GameOver.cs" />
     <Compile Include="Scenes\Loader.cs" />
     <Compile Include="Scenes\End.cs" />
-    <Compile Include="Scenes\SettingsScene.cs" />
-    <Compile Include="Scenes\Test.cs" />
-    <Compile Include="Scenes\Title.cs" />
     <Compile Include="Scenes\Level.cs" />
     <Compile Include="Scenes\MainMenu.cs" />
     <Compile Include="Utils\ActiveFont.cs" />
@@ -296,14 +283,13 @@
     <Compile Include="Utils\SaveLoad\Session.cs" />
     <Compile Include="Utils\SaveLoad\Settings.cs" />
     <Compile Include="Utils\SaveLoad\UserIO.cs" />
-    <Compile Include="Scenes\WorldSelect\World.cs" />
   </ItemGroup>
   <ItemGroup>
     <!-- Include the Content directory -->
-    <Content Include="Content\Fonts\PressStart2P.fnt">
+    <Content Include="Content\Fonts\NokiaFont.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Fonts\PressStart2P.png">
+    <Content Include="Content\Fonts\NokiaFont.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Graphics\Atlases\Gameplay.png">

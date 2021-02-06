@@ -7,8 +7,8 @@ namespace Chip
 {
     public class Water : Actor
     {
-        private Color color = Constants.DarkGreen;
-        private Color top = Constants.NormalGreen;
+        private Color color = Constants.Dark;
+        private Color top = Constants.Light;
         private float _timer;
         private int _width;
         private int _height;

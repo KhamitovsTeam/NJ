@@ -104,7 +104,6 @@ namespace Chip
             GameplayBuffers.Create();
 
             SetBackgroundColor();
-            SetLevelMusic();
 
             LoadActor(Player, "intro");
 
@@ -117,19 +116,8 @@ namespace Chip
                     DeactivateEntities(GetEntitiesByTag("room" + room.ID));
             }
             OverlayPause overlayPause = new OverlayPause(this);
-            OverlayMap overlayMap = new OverlayMap(this);
             OverlayPowerup overlayPowerup = new OverlayPowerup(this);
             OverlayDialog overlayDialog = new OverlayDialog(this);
-            OverlayWorldSelector overlayWorldSelector = new OverlayWorldSelector(this);
-
-            //DiscordStatus.SetStatus("Level: " + ID);
-
-            //            var dialog = new DialogItem();
-            //            dialog.Messages.Add("Hello! How are you? How are you? How are you? How are you? How are you? Test");
-            //            dialog.Messages.Add("test");
-            //            dialog.Messages.Add("Bye!");
-            //            OverlayDialog.Instance.DialogItem = dialog;
-            //            OverlayDialog.Instance.Show();
         }
 
         public override void End()
@@ -146,10 +134,6 @@ namespace Chip
                 if (Input.Pressed("pause"))
                 {
                     Pause();
-                }
-                else if (Input.Pressed("map"))
-                {
-                    ShowMap();
                 }
             }
 
@@ -251,13 +235,13 @@ namespace Chip
             Draw.Begin(BlendState.AlphaBlend, SamplerState.PointClamp);
             const float padding = 6 * 4;
             if (Camera.X < -(double)padding)
-                Draw.Rect(Camera.X, Camera.Y, Math.Abs(Camera.X) - padding, Engine.Instance.Screen.Height, Constants.Background, 1f);
+                Draw.Rect(Camera.X, Camera.Y, Math.Abs(Camera.X) - padding, Engine.Instance.Screen.Height, Constants.Dark, 1f);
             if (Camera.Y < -(double)padding)
-                Draw.Rect(Camera.X, Camera.Y, Engine.Instance.Screen.Width, Math.Abs(Camera.Y) - padding, Constants.Background, 1f);
+                Draw.Rect(Camera.X, Camera.Y, Engine.Instance.Screen.Width, Math.Abs(Camera.Y) - padding, Constants.Dark, 1f);
             if (Camera.X + (double)Engine.Instance.Screen.Width > Width + (double)padding)
-                Draw.Rect(Width + padding, Camera.Y, Camera.X + Engine.Instance.Screen.Width - Width - padding, Engine.Instance.Screen.Height, Constants.Background, 1f);
+                Draw.Rect(Width + padding, Camera.Y, Camera.X + Engine.Instance.Screen.Width - Width - padding, Engine.Instance.Screen.Height, Constants.Dark, 1f);
             if (Camera.Y + (double)Engine.Instance.Screen.Height > Height + (double)padding)
-                Draw.Rect(Camera.X, Height + padding, Engine.Instance.Screen.Width, Camera.Y + Engine.Instance.Screen.Height - Height - padding, Constants.Background, 1f);
+                Draw.Rect(Camera.X, Height + padding, Engine.Instance.Screen.Width, Camera.Y + Engine.Instance.Screen.Height - Height - padding, Constants.Dark, 1f);
 
 #if DEBUG && !CONSOLE && !__MOBILE__
             if (Engine.Instance.Debug.Enabled)
@@ -592,17 +576,6 @@ namespace Chip
             OverlayPause.Instance.Show();
         }
 
-        private void ShowMap()
-        {
-            if (OverlayComponent != null)
-            {
-                OverlayComponent.Hide();
-                return;
-            }
-            IsGamePaused = true;
-            OverlayMap.Instance?.Show();
-        }
-
         private void LockCameraInBounds()
         {
             if (InCutscene) return;
@@ -668,232 +641,102 @@ namespace Chip
             switch (ID)
             {
                 case "01_00":
-                    fillColor = Constants.LightGreen;
-                    Engine.ClearColor = Constants.DarkGreen;
+                    fillColor = Constants.Light;
+                    Engine.ClearColor = Constants.Dark;
                     break;
                 case "01_01":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "01_02":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "01_03":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "01_04":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "01_05":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "02_00":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "02_01":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "02_02":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "02_03":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "02_04":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                
                 case "03_00":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "03_01":
-                    fillColor = Constants.Background;
+                    fillColor = Constants.Dark;
                     break;
                 case "03_02":
-                    fillColor = Constants.Background;
+                    fillColor = Constants.Dark;
                     break;
                 case "03_03":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "03_04":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "03_05":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "03_06":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "03_07":
-                    fillColor = Constants.Background;
+                    fillColor = Constants.Dark;
                     break;
                 case "03_08":
-                    fillColor = Constants.Background;
+                    fillColor = Constants.Dark;
                     break;
                 case "05_00":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_01":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_02":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_03":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_04":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_05":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_06":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_07":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "05_08":
-                    fillColor = Constants.NormalGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "06_00":
-                    fillColor = Constants.LightGreen;
+                    fillColor = Constants.Light;
                     break;
                 case "99_99":
-                    fillColor = Constants.ZzBlue;
+                    fillColor = Constants.Light;
                     break;
                 default:
-                    fillColor = Constants.Background;
-                    break;
-            }
-        }
-
-        private void SetLevelMusic()
-        {
-            switch (ID)
-            {
-                case "01_00":
-                    Music.Play("rocket_loop");
-                    break;
-                case "01_01":
-                    Music.Play("world_1");
-                    break;
-                case "01_02":
-                    Music.Play("world_1");
-                    break;
-                case "01_03":
-                    Music.Play("world_1");
-                    break;
-                case "01_04":
-                    Music.Play("world_1");
-                    break;
-                case "01_05":
-                    Music.Play("world_1");
-                    break;
-                case "01_06":
-                    Music.Play("secret_loop");
-                    break;
-                case "01_07":
-                    Music.Play("secret_loop");
-                    break;
-                case "01_08":
-                    Music.Play("secret_loop"); // room Super Mario
-                    break;
-                case "01_10":
-                    Music.Play("secret_loop"); // kittens house
-                    break;
-                case "01_11":
-                    Music.Play("secret_loop"); // room Super Mario
-                    break;
-                case "01_12":
-                    Music.Play("secret_loop"); // room Super Mario
-                    break;
-                case "02_00":
-                    Music.Play("rocket_loop");
-                    break;
-                case "02_01":
-                    Music.Play("world_2");
-                    break;
-                case "02_02":
-                    Music.Play("world_2");
-                    break;
-                case "02_03":
-                    Music.Play("world_2");
-                    break;
-                case "02_04":
-                    Music.Play("world_2");
-                    break;
-                case "02_05":
-                    Music.Play("secret_loop");
-                    break;
-                case "02_06":
-                    Music.Play("secret_loop");
-                    break;
-                case "03_00":
-                    Music.Play("rocket_loop");
-                    break;
-                case "03_01":
-                    Music.Play("world_3");
-                    break;
-                case "03_02":
-                    Music.Play("world_3");
-                    break;
-                case "03_03":
-                    Music.Play("world_3_mirror");
-                    break;
-                case "03_04":
-                    Music.Play("world_3_mirror");
-                    break;
-                case "03_05":
-                    Music.Play("world_3");
-                    break;
-                case "03_06":
-                    Music.Play("secret_loop");
-                    break;
-                case "03_07":
-                    Music.Play("secret_loop");
-                    break;
-                case "03_08":
-                    Music.Play("secret_loop");
-                    break;
-                case "05_00":
-                    Music.Play("rocket_loop");
-                    break;
-                case "05_01":
-                    Music.Play("world_5");
-                    break;
-                case "05_02":
-                    Music.Play("world_5");
-                    break;
-                case "05_03":
-                    Music.Play("world_5");
-                    break;
-                case "05_04":
-                    Music.Play("world_5");
-                    break;
-                case "05_05":
-                    Music.Play("world_5");
-                    break;
-                case "05_06":
-                    Music.Play("secret_loop");
-                    break;
-                case "05_07":
-                    Music.Play("secret_loop");
-                    break;
-                case "05_08":
-                    Music.Play("secret_loop");
-                    break;
-                case "06_00":
-                    Music.Play("rocket_loop");
-                    break;
-                case "06_01":
-                    Music.Play("world_6");
-                    break;
-                case "06_02":
-                    Music.Play("world_6");
-                    break;
-                default:
-                    Music.Play("world_1");
+                    fillColor = Constants.Dark;
                     break;
             }
         }

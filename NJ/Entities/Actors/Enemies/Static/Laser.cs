@@ -10,7 +10,7 @@ namespace Chip
         private int width;
         private int rotation;
         private Vector2 pos;
-        private readonly Color color = Constants.DarkGreen;
+        private readonly Color color = Constants.Dark;
 
         public int Rotation => rotation;
 
@@ -107,26 +107,26 @@ namespace Chip
                 case 0:
                     Draw.Rect(X - 3f, Y - 1f, width - 6f, 2f, color);
                     Draw.Rect(X + width - 9f, Y - 2f, 1f, 4f, color);
-                    Draw.Pixel(X - 4f + pos.X, Y - 1f + pos.Y, Constants.LightGreen);
-                    Draw.Pixel(X - 4f + pos.X + 1, Y - 1f + pos.Y + 1, Constants.LightGreen);
+                    Draw.Pixel(X - 4f + pos.X, Y - 1f + pos.Y, Constants.Light);
+                    Draw.Pixel(X - 4f + pos.X + 1, Y - 1f + pos.Y + 1, Constants.Light);
                     break;
                 case 90:
                     Draw.Rect(X - 1f, Y - 3f, 2f, width - 6f, color);
                     Draw.Rect(X - 2f, Y + width - 9f, 4f, 1f, color);
-                    Draw.Pixel(X - 1f + pos.X, Y - 3f + pos.Y, Constants.LightGreen);
-                    Draw.Pixel(X - 1f + pos.X + 1, Y - 3f + pos.Y + 1, Constants.LightGreen);
+                    Draw.Pixel(X - 1f + pos.X, Y - 3f + pos.Y, Constants.Light);
+                    Draw.Pixel(X - 1f + pos.X + 1, Y - 3f + pos.Y + 1, Constants.Light);
                     break;
                 case 180:
                     Draw.Rect(X - 6f, Y - 1f, width - 6f, 2f, color);
                     Draw.Rect(X - width + 9f, Y - 2f, 1f, 4f, color);
-                    Draw.Pixel(X + 2f + pos.X, Y - 1f + pos.Y, Constants.LightGreen);
-                    Draw.Pixel(X + 2f + pos.X + 1, Y - 1f + pos.Y + 1, Constants.LightGreen);
+                    Draw.Pixel(X + 2f + pos.X, Y - 1f + pos.Y, Constants.Light);
+                    Draw.Pixel(X + 2f + pos.X + 1, Y - 1f + pos.Y + 1, Constants.Light);
                     break;
                 default:
                     Draw.Rect(X - 1f, Y - 7f, 2f, width - 6f, color);
                     Draw.Rect(X - 2f, Y - width + 9f, 4f, 1f, color);
-                    Draw.Pixel(X - 1f + pos.X, Y + 2f + pos.Y, Constants.LightGreen);
-                    Draw.Pixel(X - 1f + pos.X + 1, Y + 2f + pos.Y + 1, Constants.LightGreen);
+                    Draw.Pixel(X - 1f + pos.X, Y + 2f + pos.Y, Constants.Light);
+                    Draw.Pixel(X - 1f + pos.X + 1, Y + 2f + pos.Y + 1, Constants.Light);
                     break;
             }
         }

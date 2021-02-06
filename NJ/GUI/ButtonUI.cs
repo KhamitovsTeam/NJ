@@ -55,7 +55,7 @@ namespace Chip
                 Y = size.Y / 2
             };
             var pos = Engine.Instance.CurrentCamera.Render + position;
-            Draw.Rect(position.X - origin.X, position.Y - origin.Y, size.X, size.Y, Constants.NormalGreen);
+            Draw.Rect(position.X - origin.X, position.Y - origin.Y, size.X, size.Y, Constants.Light);
             pos = new Vector2(pos.X - origin.X, pos.Y - origin.Y);
             Draw.DefaultFont.Draw(label, pos, color);
         }

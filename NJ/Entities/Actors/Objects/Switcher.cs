@@ -95,7 +95,7 @@ namespace Chip
         {
             base.Render();
             if (hintVisible)
-                ButtonUI.Render(hintPosition, "", Constants.DarkGreen, "action", 1f);
+                ButtonUI.Render(hintPosition, "", Constants.Dark, "action", 1f);
         }
     }
 }

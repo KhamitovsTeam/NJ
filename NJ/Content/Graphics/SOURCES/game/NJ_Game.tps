@@ -1111,6 +1111,10 @@
             </struct>
             <key type="filename">sceneries/cable0.png</key>
             <key type="filename">sceneries/cable1.png</key>
+            <key type="filename">sceneries/house0.png</key>
+            <key type="filename">sceneries/house1.png</key>
+            <key type="filename">sceneries/house2.png</key>
+            <key type="filename">sceneries/house3.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1249,6 +1253,24 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">sceneries/grave0.png</key>
+            <key type="filename">sceneries/grave1.png</key>
+            <key type="filename">sceneries/grave2.png</key>
+            <key type="filename">sceneries/grave3.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>1,2,2,4</rect>
+                <key>scale9Paddings</key>
+                <rect>1,2,2,4</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sceneries/kitten_shelf1.png</key>
             <key type="filename">sceneries/rocket/shest.png</key>
             <struct type="IndividualSpriteSettings">
@@ -1289,7 +1311,6 @@
             <key type="filename">sceneries/liana7.png</key>
             <key type="filename">sceneries/liana8.png</key>
             <key type="filename">sceneries/message_cloud.png</key>
-            <key type="filename">sceneries/message_cloud1.png</key>
             <key type="filename">sceneries/pipe_0.png</key>
             <key type="filename">sceneries/pipe_1.png</key>
             <key type="filename">sceneries/rocket/door.png</key>

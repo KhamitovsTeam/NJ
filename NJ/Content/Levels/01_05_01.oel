@@ -2,18 +2,19 @@
   <camera x="0" y="320" />
   <Sceneries />
   <Wall exportMode="Rectangles">
-    <rect x="0" y="0" w="44" h="8" />
-    <rect x="0" y="8" w="24" h="4" />
+    <rect x="0" y="0" w="44" h="12" />
     <rect x="0" y="12" w="20" h="4" />
     <rect x="0" y="16" w="16" h="32" />
     <rect x="16" y="28" w="4" h="20" />
     <rect x="20" y="32" w="4" h="16" />
     <rect x="24" y="36" w="60" h="12" />
-    <rect x="32" y="8" w="12" h="4" />
-    <rect x="36" y="12" w="12" h="4" />
-    <rect x="40" y="16" w="12" h="4" />
-    <rect x="44" y="20" w="12" h="4" />
+    <rect x="32" y="12" w="12" h="4" />
+    <rect x="36" y="16" w="12" h="4" />
+    <rect x="40" y="20" w="12" h="4" />
+    <rect x="44" y="24" w="12" h="4" />
     <rect x="52" y="0" w="32" h="4" />
+    <rect x="60" y="4" w="4" h="4" />
+    <rect x="64" y="8" w="4" h="4" />
     <rect x="68" y="32" w="16" h="4" />
     <rect x="72" y="4" w="12" h="4" />
     <rect x="72" y="28" w="12" h="4" />
@@ -21,8 +22,8 @@
   </Wall>
   <Actors />
   <Areas>
-    <ExitArea id="0" x="44" y="0" width="2" height="4" to="01_03" from="01_05" active="True" type="" />
-    <SpawnArea id="1" x="44" y="4" width="4" height="8" camX="0" camY="0" from="01_03" />
+    <ExitArea id="0" x="44" y="2" width="8" height="4" to="01_03" from="01_05" active="True" type="" />
+    <SpawnArea id="1" x="46" y="8" width="4" height="8" camX="0" camY="0" from="01_03" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

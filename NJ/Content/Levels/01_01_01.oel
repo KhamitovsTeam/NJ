@@ -22,10 +22,10 @@
     <Sky id="24" x="72" y="0" type="0" count="1" />
     <Sky id="24" x="76" y="0" type="0" count="1" />
     <Sky id="24" x="80" y="0" type="0" count="1" />
-    <Tree id="24" x="48" y="24" type="1" />
-    <Tree id="24" x="16" y="28" type="0" />
     <Tree id="24" x="64" y="28" type="1" />
-    <Tree id="24" x="32" y="24" type="1" />
+    <House id="0" x="12" y="28" type="1" />
+    <House id="1" x="28" y="24" type="0" />
+    <House id="2" x="40" y="24" type="3" />
   </Sceneries>
   <Wall exportMode="Rectangles">
     <rect x="0" y="36" w="84" h="12" />

@@ -28,7 +28,7 @@ namespace Chip
 
         private SaveLoadIcon()
         {
-            _savingText = Add(new Text(Fonts.MainFont, Texts.MainText["saver_saving"], Vector2.Zero, Constants.DarkGreen, Text.HorizontalAlign.Right, Text.VerticalAlign.Bottom));
+            _savingText = Add(new Text(Fonts.MainFont, Texts.MainText["saver_saving"], Vector2.Zero, Constants.Dark, Text.HorizontalAlign.Right, Text.VerticalAlign.Bottom));
 
             _cat = Add(new Animation(GFX.Gui["loader_cat"], 8, 8));
             _cat.Add("walk", 4f, true, 0, 1, 2, 3);
@@ -42,7 +42,7 @@ namespace Chip
             if (_instance == null) return;
             _savingText.X = (float)Math.Floor(Engine.Instance.CurrentCamera.X + Engine.Instance.Screen.Width - _cat.Width * 1.5f);
             _savingText.Y = (float)Math.Floor(Engine.Instance.CurrentCamera.Y + Engine.Instance.Screen.Height - _savingText.Height);
-            Draw.Rect(_savingText.X - _savingText.Width - 1f, _savingText.Y - _savingText.Height - 1f, _savingText.Width + 1f, _savingText.Height + 1f, Constants.LightGreen);
+            Draw.Rect(_savingText.X - _savingText.Width - 1f, _savingText.Y - _savingText.Height - 1f, _savingText.Width + 1f, _savingText.Height + 1f, Constants.Light);
             _cat.X = (float)Math.Floor(Engine.Instance.CurrentCamera.X + Engine.Instance.CurrentCamera.Width - 20f);
             _cat.Y = _savingText.Y - _cat.Height;
             //_cat.Y = (float) Math.Floor(Engine.Instance.CurrentCamera.Y + Engine.Instance.CurrentCamera.Height - 20f);

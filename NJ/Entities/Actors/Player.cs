@@ -853,7 +853,7 @@ namespace Chip
             else
                 base.Render();
             if (!solidDown && StateMachine.State == StateNormal && PlayerData.Footwear.Contains(Powerups.LevitationBoots))
-                Draw.Rect(Position.X - 6f, Position.Y + 8f, 12f, 2f, Constants.NormalGreen, glassWalkTimer * 1.5f);
+                Draw.Rect(Position.X - 6f, Position.Y + 8f, 12f, 2f, Constants.Light, glassWalkTimer * 1.5f);
             if (StateMachine.State == StateDead || StateMachine.State == StateLightShow)
                 Sprite.Render();
 

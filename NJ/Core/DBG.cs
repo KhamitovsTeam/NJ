@@ -53,8 +53,6 @@ namespace Chip
                 SaveData.Instance.CurrentSession.PlayerData = new PlayerData();
                 SaveData.Instance.CurrentSession.LevelsData = new List<LevelData>();
                 SaveData.Instance.CurrentSession = new Session();
-                //Engine.Scene = new Loader(SaveData.Instance.CurrentSession);
-                Engine.Scene = new Title();
             }
         }
 

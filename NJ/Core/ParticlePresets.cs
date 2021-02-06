@@ -35,7 +35,7 @@ namespace Chip
             Piece.Max = 5;
 
             Stars = new ParticlePreset();
-            Stars.Color(Constants.Background, Constants.LightGreen);
+            Stars.Color(Constants.Dark, Constants.Light);
             Stars.Angle(Calc.PI, Calc.PI);
             Stars.Speed(100f, 300f);
             Stars.Duration(1f, 4f);

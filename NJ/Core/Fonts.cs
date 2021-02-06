@@ -14,7 +14,7 @@ namespace Chip
         public static void Load()
         {
             Unload();
-            string path = Path.Combine(Engine.ContentDirectory, "Fonts/PressStart2P.fnt");
+            string path = Path.Combine(Engine.ContentDirectory, "Fonts/NokiaFont.fnt");
             XmlElement data = XML.Load(path)["font"];
             if (data != null)
             {

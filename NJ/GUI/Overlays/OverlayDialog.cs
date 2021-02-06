@@ -15,7 +15,7 @@ namespace Chip
         private Vector2 dialogPosition;
         private Vector2 dialogSize;
 
-        private readonly Text text = new Text(Fonts.MainFont, "text", Vector2.One, Constants.DarkGreen, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private readonly Text text = new Text(Fonts.MainFont, "text", Vector2.One, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
         
         private readonly Graphic topLeft;
         private readonly Graphic topMiddle;
@@ -88,7 +88,7 @@ namespace Chip
         {
             Draw.SetOffset(Engine.Instance.CurrentCamera.Render);
 
-            Draw.Rect(dialogPosition.X + 2, dialogPosition.Y - DialogOffset + 2, dialogSize.X - 4, dialogSize.Y - 4, Constants.DarkGreen);
+            Draw.Rect(dialogPosition.X + 2, dialogPosition.Y - DialogOffset + 2, dialogSize.X - 4, dialogSize.Y - 4, Constants.Dark);
 
             topLeft.RenderAt(dialogPosition.X, dialogPosition.Y - DialogOffset);
             topMiddle.RenderAt(dialogPosition.X + topLeft.Width / 2f, dialogPosition.Y - DialogOffset);
@@ -102,7 +102,7 @@ namespace Chip
             bottomRight.RenderAt(dialogPosition.X + dialogSize.X - bottomRight.Width, dialogPosition.Y + dialogSize.Y - bottomRight.Height - DialogOffset);
 
             text.DrawText = Calc.WrapText(Fonts.MainFont, message, dialogSize.X - Avatar.Width - DialogOffset * 4);
-            text.Color = Constants.Background;
+            text.Color = Constants.Dark;
             text.Position.X = Engine.Instance.CurrentCamera.Render.X + Avatar.Width + DialogOffset * 4;
             text.Position.Y = Engine.Instance.CurrentCamera.Render.Y + dialogPosition.Y + DialogOffset;
             text.Alpha = Alpha;
@@ -110,7 +110,7 @@ namespace Chip
 
             Avatar.RenderAt(new Vector2(dialogPosition.X + DialogOffset * 2, dialogPosition.Y - Avatar.Height / 2f));
 
-            ButtonUI.Render(new Vector2(closeButtonPadding, dialogPosition.Y + dialogSize.Y - ButtonUI.Height("", "cancel")), "", Constants.Background, "cancel", 1f);
+            ButtonUI.Render(new Vector2(closeButtonPadding, dialogPosition.Y + dialogSize.Y - ButtonUI.Height("", "cancel")), "", Constants.Dark, "cancel", 1f);
 
             Draw.ResetOffset();
         }

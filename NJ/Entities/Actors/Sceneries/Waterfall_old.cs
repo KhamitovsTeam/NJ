@@ -7,8 +7,8 @@ namespace Chip
 {
     public class Waterfall_old : Actor
     {
-        private Color color = Constants.LightGreen;
-        private Color center = Constants.NormalGreen;
+        private Color color = Constants.Light;
+        private Color center = Constants.Light;
         private float _timer;
         private int _width;
         private int _height;

@@ -25,9 +25,9 @@ namespace Chip
         public override void RenderAt(Vector2 position)
         {
             //Alpha = 0.3f;
-            Draw.Rect((position - Origin * Scale).X, (position - Origin * Scale).Y, Width * Scale.X, Height * Scale.Y, Constants.Background, 0.9f);
-            Draw.Rect((position - Origin * Scale).X, (position - Origin * Scale).Y, 1f, Height * Scale.Y, Constants.DarkGreen, 1f);
-            Draw.Rect((position - Origin * Scale).X + Width * Scale.X, (position - Origin * Scale).Y, 1f, Height * Scale.Y, Constants.DarkGreen, 1f);
+            Draw.Rect((position - Origin * Scale).X, (position - Origin * Scale).Y, Width * Scale.X, Height * Scale.Y, Constants.Dark, 0.9f);
+            Draw.Rect((position - Origin * Scale).X, (position - Origin * Scale).Y, 1f, Height * Scale.Y, Constants.Dark, 1f);
+            Draw.Rect((position - Origin * Scale).X + Width * Scale.X, (position - Origin * Scale).Y, 1f, Height * Scale.Y, Constants.Dark, 1f);
         }
     }
 }

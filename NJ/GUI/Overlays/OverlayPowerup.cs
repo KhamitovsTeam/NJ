@@ -12,10 +12,10 @@ namespace Chip
 
         private int coins;  // how many coins was selected
         private int kittens;  //  how many kittens was selected
-        private readonly Text title = new Text(Fonts.MainFont, "title", Vector2.One, Constants.DarkGreen);
-        private readonly Text _text = new Text(Fonts.MainFont, "powerup", Vector2.One, Constants.DarkGreen, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
-        private readonly Text _coinstext = new Text(Fonts.MainFont, "option", Vector2.One, Constants.DarkGreen, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
-        private readonly Text _kittenstext = new Text(Fonts.MainFont, "option", Vector2.One, Constants.DarkGreen, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private readonly Text title = new Text(Fonts.MainFont, "title", Vector2.One, Constants.Dark);
+        private readonly Text _text = new Text(Fonts.MainFont, "powerup", Vector2.One, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private readonly Text _coinstext = new Text(Fonts.MainFont, "option", Vector2.One, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
+        private readonly Text _kittenstext = new Text(Fonts.MainFont, "option", Vector2.One, Constants.Dark, Text.HorizontalAlign.Left, Text.VerticalAlign.Top);
         public Graphic icon;
 
         private int _padding = 170;
@@ -67,7 +67,7 @@ namespace Chip
             base.Render();
 
             title.DrawText = Calc.WrapText(Fonts.MainFont, Title, Engine.Instance.Screen.Width - _padding);
-            title.Color = Constants.Background;
+            title.Color = Constants.Dark;
             title.Position.X = Engine.Instance.CurrentCamera.Render.X + Engine.Instance.Screen.Width / 2f;
             title.Position.Y = Engine.Instance.CurrentCamera.Render.Y + 30 + title.Height;
             title.Alpha = Alpha;
@@ -76,7 +76,7 @@ namespace Chip
             icon = Powerup.Icon;
 
             _text.DrawText = Calc.WrapText(Fonts.MainFont, Powerup.Description, Engine.Instance.Screen.Width - _padding);
-            _text.Color = Constants.Background;
+            _text.Color = Constants.Dark;
             _text.Position.X = Engine.Instance.CurrentCamera.Render.X + (Engine.Instance.Screen.Width - _text.Width) / 2f;// + icon.Width / 2f;
             _text.Position.Y = Engine.Instance.CurrentCamera.Render.Y + Engine.Instance.Screen.Height / 2f - _text.Height / 2f;
             _text.Alpha = Alpha;
@@ -86,7 +86,7 @@ namespace Chip
             icon.Position.Y = Engine.Instance.Screen.Height / 2f - icon.Height / 2f;
             //icon.Render();
 
-            ButtonUI.Render(new Vector2(_confirmButtonPadding, Engine.Instance.Screen.Height - 32 * 0.4f), Texts.MainText["close"], Constants.Background, "cancel", 1f);
+            ButtonUI.Render(new Vector2(_confirmButtonPadding, Engine.Instance.Screen.Height - 32 * 0.4f), Texts.MainText["close"], Constants.Dark, "cancel", 1f);
 
             if (kittens == 0)
                 _kittenstext.DrawText = "000";

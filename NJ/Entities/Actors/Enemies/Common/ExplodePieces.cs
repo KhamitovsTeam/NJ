@@ -6,7 +6,7 @@ namespace Chip
 {
     public class ExplodePieces : Actor
     {
-        private Graphic _sprite;
+        private Graphic sprite;
         private float timeout = 1f;
         private bool stuck;
         private Vector2 stuckDirection;
@@ -16,9 +16,9 @@ namespace Chip
         public ExplodePieces()
             : base(0, 0)
         {
-            _sprite = new Graphic(GFX.Game["effects/pieces" + Utils.Choose(0, 3)]);
-            Add(_sprite);
-            _sprite.CenterOrigin();
+            sprite = new Graphic(GFX.Game["effects/pieces" + Utils.Choose(0, 3)]);
+            Add(sprite);
+            sprite.CenterOrigin();
             MoveCollider = Add(new Hitbox(-1, -1, 2, 2));
             MoveCollider.Tag((int)Tags.Piece);
             Particles = Add(new Particles());
@@ -30,10 +30,10 @@ namespace Chip
         public void Define(Vector2 position, Vector2? speed = null)
         {
             Position = position;
-            Speed = speed ?? new Vector2(Utils.RangeF(-60f, 60f), Utils.RangeF(-60f, -140f));
+            Speed = speed ?? new Vector2(Utils.RangeF(-30f, 30f), Utils.RangeF(-30f, -70f));
             stuck = false;
             MoveCollider.Reset(0, 0, 1, 1);
-            _sprite.Visible = true;
+            sprite.Visible = true;
         }
 
         public override void Update()
@@ -59,17 +59,17 @@ namespace Chip
         public void Stick(int x, int y)
         {
             if (x > 0)
-                MoveCollider.Reset(-2, -2, 2, 4);
+                MoveCollider.Reset(-1, -1, 1, 1);
             else if (x < 0)
-                MoveCollider.Reset(0, -2, 2, 4);
+                MoveCollider.Reset(0, -1, 1, 1);
             else if (y > 0)
-                MoveCollider.Reset(-2, -2, 4, 2);
+                MoveCollider.Reset(-1, -1, 1, 1);
             else
-                MoveCollider.Reset(-2, 0, 4, 2);
+                MoveCollider.Reset(-1, 0, 1, 1);
             X += x * 4;
             Y += y * 4;
             X = (float)(Math.Floor(X / 8.0) * 8.0 + 4.0) - x * 4;
-            Y = (float)(Math.Floor(Y / 8.0) * 8.0 + 4.0) - y * 4;
+            Y = (float)(Math.Floor(Y / 4.0) * 4.0 + 2.0) - y * 2;
             stuck = true;
             stuckDirection = new Vector2(x, y);
             timer = timeout;

@@ -772,11 +772,11 @@ namespace Chip
         {
             if (Hidden) return;
             hurtEnemy = enemy as Enemy;
-            int num = 160;
+            int num = 20;
             if (Invincible <= 0.0)
             {
                 Push.X = ForceDirection(enemy.X) * num;
-                Push.Y = -220f;
+                Push.Y = -10f;
                 StateMachine.Set(StateHurt);
             }
             if (Invincible > 0.0)

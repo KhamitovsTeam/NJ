@@ -16,7 +16,7 @@ namespace Chip
         public int Health = 1;
         public int Points = 1;
         public bool Explodable = true;
-        public int Dust = 4;
+        public int Dust = 1;
         public bool Stompable = true;
         public string AvatarPath = "default_avatar";
         public bool Invincible;
@@ -185,8 +185,8 @@ namespace Chip
             Engine.Instance.CurrentCamera.Shake(2f, 0.3f);
             Input.Rumble(Input.RumbleStrength.Strong, Input.RumbleLength.Medium);
             Scene.Remove(this);
-            Smoke.Burst(X, Y, 8f, 0.0f, Calc.TAU, Dust);
-            ExplodePieces.Burst(Position, 30);
+            Smoke.Burst(X, Y, 4f, 0.0f, Calc.TAU, Dust);
+            ExplodePieces.Burst(Position, 10);
             SFX.Play("enemy_death");
             CreateReward();
         }

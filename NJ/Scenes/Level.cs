@@ -358,9 +358,9 @@ namespace Chip
             BackTiles = Add(new BackTiles("sceneries/building_back", GridBack, this), "parallax");
 
             // left wall
-            Add(new LevelWall(0, 0, 0, 0, 2, Height));
+            Add(new LevelWall(-1, 0, 0, 0, 1, Height));
             // right wall
-            Add(new LevelWall(Width, 0, 0, 0, 2, Height));
+            Add(new LevelWall(Width, 0, 0, 0, 1, Height));
             // bottom wall
             Add(new LevelWall(0, Height, 0, Height, Width, 2));
             // top wall

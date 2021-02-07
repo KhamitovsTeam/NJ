@@ -5,19 +5,19 @@ namespace Chip
 {
     public class Explosion : Entity
     {
-        private readonly Animation _sprite;
-        private readonly Hitbox _collider;
-        private float _delay;
-        private bool _started;
-        private bool _damaged;
+        private readonly Animation sprite;
+        private readonly Hitbox collider;
+        private float delay;
+        private bool started;
+        private bool damaged;
 
         public Explosion()
             : base(0, 0)
         {
-            _sprite = Add(new Animation(GFX.Game["effects/explosion"], 16, 16, Done));
-            _sprite.Add("explode", 20f, false, 0, 1, 2, 3);
-            _sprite.CenterOrigin();
-            _collider = Add(new Hitbox(-6, -6, 12, 12));
+            sprite = Add(new Animation(GFX.Game["effects/explosion"], 16, 16, Done));
+            sprite.Add("explode", 20f, false, 0, 1, 2, 3);
+            sprite.CenterOrigin();
+            collider = Add(new Hitbox(-6, -6, 12, 12));
 
             Depth = -10;
         }
@@ -25,29 +25,29 @@ namespace Chip
         public void Define(Vector2 position, float delay)
         {
             Position = position;
-            _delay = delay;
+            this.delay = delay;
             Visible = false;
-            _started = false;
-            _damaged = false;
-            _sprite.Rotation = Utils.Random() * Calc.TAU;
+            started = false;
+            damaged = false;
+            sprite.Rotation = Utils.Random() * Calc.TAU;
         }
 
         public override void Update()
         {
-            if (!_started)
+            if (!started)
             {
-                _delay -= Engine.DeltaTime;
-                if (_delay <= 0.0)
+                delay -= Engine.DeltaTime;
+                if (delay <= 0.0)
                 {
-                    _sprite.Play("explode", true);
-                    _started = true;
+                    sprite.Play("explode", true);
+                    started = true;
                     Visible = true;
                 }
             }
-            else if (_sprite.Frame > 0 && !_damaged)
+            else if (sprite.Frame > 0 && !damaged)
             {
-                _damaged = true;
-                Hitbox hitbox = _collider;
+                damaged = true;
+                Hitbox hitbox = collider;
                 int[] intArray = {
                     (int) Tags.Solid,
                     (int) Tags.Enemy,
@@ -64,7 +64,7 @@ namespace Chip
 
         public void Done(string animation)
         {
-            if (animation != "explode" || !_started)
+            if (animation != "explode" || !started)
                 return;
             Cache.Store(this);
             Scene.Remove(this);

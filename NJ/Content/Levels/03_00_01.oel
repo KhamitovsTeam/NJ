@@ -22,21 +22,19 @@
     <Sky id="24" x="72" y="0" type="0" count="1" />
     <Sky id="24" x="76" y="0" type="0" count="1" />
     <Sky id="24" x="80" y="0" type="0" count="1" />
-    <Tree id="24" x="64" y="28" type="1" />
-    <House id="0" x="12" y="28" type="1" />
-    <House id="1" x="28" y="24" type="0" />
-    <House id="2" x="40" y="24" type="3" />
+    <Tree id="24" x="20" y="32" type="0" />
+    <Tree id="24" x="68" y="32" type="1" />
   </Sceneries>
   <Wall exportMode="Rectangles">
-    <rect x="0" y="36" w="84" h="12" />
-    <rect x="24" y="32" w="36" h="4" />
+    <rect x="0" y="40" w="4" h="8" />
+    <rect x="12" y="40" w="72" h="8" />
   </Wall>
   <Actors />
   <Areas>
-    <SpawnArea id="0" x="6" y="28" width="4" height="8" camX="0" camY="0" from="01_00" />
-    <ExitArea id="1" x="0" y="32" width="2" height="4" to="01_00" from="01_01" active="True" type="" />
-    <ExitArea id="3" x="82" y="32" width="2" height="4" to="01_02" from="01_01" active="True" type="" />
-    <SpawnArea id="3" x="76" y="28" width="4" height="8" camX="0" camY="0" from="01_02" />
+    <ExitArea id="3" x="82" y="36" width="2" height="4" to="03_01" from="03_00" active="True" type="" />
+    <SpawnArea id="3" x="76" y="32" width="4" height="8" camX="0" camY="0" from="03_01" />
+    <ExitArea id="0" x="4" y="40" width="8" height="4" to="02_04" from="03_00" active="True" type="" />
+    <SpawnArea id="1" x="14" y="32" width="4" height="8" camX="0" camY="0" from="02_04" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

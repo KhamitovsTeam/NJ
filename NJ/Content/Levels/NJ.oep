@@ -270,8 +270,8 @@
     </EntityDefinition>
     <EntityDefinition Name="Walker1" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
       <Size>
-        <Width>16</Width>
-        <Height>16</Height>
+        <Width>6</Width>
+        <Height>8</Height>
       </Size>
       <Origin>
         <X>0</X>

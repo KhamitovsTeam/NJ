@@ -43,6 +43,10 @@ namespace Chip
         public override void CreateFromXml(XmlElement xml, Room room, Vector2 offset, Level level)
         {
             base.CreateFromXml(xml, room, offset, level);
+
+            X = offset.X;
+            Y = offset.Y + 2;
+
             if (xml.HasAttr("reward"))
             {
                 reward = (Rewards)xml.AttrInt("reward");

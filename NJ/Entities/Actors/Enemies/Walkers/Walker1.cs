@@ -19,7 +19,7 @@ namespace Chip
             _sprite = Add(XML.LoadSprite<Animation>(GFX.Game, GFX.Sprites, GetType().Name));
 
             // collider
-            MoveCollider = Add(new Hitbox(-5, -5, 10, 10));
+            MoveCollider = Add(new Hitbox(-3, -4, 6, 8));
             MoveCollider.Tag((int)Tags.Enemy);
 
             // states
@@ -31,13 +31,13 @@ namespace Chip
 
             _state.Set("walk");
             DeadTimeoutRate = 6f;
-            _walkspeed = Utils.Range(24, 48);
+            _walkspeed = Utils.Range(8, 16);
         }
 
         public void Define(Vector2 position)
         {
             Position = position;
-            MoveCollider.Reset(-5, -5, 10, 10);
+            MoveCollider.Reset(-3, -4, 6, 8);
             _sprite.Visible = true;
         }
 
@@ -51,7 +51,7 @@ namespace Chip
         private void BeginWalk()
         {
             _direction = -_direction;
-            _sprite.Scale.X = _direction;
+            _sprite.Scale.X = -_direction;
             _sprite.Play("walk");
         }
 
@@ -59,12 +59,12 @@ namespace Chip
         {
             Speed.X = _direction * _walkspeed;
             Move();
-            if (!MoveCollider.Check(_direction * 16, 1, (int)Tags.Solid))
+            if (!MoveCollider.Check(_direction * 4, 1, (int)Tags.Solid))
                 _state.Set("turn");
             if (!MoveCollider.Check(0, 1, (int)Tags.Solid))
                 _state.Set("fall");
-            if ((X > (double)(Room.SceneX + 16) || _direction >= 0) &&
-                (X < (double)(Room.SceneX + Room.SceneWidth - 16) || _direction <= 0))
+            if ((X > (double)(Room.SceneX + 4) || _direction >= 0) &&
+                (X < (double)(Room.SceneX + Room.SceneWidth - 4) || _direction <= 0))
                 return;
             _state.Set("turn");
         }

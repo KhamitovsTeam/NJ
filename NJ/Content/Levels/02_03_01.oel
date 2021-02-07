@@ -1,40 +1,30 @@
 <level width="84" height="48">
   <camera x="0" y="0" />
-  <Sceneries>
-    <Sky id="3" x="0" y="0" type="0" count="1" />
-    <Sky id="4" x="4" y="0" type="0" count="1" />
-    <Sky id="5" x="8" y="0" type="0" count="1" />
-    <Sky id="6" x="12" y="0" type="0" count="1" />
-    <Sky id="7" x="16" y="0" type="0" count="1" />
-    <Sky id="8" x="20" y="0" type="0" count="1" />
-    <Sky id="9" x="24" y="0" type="0" count="1" />
-    <Sky id="10" x="28" y="0" type="0" count="1" />
-    <Sky id="11" x="32" y="0" type="0" count="1" />
-    <Sky id="12" x="36" y="0" type="0" count="1" />
-    <Sky id="13" x="40" y="0" type="0" count="1" />
-    <Sky id="14" x="44" y="0" type="0" count="1" />
-    <Sky id="15" x="48" y="0" type="0" count="1" />
-    <Sky id="16" x="52" y="0" type="0" count="1" />
-    <Sky id="17" x="56" y="0" type="0" count="1" />
-    <Sky id="18" x="60" y="0" type="0" count="1" />
-    <Sky id="19" x="64" y="0" type="0" count="1" />
-    <Sky id="20" x="68" y="0" type="0" count="1" />
-    <Sky id="21" x="72" y="0" type="0" count="1" />
-    <Sky id="22" x="76" y="0" type="0" count="1" />
-    <Sky id="23" x="80" y="0" type="0" count="1" />
-    <Tree id="0" x="20" y="28" type="0" />
-    <Tree id="1" x="32" y="28" type="0" />
-    <Tree id="2" x="44" y="28" type="0" />
-  </Sceneries>
+  <Sceneries />
   <Wall exportMode="Rectangles">
-    <rect x="0" y="36" w="84" h="12" />
+    <rect x="0" y="0" w="84" h="4" />
+    <rect x="0" y="12" w="56" h="4" />
+    <rect x="0" y="16" w="4" h="32" />
+    <rect x="4" y="24" w="80" h="4" />
+    <rect x="4" y="40" w="80" h="8" />
+    <rect x="68" y="12" w="16" h="4" />
+    <rect x="80" y="4" w="4" h="8" />
+    <rect x="80" y="28" w="4" h="12" />
   </Wall>
-  <Actors />
+  <Actors>
+    <Walker1 id="0" x="16" y="32" reward="0" />
+    <Walker1 id="1" x="68" y="32" reward="0" />
+    <Walker1 id="2" x="8" y="32" reward="0" />
+    <Walker1 id="3" x="48" y="32" reward="0" />
+    <Walker1 id="4" x="36" y="32" reward="0" />
+    <Walker1 id="5" x="12" y="16" reward="0" />
+    <Walker1 id="6" x="44" y="4" reward="0" />
+  </Actors>
   <Areas>
-    <SpawnArea id="1" x="6" y="28" width="4" height="8" camX="0" camY="0" from="02_02" />
-    <ExitArea id="0" x="82" y="32" width="2" height="4" to="02_04" from="02_03" active="True" type="" />
-    <SpawnArea id="2" x="76" y="28" width="4" height="8" camX="0" camY="0" from="02_04" />
-    <ExitArea id="3" x="0" y="32" width="2" height="4" to="02_02" from="02_03" active="True" type="" />
+    <SpawnArea id="1" x="6" y="4" width="4" height="8" camX="0" camY="0" from="02_02" />
+    <ExitArea id="0" x="82" y="20" width="2" height="4" to="02_04" from="02_03" active="True" type="" />
+    <SpawnArea id="2" x="76" y="16" width="4" height="8" camX="0" camY="0" from="02_04" />
+    <ExitArea id="3" x="0" y="8" width="2" height="4" to="02_02" from="02_03" active="True" type="" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

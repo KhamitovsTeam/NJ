@@ -80,11 +80,11 @@
   </Sprite>
 
   <Sprite name="Walker1" texture="enemies/walker1">
-    <Size width="16" height="16"/>
-    <Origin x="8" y="11"/>
+    <Size width="6" height="8"/>
+    <Origin x="3" y="4"/>
     <Animations>
       <Anim name="stand" speed="0" frames="0"/>
-      <Anim name="walk" speed="10" frames="0,1,2,3,4"/>
+      <Anim name="walk" speed="10" frames="0,1,2,3"/>
     </Animations>
   </Sprite>
 

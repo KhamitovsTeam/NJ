@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Levels>
-  <Level id="01_00" name="forest_first" roomWidth="84" roomHeight="48">
+  <Level id="01_00" name="village_first" roomWidth="84" roomHeight="48">
       <Set name="intro" count="1" rooms="01" />
   </Level>
-  <Level id="01_01" name="forest_second" roomWidth="84" roomHeight="48">
+  <Level id="01_01" name="village_second" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
-  <Level id="01_02" name="forest_third" roomWidth="84" roomHeight="48">
+  <Level id="01_02" name="village_third" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
-  <Level id="01_03" name="forest_fourth" roomWidth="84" roomHeight="48">
+  <Level id="01_03" name="village_fourth" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
-  <Level id="01_04" name="forest_fifth" roomWidth="84" roomHeight="48">
+  <Level id="01_04" name="village_fifth" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
-  <Level id="01_05" name="forest_hole" roomWidth="84" roomHeight="48">
+  <Level id="01_05" name="village_hole" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
   <Level id="02_00" name="grave_first" roomWidth="84" roomHeight="48">
@@ -31,6 +31,21 @@
     <Set name="intro" count="1" rooms="01" />
   </Level>
   <Level id="02_04" name="grave_fifth" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="03_00" name="forest_first" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="03_01" name="forest_second" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="03_02" name="forest_third" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="03_03" name="forest_fourth" roomWidth="84" roomHeight="48">
+    <Set name="intro" count="1" rooms="01" />
+  </Level>
+  <Level id="03_04" name="forest_fifth" roomWidth="84" roomHeight="48">
     <Set name="intro" count="1" rooms="01" />
   </Level>
 </Levels>

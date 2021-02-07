@@ -1,115 +1,39 @@
-<level width="320" height="192">
-  <camera x="0" y="0" />
+<level width="84" height="48">
+  <camera x="0" y="320" />
   <Sceneries>
-    <Liana id="0" x="0" y="80" type="3" />
-    <Liana id="1" x="16" y="80" type="3" />
-    <Liana id="2" x="32" y="80" type="3" />
-    <Liana id="3" x="48" y="80" type="3" />
-    <Liana id="4" x="64" y="64" type="4" />
-    <Liana id="5" x="80" y="48" type="3" />
-    <Liana id="6" x="96" y="48" type="3" />
-    <Liana id="7" x="112" y="48" type="3" />
-    <Liana id="8" x="128" y="48" type="4" />
-    <Liana id="9" x="144" y="48" type="3" />
-    <Liana id="10" x="160" y="48" type="3" />
-    <Liana id="11" x="176" y="48" type="3" />
-    <Liana id="12" x="192" y="48" type="3" />
-    <Liana id="13" x="208" y="64" type="3" />
-    <Liana id="14" x="224" y="64" type="3" />
-    <Liana id="15" x="240" y="64" type="3" />
-    <Liana id="16" x="256" y="48" type="3" />
-    <Liana id="17" x="272" y="48" type="3" />
-    <Liana id="18" x="288" y="48" type="3" />
-    <Liana id="19" x="304" y="48" type="3" />
-    <Grass id="20" x="48" y="112" type="4" />
-    <Grass id="21" x="160" y="128" type="5" />
-    <Grass id="22" x="256" y="112" type="5" />
-    <Grass id="23" x="304" y="128" type="4" />
-    <Grass id="24" x="288" y="128" type="4" />
-    <Grass id="25" x="272" y="128" type="4" />
-    <Grass id="26" x="240" y="96" type="4" />
-    <Grass id="27" x="208" y="96" type="4" />
-    <Grass id="28" x="192" y="96" type="4" />
-    <Grass id="29" x="176" y="112" type="4" />
-    <Grass id="30" x="144" y="128" type="4" />
-    <Grass id="31" x="128" y="128" type="4" />
-    <Grass id="32" x="112" y="128" type="4" />
-    <Grass id="33" x="96" y="128" type="4" />
-    <Grass id="34" x="80" y="128" type="5" />
-    <Grass id="35" x="64" y="128" type="4" />
-    <Grass id="36" x="0" y="112" type="4" />
-    <Grass id="37" x="16" y="112" type="4" />
-    <Back id="38" x="0" y="80" type="11" />
-    <Back id="39" x="16" y="80" type="11" />
-    <Back id="40" x="32" y="80" type="11" />
-    <Back id="41" x="48" y="80" type="11" />
-    <Back id="42" x="64" y="80" type="11" />
-    <Back id="43" x="80" y="80" type="11" />
-    <Back id="44" x="96" y="80" type="11" />
-    <Back id="45" x="112" y="64" type="11" />
-    <Back id="46" x="96" y="64" type="11" />
-    <Back id="47" x="80" y="64" type="11" />
-    <Back id="48" x="64" y="64" type="11" />
-    <Back id="49" x="96" y="48" type="11" />
-    <Back id="50" x="80" y="48" type="11" />
-    <Back id="51" x="112" y="48" type="11" />
-    <Back id="52" x="128" y="48" type="11" />
-    <Back id="53" x="144" y="48" type="11" />
-    <Back id="54" x="160" y="48" type="11" />
-    <Back id="55" x="176" y="48" type="11" />
-    <Back id="56" x="192" y="48" type="11" />
-    <Back id="57" x="192" y="64" type="11" />
-    <Back id="58" x="176" y="64" type="11" />
-    <Back id="59" x="208" y="80" type="11" />
-    <Back id="60" x="208" y="64" type="11" />
-    <Back id="61" x="224" y="64" type="11" />
-    <Back id="62" x="256" y="64" type="11" />
-    <Back id="63" x="240" y="80" type="11" />
-    <Back id="64" x="272" y="64" type="11" />
-    <Back id="65" x="272" y="48" type="11" />
-    <Back id="66" x="288" y="64" type="11" />
-    <Back id="67" x="256" y="48" type="11" />
-    <Back id="68" x="304" y="48" type="11" />
-    <Back id="69" x="304" y="64" type="11" />
-    <Back id="70" x="224" y="80" type="11" />
-    <Back id="71" x="144" y="80" type="11" />
-    <Back id="72" x="112" y="96" type="11" />
-    <Back id="73" x="128" y="96" type="11" />
-    <Back id="74" x="304" y="96" type="11" />
-    <Back id="75" x="288" y="96" type="11" />
-    <Back id="76" x="224" y="160" type="11" />
-    <Liana id="77" x="224" y="160" type="3" />
+    <Sky id="24" x="0" y="0" type="0" count="1" />
+    <Sky id="24" x="4" y="0" type="0" count="1" />
+    <Sky id="24" x="8" y="0" type="0" count="1" />
+    <Sky id="24" x="12" y="0" type="0" count="1" />
+    <Sky id="24" x="16" y="0" type="0" count="1" />
+    <Sky id="24" x="20" y="0" type="0" count="1" />
+    <Sky id="24" x="24" y="0" type="0" count="1" />
+    <Sky id="24" x="28" y="0" type="0" count="1" />
+    <Sky id="24" x="32" y="0" type="0" count="1" />
+    <Sky id="24" x="36" y="0" type="0" count="1" />
+    <Sky id="24" x="40" y="0" type="0" count="1" />
+    <Sky id="24" x="44" y="0" type="0" count="1" />
+    <Sky id="24" x="48" y="0" type="0" count="1" />
+    <Sky id="24" x="52" y="0" type="0" count="1" />
+    <Sky id="24" x="56" y="0" type="0" count="1" />
+    <Sky id="24" x="60" y="0" type="0" count="1" />
+    <Sky id="24" x="64" y="0" type="0" count="1" />
+    <Sky id="24" x="68" y="0" type="0" count="1" />
+    <Sky id="24" x="72" y="0" type="0" count="1" />
+    <Sky id="24" x="76" y="0" type="0" count="1" />
+    <Sky id="24" x="80" y="0" type="0" count="1" />
+    <Tree id="24" x="20" y="32" type="0" />
+    <Tree id="24" x="68" y="32" type="1" />
+    <Tree id="0" x="40" y="32" type="0" />
+    <Tree id="1" x="56" y="32" type="0" />
   </Sceneries>
   <Wall exportMode="Rectangles">
-    <rect x="0" y="0" w="320" h="48" />
-    <rect x="0" y="48" w="80" h="16" />
-    <rect x="0" y="64" w="64" h="16" />
-    <rect x="0" y="128" w="64" h="64" />
-    <rect x="64" y="144" w="256" h="16" />
-    <rect x="64" y="160" w="160" h="32" />
-    <rect x="176" y="128" w="96" h="16" />
-    <rect x="192" y="112" w="64" h="16" />
-    <rect x="208" y="48" w="48" h="16" />
-    <rect x="224" y="176" w="96" h="16" />
-    <rect x="240" y="160" w="80" h="16" />
+    <rect x="0" y="40" w="84" h="8" />
   </Wall>
-  <Actors>
-    <Copter id="2" x="96" y="80" />
-    <Coin id="3" x="64" y="128" />
-    <Coin id="4" x="80" y="128" />
-    <Coin id="5" x="48" y="112" />
-    <Coin id="6" x="160" y="128" />
-    <Coin id="7" x="176" y="112" />
-    <Coin id="8" x="256" y="112" />
-    <Coin id="9" x="272" y="128" />
-    <Coin id="10" x="304" y="96" />
-    <Coin id="11" x="288" y="96" />
-    <Walker4 id="12" x="112" y="128" />
-    <Walker3 id="13" x="192" y="96" />
-  </Actors>
+  <Actors />
   <Areas>
-    <SpawnArea id="0" x="32" y="112" width="16" height="16" camX="0" camY="30" from="03_03" />
-    <ExitArea id="1" x="0" y="112" width="2" height="16" to="03_03" from="03_04" active="True" type="" />
+    <SpawnArea id="0" x="6" y="32" width="4" height="8" camX="0" camY="0" from="03_03" />
+    <ExitArea id="0" x="0" y="36" width="2" height="4" to="03_03" from="03_04" active="True" type="" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

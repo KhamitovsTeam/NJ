@@ -679,10 +679,10 @@ namespace Chip
                     fillColor = Constants.Light;
                     break;
                 case "03_01":
-                    fillColor = Constants.Dark;
+                    fillColor = Constants.Light;
                     break;
                 case "03_02":
-                    fillColor = Constants.Dark;
+                    fillColor = Constants.Light;
                     break;
                 case "03_03":
                     fillColor = Constants.Light;
@@ -693,50 +693,11 @@ namespace Chip
                 case "03_05":
                     fillColor = Constants.Light;
                     break;
-                case "03_06":
-                    fillColor = Constants.Light;
-                    break;
-                case "03_07":
-                    fillColor = Constants.Dark;
-                    break;
-                case "03_08":
-                    fillColor = Constants.Dark;
-                    break;
-                case "05_00":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_01":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_02":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_03":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_04":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_05":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_06":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_07":
-                    fillColor = Constants.Light;
-                    break;
-                case "05_08":
-                    fillColor = Constants.Light;
-                    break;
-                case "06_00":
-                    fillColor = Constants.Light;
-                    break;
                 case "99_99":
                     fillColor = Constants.Light;
                     break;
                 default:
-                    fillColor = Constants.Dark;
+                    fillColor = Constants.Light;
                     break;
             }
         }

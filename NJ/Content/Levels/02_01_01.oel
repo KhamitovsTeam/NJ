@@ -22,22 +22,23 @@
     <Sky id="21" x="72" y="0" type="0" count="1" />
     <Sky id="22" x="76" y="0" type="0" count="1" />
     <Sky id="23" x="80" y="0" type="0" count="1" />
-    <Tree id="0" x="20" y="28" type="1" />
+    <Tree id="0" x="16" y="28" type="1" />
     <Grave id="2" x="68" y="28" type="2" />
     <Grave id="2" x="60" y="28" type="1" />
-    <Grave id="2" x="52" y="28" type="2" />
     <Grave id="2" x="44" y="28" type="3" />
-    <Grave id="2" x="36" y="28" type="1" />
-    <Grave id="2" x="28" y="28" type="1" />
+    <Grave id="2" x="32" y="28" type="1" />
   </Sceneries>
   <Wall exportMode="Rectangles">
-    <rect x="0" y="36" w="84" h="12" />
+    <rect x="0" y="36" w="44" h="8" />
+    <rect x="0" y="44" w="40" h="4" />
+    <rect x="48" y="36" w="36" h="8" />
+    <rect x="52" y="44" w="32" h="4" />
   </Wall>
   <Actors />
   <Areas>
     <SpawnArea id="1" x="6" y="28" width="4" height="8" camX="0" camY="0" from="02_00" />
-    <ExitArea id="0" x="82" y="32" width="2" height="4" to="02_02" from="02_01" active="True" type="" />
-    <SpawnArea id="2" x="76" y="28" width="4" height="8" camX="0" camY="0" from="02_02" />
+    <ExitArea id="0" x="44" y="38" width="4" height="4" to="02_02" from="02_01" active="True" type="" />
+    <SpawnArea id="2" x="38" y="28" width="4" height="8" camX="0" camY="0" from="02_02" />
     <ExitArea id="3" x="0" y="32" width="2" height="4" to="02_00" from="02_01" active="True" type="" />
   </Areas>
   <BackTiles exportMode="Rectangles" />

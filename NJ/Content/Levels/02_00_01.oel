@@ -24,11 +24,16 @@
     <Sky id="23" x="80" y="0" type="0" count="1" />
     <Grave id="0" x="68" y="28" type="0" />
     <Grave id="1" x="60" y="28" type="1" />
+    <Tree id="2" x="20" y="28" type="0" />
+    <Tree id="24" x="40" y="28" type="3" />
+    <Tree id="25" x="52" y="28" type="2" />
   </Sceneries>
   <Wall exportMode="Rectangles">
     <rect x="0" y="36" w="84" h="12" />
   </Wall>
-  <Actors />
+  <Actors>
+    <Walker1 id="0" x="44" y="28" reward="0" />
+  </Actors>
   <Areas>
     <SpawnArea id="1" x="6" y="28" width="4" height="8" camX="0" camY="0" from="01_04" />
     <ExitArea id="0" x="82" y="32" width="2" height="4" to="02_01" from="02_00" active="True" type="" />

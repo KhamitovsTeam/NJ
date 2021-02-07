@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:f43817f2acd5c0763a47f89060745be7:3c8308e25b50d103c585a4b384371668:2b2448431d228a272c2ec50b117434b3$ -->
+<!-- $TexturePacker:SmartUpdate:94efdcbd1a29e51c56a5119f25de1ff9:703de271bf3fd0cd6ad9ac675e4ccbf5:2b2448431d228a272c2ec50b117434b3$ -->
 <TextureAtlas imagePath="Gameplay.png" width="1024" height="565">
-    <SubTexture name="bullet" x="940" y="462" width="2" height="2"/>
+    <SubTexture name="bullet" x="896" y="528" width="2" height="2"/>
     <SubTexture name="effects/bulletburst" x="384" y="467" width="6" height="6"/>
     <SubTexture name="effects/explosion" x="326" y="451" width="64" height="16"/>
     <SubTexture name="effects/pattern0" x="664" y="478" width="6" height="6"/>
     <SubTexture name="effects/pattern1" x="952" y="196" width="6" height="6"/>
-    <SubTexture name="effects/pattern2" x="406" y="265" width="2" height="2"/>
+    <SubTexture name="effects/pattern2" x="940" y="462" width="2" height="2"/>
     <SubTexture name="effects/pattern3" x="975" y="260" width="6" height="6"/>
     <SubTexture name="effects/pattern4" x="997" y="86" width="6" height="6"/>
     <SubTexture name="effects/pattern5" x="984" y="324" width="6" height="6"/>
@@ -16,8 +16,8 @@
     <SubTexture name="effects/piece0" x="664" y="484" width="6" height="6"/>
     <SubTexture name="effects/piece1" x="958" y="196" width="6" height="6"/>
     <SubTexture name="effects/pieces0" x="528" y="446" width="3" height="3"/>
-    <SubTexture name="effects/pieces1" x="656" y="398" width="2" height="2"/>
-    <SubTexture name="effects/pieces2" x="658" y="398" width="2" height="2"/>
+    <SubTexture name="effects/pieces1" x="406" y="265" width="2" height="2"/>
+    <SubTexture name="effects/pieces2" x="656" y="398" width="2" height="2"/>
     <SubTexture name="effects/pieces3" x="584" y="562" width="3" height="3"/>
     <SubTexture name="effects/rocket_start_steam" x="408" y="73" width="124" height="324"/>
     <SubTexture name="effects/smoke" x="971" y="134" width="32" height="8"/>
@@ -57,6 +57,7 @@
     <SubTexture name="enemies/walker4_" x="734" y="452" width="96" height="16"/>
     <SubTexture name="enemies/walker5" x="734" y="468" width="96" height="16"/>
     <SubTexture name="enemies/waterfall_water" x="952" y="146" width="32" height="32"/>
+    <SubTexture name="enemies/worm" x="110" y="556" width="60" height="8"/>
     <SubTexture name="objects/blocker" x="848" y="538" width="16" height="16"/>
     <SubTexture name="objects/box" x="528" y="430" width="128" height="16"/>
     <SubTexture name="objects/bubble" x="904" y="266" width="80" height="16"/>
@@ -68,9 +69,9 @@
     <SubTexture name="objects/coin" x="78" y="556" width="32" height="9"/>
     <SubTexture name="objects/coins" x="844" y="448" width="64" height="16"/>
     <SubTexture name="objects/computer" x="904" y="282" width="80" height="16"/>
-    <SubTexture name="objects/doorjamb" x="926" y="464" width="16" height="16"/>
-    <SubTexture name="objects/fakewall" x="926" y="480" width="16" height="16"/>
-    <SubTexture name="objects/good_robot" x="896" y="552" width="18" height="8"/>
+    <SubTexture name="objects/doorjamb" x="896" y="539" width="16" height="16"/>
+    <SubTexture name="objects/fakewall" x="926" y="464" width="16" height="16"/>
+    <SubTexture name="objects/good_robot" x="792" y="96" width="18" height="8"/>
     <SubTexture name="objects/heart" x="336" y="515" width="48" height="32"/>
     <SubTexture name="objects/kitten0" x="384" y="481" width="112" height="16"/>
     <SubTexture name="objects/kitten1" x="384" y="497" width="112" height="16"/>
@@ -79,8 +80,8 @@
     <SubTexture name="objects/kitten4" x="752" y="404" width="112" height="16"/>
     <SubTexture name="objects/movedoor" x="555" y="64" width="160" height="16"/>
     <SubTexture name="objects/moveplatform" x="904" y="298" width="80" height="16"/>
-    <SubTexture name="objects/moveplatform_rope" x="922" y="496" width="16" height="16"/>
-    <SubTexture name="objects/rock" x="984" y="142" width="16" height="16"/>
+    <SubTexture name="objects/moveplatform_rope" x="926" y="480" width="16" height="16"/>
+    <SubTexture name="objects/rock" x="922" y="496" width="16" height="16"/>
     <SubTexture name="objects/rocket/arcade" x="830" y="464" width="64" height="16"/>
     <SubTexture name="objects/savepoint" x="734" y="436" width="110" height="16"/>
     <SubTexture name="objects/star" x="904" y="314" width="80" height="16"/>
@@ -89,36 +90,36 @@
     <SubTexture name="objects/stone3" x="1021" y="107" width="3" height="8"/>
     <SubTexture name="objects/stone4" x="752" y="400" width="4" height="4"/>
     <SubTexture name="objects/switcher" x="336" y="467" width="48" height="48"/>
-    <SubTexture name="objects/teleport" x="984" y="158" width="16" height="16"/>
+    <SubTexture name="objects/teleport" x="925" y="512" width="16" height="16"/>
     <SubTexture name="objects/treadmill" x="692" y="336" width="64" height="48"/>
     <SubTexture name="objects/tv0" x="326" y="375" width="72" height="76"/>
     <SubTexture name="objects/tv1" x="708" y="96" width="84" height="92"/>
     <SubTexture name="objects/tv2" x="224" y="375" width="102" height="92"/>
     <SubTexture name="objects/tv3" x="532" y="282" width="96" height="100"/>
-    <SubTexture name="objects/window" x="896" y="531" width="16" height="16"/>
-    <SubTexture name="player" x="164" y="556" width="16" height="8"/>
-    <SubTexture name="sceneries/arrow_down0" x="110" y="556" width="27" height="9"/>
-    <SubTexture name="sceneries/arrow_down1" x="137" y="556" width="27" height="9"/>
-    <SubTexture name="sceneries/arrow_down2" x="898" y="512" width="27" height="9"/>
-    <SubTexture name="sceneries/back0" x="912" y="531" width="16" height="16"/>
-    <SubTexture name="sceneries/back1" x="1007" y="196" width="16" height="16"/>
-    <SubTexture name="sceneries/back2" x="930" y="544" width="16" height="16"/>
-    <SubTexture name="sceneries/back3" x="946" y="544" width="16" height="16"/>
+    <SubTexture name="objects/window" x="984" y="142" width="16" height="16"/>
+    <SubTexture name="player" x="884" y="321" width="16" height="8"/>
+    <SubTexture name="sceneries/arrow_down0" x="898" y="512" width="27" height="9"/>
+    <SubTexture name="sceneries/arrow_down1" x="898" y="521" width="27" height="9"/>
+    <SubTexture name="sceneries/arrow_down2" x="896" y="530" width="27" height="9"/>
+    <SubTexture name="sceneries/back0" x="984" y="158" width="16" height="16"/>
+    <SubTexture name="sceneries/back1" x="912" y="539" width="16" height="16"/>
+    <SubTexture name="sceneries/back2" x="928" y="544" width="16" height="16"/>
+    <SubTexture name="sceneries/back3" x="944" y="544" width="16" height="16"/>
     <SubTexture name="sceneries/back4" x="928" y="414" width="16" height="16"/>
     <SubTexture name="sceneries/back5" x="928" y="430" width="16" height="16"/>
     <SubTexture name="sceneries/back6" x="944" y="413" width="16" height="16"/>
     <SubTexture name="sceneries/back7" x="960" y="413" width="16" height="16"/>
     <SubTexture name="sceneries/back8" x="944" y="429" width="16" height="16"/>
     <SubTexture name="sceneries/back9" x="960" y="429" width="16" height="16"/>
-    <SubTexture name="sceneries/back10" x="1007" y="212" width="16" height="16"/>
-    <SubTexture name="sceneries/back11" x="1007" y="228" width="16" height="16"/>
-    <SubTexture name="sceneries/back12" x="1007" y="244" width="16" height="16"/>
-    <SubTexture name="sceneries/back13" x="1003" y="133" width="16" height="16"/>
-    <SubTexture name="sceneries/back14" x="1000" y="149" width="16" height="16"/>
-    <SubTexture name="sceneries/back15" x="925" y="512" width="16" height="16"/>
-    <SubTexture name="sceneries/back16" x="928" y="528" width="16" height="16"/>
-    <SubTexture name="sceneries/back17" x="938" y="496" width="16" height="16"/>
-    <SubTexture name="sceneries/back18" x="941" y="512" width="16" height="16"/>
+    <SubTexture name="sceneries/back10" x="1007" y="196" width="16" height="16"/>
+    <SubTexture name="sceneries/back11" x="1007" y="212" width="16" height="16"/>
+    <SubTexture name="sceneries/back12" x="1007" y="228" width="16" height="16"/>
+    <SubTexture name="sceneries/back13" x="1007" y="244" width="16" height="16"/>
+    <SubTexture name="sceneries/back14" x="1003" y="133" width="16" height="16"/>
+    <SubTexture name="sceneries/back15" x="1000" y="149" width="16" height="16"/>
+    <SubTexture name="sceneries/back16" x="938" y="496" width="16" height="16"/>
+    <SubTexture name="sceneries/back17" x="941" y="512" width="16" height="16"/>
+    <SubTexture name="sceneries/back18" x="928" y="528" width="16" height="16"/>
     <SubTexture name="sceneries/back19" x="944" y="528" width="16" height="16"/>
     <SubTexture name="sceneries/back_sign51" x="976" y="413" width="16" height="16"/>
     <SubTexture name="sceneries/back_sign52" x="976" y="429" width="16" height="16"/>
@@ -126,24 +127,24 @@
     <SubTexture name="sceneries/back_sign54" x="1008" y="413" width="16" height="16"/>
     <SubTexture name="sceneries/back_sign55" x="992" y="429" width="16" height="16"/>
     <SubTexture name="sceneries/back_sign56" x="1008" y="429" width="16" height="16"/>
-    <SubTexture name="sceneries/back_sign57" x="331" y="547" width="16" height="16"/>
-    <SubTexture name="sceneries/back_sign58" x="347" y="547" width="16" height="16"/>
-    <SubTexture name="sceneries/back_sign59" x="363" y="547" width="16" height="16"/>
+    <SubTexture name="sceneries/back_sign57" x="940" y="446" width="16" height="16"/>
+    <SubTexture name="sceneries/back_sign58" x="956" y="445" width="16" height="16"/>
+    <SubTexture name="sceneries/back_sign59" x="972" y="445" width="16" height="16"/>
     <SubTexture name="sceneries/back_tree0" x="384" y="513" width="84" height="52"/>
     <SubTexture name="sceneries/back_tree1" x="468" y="513" width="84" height="52"/>
     <SubTexture name="sceneries/back_tree2" x="552" y="494" width="84" height="52"/>
     <SubTexture name="sceneries/back_tree3" x="636" y="494" width="84" height="52"/>
     <SubTexture name="sceneries/building_back" x="911" y="202" width="64" height="32"/>
-    <SubTexture name="sceneries/cable0" x="940" y="446" width="16" height="16"/>
-    <SubTexture name="sceneries/cable1" x="956" y="445" width="16" height="16"/>
-    <SubTexture name="sceneries/cable2" x="972" y="445" width="16" height="16"/>
-    <SubTexture name="sceneries/cable3" x="988" y="445" width="16" height="16"/>
-    <SubTexture name="sceneries/cage0" x="1004" y="445" width="16" height="16"/>
-    <SubTexture name="sceneries/cage1" x="942" y="462" width="16" height="16"/>
-    <SubTexture name="sceneries/cage2" x="942" y="478" width="16" height="16"/>
-    <SubTexture name="sceneries/cage3" x="958" y="461" width="16" height="16"/>
-    <SubTexture name="sceneries/cage4" x="974" y="461" width="16" height="16"/>
-    <SubTexture name="sceneries/cage5" x="958" y="477" width="16" height="16"/>
+    <SubTexture name="sceneries/cable0" x="988" y="445" width="16" height="16"/>
+    <SubTexture name="sceneries/cable1" x="1004" y="445" width="16" height="16"/>
+    <SubTexture name="sceneries/cable2" x="942" y="462" width="16" height="16"/>
+    <SubTexture name="sceneries/cable3" x="942" y="478" width="16" height="16"/>
+    <SubTexture name="sceneries/cage0" x="958" y="461" width="16" height="16"/>
+    <SubTexture name="sceneries/cage1" x="974" y="461" width="16" height="16"/>
+    <SubTexture name="sceneries/cage2" x="958" y="477" width="16" height="16"/>
+    <SubTexture name="sceneries/cage3" x="990" y="461" width="16" height="16"/>
+    <SubTexture name="sceneries/cage4" x="974" y="477" width="16" height="16"/>
+    <SubTexture name="sceneries/cage5" x="990" y="477" width="16" height="16"/>
     <SubTexture name="sceneries/chain" x="552" y="562" width="32" height="3"/>
     <SubTexture name="sceneries/city_building0" x="655" y="208" width="64" height="64"/>
     <SubTexture name="sceneries/city_building1" x="719" y="188" width="64" height="64"/>
@@ -157,10 +158,10 @@
     <SubTexture name="sceneries/dust1" x="542" y="446" width="128" height="32"/>
     <SubTexture name="sceneries/dust2" x="783" y="193" width="128" height="32"/>
     <SubTexture name="sceneries/exit" x="532" y="73" width="15" height="7"/>
-    <SubTexture name="sceneries/flag0" x="990" y="461" width="16" height="16"/>
-    <SubTexture name="sceneries/flag1" x="974" y="477" width="16" height="16"/>
-    <SubTexture name="sceneries/flag2" x="990" y="477" width="16" height="16"/>
-    <SubTexture name="sceneries/fly" x="914" y="552" width="16" height="8"/>
+    <SubTexture name="sceneries/flag0" x="1006" y="461" width="16" height="16"/>
+    <SubTexture name="sceneries/flag1" x="1006" y="477" width="16" height="16"/>
+    <SubTexture name="sceneries/flag2" x="954" y="494" width="16" height="16"/>
+    <SubTexture name="sceneries/fly" x="861" y="353" width="16" height="8"/>
     <SubTexture name="sceneries/glitch_0" x="800" y="538" width="48" height="16"/>
     <SubTexture name="sceneries/glitch_1" x="964" y="360" width="48" height="16"/>
     <SubTexture name="sceneries/glitch_2" x="964" y="376" width="48" height="16"/>
@@ -168,13 +169,13 @@
     <SubTexture name="sceneries/grass_world2" x="180" y="524" width="38" height="4"/>
     <SubTexture name="sceneries/grave0" x="807" y="32" width="4" height="8"/>
     <SubTexture name="sceneries/grave1" x="864" y="404" width="4" height="8"/>
-    <SubTexture name="sceneries/grave2" x="807" y="40" width="4" height="8"/>
-    <SubTexture name="sceneries/grave3" x="807" y="48" width="4" height="8"/>
+    <SubTexture name="sceneries/grave2" x="900" y="321" width="4" height="8"/>
+    <SubTexture name="sceneries/grave3" x="807" y="40" width="4" height="8"/>
     <SubTexture name="sceneries/house0" x="1016" y="260" width="8" height="8"/>
     <SubTexture name="sceneries/house1" x="1016" y="268" width="8" height="8"/>
     <SubTexture name="sceneries/house2" x="1016" y="276" width="8" height="8"/>
     <SubTexture name="sceneries/house3" x="1016" y="284" width="8" height="8"/>
-    <SubTexture name="sceneries/kitten_shelf0" x="1006" y="461" width="16" height="16"/>
+    <SubTexture name="sceneries/kitten_shelf0" x="970" y="493" width="16" height="16"/>
     <SubTexture name="sceneries/kitten_shelf1" x="948" y="346" width="16" height="32"/>
     <SubTexture name="sceneries/kitten_shelf2" x="528" y="481" width="24" height="32"/>
     <SubTexture name="sceneries/liana0" x="502" y="465" width="32" height="16"/>
@@ -217,7 +218,7 @@
     <SubTexture name="sceneries/pipe_0" x="866" y="512" width="32" height="16"/>
     <SubTexture name="sceneries/pipe_1" x="864" y="528" width="32" height="16"/>
     <SubTexture name="sceneries/planet" x="994" y="324" width="30" height="28"/>
-    <SubTexture name="sceneries/platform" x="1006" y="477" width="16" height="16"/>
+    <SubTexture name="sceneries/platform" x="986" y="493" width="16" height="16"/>
     <SubTexture name="sceneries/rocket" x="911" y="234" width="64" height="32"/>
     <SubTexture name="sceneries/rocket/bed" x="925" y="362" width="23" height="18"/>
     <SubTexture name="sceneries/rocket/chair" x="390" y="451" width="8" height="12"/>
@@ -229,32 +230,32 @@
     <SubTexture name="sceneries/rocket/table" x="861" y="362" width="64" height="18"/>
     <SubTexture name="sceneries/rocket/wc" x="756" y="337" width="128" height="16"/>
     <SubTexture name="sceneries/rocket_start" x="792" y="106" width="128" height="55"/>
-    <SubTexture name="sceneries/secretwall0" x="954" y="494" width="16" height="16"/>
-    <SubTexture name="sceneries/secretwall1" x="970" y="493" width="16" height="16"/>
-    <SubTexture name="sceneries/secretwall2" x="986" y="493" width="16" height="16"/>
-    <SubTexture name="sceneries/secretwall3" x="1002" y="493" width="16" height="16"/>
-    <SubTexture name="sceneries/secretwall4" x="957" y="510" width="16" height="16"/>
-    <SubTexture name="sceneries/secretwall5" x="973" y="509" width="16" height="16"/>
+    <SubTexture name="sceneries/secretwall0" x="1002" y="493" width="16" height="16"/>
+    <SubTexture name="sceneries/secretwall1" x="957" y="510" width="16" height="16"/>
+    <SubTexture name="sceneries/secretwall2" x="973" y="509" width="16" height="16"/>
+    <SubTexture name="sceneries/secretwall3" x="989" y="509" width="16" height="16"/>
+    <SubTexture name="sceneries/secretwall4" x="1005" y="509" width="16" height="16"/>
+    <SubTexture name="sceneries/secretwall5" x="960" y="526" width="16" height="16"/>
     <SubTexture name="sceneries/sky0" x="534" y="465" width="8" height="16"/>
     <SubTexture name="sceneries/sky0_" x="868" y="380" width="64" height="18"/>
     <SubTexture name="sceneries/sky1" x="864" y="414" width="64" height="18"/>
     <SubTexture name="sceneries/sky2" x="952" y="178" width="64" height="18"/>
-    <SubTexture name="sceneries/star0" x="898" y="521" width="25" height="5"/>
-    <SubTexture name="sceneries/star1" x="224" y="368" width="25" height="5"/>
-    <SubTexture name="sceneries/star2" x="898" y="526" width="25" height="5"/>
-    <SubTexture name="sceneries/star3" x="896" y="547" width="25" height="5"/>
-    <SubTexture name="sceneries/star4" x="902" y="560" width="25" height="5"/>
+    <SubTexture name="sceneries/star0" x="224" y="368" width="25" height="5"/>
+    <SubTexture name="sceneries/star1" x="896" y="555" width="25" height="5"/>
+    <SubTexture name="sceneries/star2" x="902" y="560" width="25" height="5"/>
+    <SubTexture name="sceneries/star3" x="331" y="547" width="25" height="5"/>
+    <SubTexture name="sceneries/star4" x="356" y="547" width="25" height="5"/>
     <SubTexture name="sceneries/trash" x="715" y="64" width="96" height="32"/>
     <SubTexture name="sceneries/tree0" x="655" y="272" width="5" height="8"/>
     <SubTexture name="sceneries/tree1" x="1019" y="0" width="5" height="8"/>
     <SubTexture name="sceneries/tree2" x="751" y="257" width="5" height="8"/>
-    <SubTexture name="sceneries/tree3" x="331" y="531" width="5" height="8"/>
-    <SubTexture name="sceneries/tube0" x="989" y="509" width="16" height="16"/>
-    <SubTexture name="sceneries/tube1" x="1005" y="509" width="16" height="16"/>
-    <SubTexture name="sceneries/tube2" x="960" y="526" width="16" height="16"/>
-    <SubTexture name="sceneries/tube3" x="976" y="525" width="16" height="16"/>
-    <SubTexture name="sceneries/tube4" x="992" y="525" width="16" height="16"/>
-    <SubTexture name="sceneries/tube5" x="1008" y="525" width="16" height="16"/>
+    <SubTexture name="sceneries/tree3" x="247" y="353" width="5" height="8"/>
+    <SubTexture name="sceneries/tube0" x="960" y="542" width="16" height="16"/>
+    <SubTexture name="sceneries/tube1" x="976" y="525" width="16" height="16"/>
+    <SubTexture name="sceneries/tube2" x="976" y="541" width="16" height="16"/>
+    <SubTexture name="sceneries/tube3" x="992" y="525" width="16" height="16"/>
+    <SubTexture name="sceneries/tube4" x="1008" y="525" width="16" height="16"/>
+    <SubTexture name="sceneries/tube5" x="992" y="541" width="16" height="16"/>
     <SubTexture name="sceneries/vessel1" x="756" y="353" width="105" height="35"/>
     <SubTexture name="sceneries/vessel2" x="252" y="352" width="154" height="23"/>
     <SubTexture name="sceneries/vessels" x="811" y="86" width="154" height="20"/>

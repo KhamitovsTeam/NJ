@@ -75,6 +75,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Actors\Enemies\Walkers\Worm.cs" />
     <Compile Include="Entities\Actors\Sceneries\Grave.cs" />
     <Compile Include="Entities\Actors\Sceneries\House.cs" />
     <Compile Include="NJGame.cs" />

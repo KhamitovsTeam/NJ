@@ -28,7 +28,9 @@
   <Wall exportMode="Rectangles">
     <rect x="0" y="40" w="84" h="8" />
   </Wall>
-  <Actors />
+  <Actors>
+    <Worm id="0" x="44" y="32" />
+  </Actors>
   <Areas>
     <ExitArea id="3" x="82" y="36" width="2" height="4" to="03_03" from="03_02" active="True" type="" />
     <SpawnArea id="3" x="76" y="32" width="4" height="8" camX="0" camY="0" from="03_03" />

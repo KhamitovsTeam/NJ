@@ -88,6 +88,15 @@
     </Animations>
   </Sprite>
 
+  <Sprite name="Worm" texture="enemies/worm">
+    <Size width="12" height="8"/>
+    <Origin x="6" y="4"/>
+    <Animations>
+      <Anim name="stand" speed="0" frames="0"/>
+      <Anim name="walk" speed="10" frames="0,1,2,3,4"/>
+    </Animations>
+  </Sprite>
+
   <Sprite name="Walker2" texture="enemies/walker2">
     <Size width="16" height="16"/>
     <Origin x="8" y="8"/>

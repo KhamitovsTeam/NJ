@@ -59,7 +59,7 @@ namespace Chip
         private void ShowDialog()
         {
             OverlayDialog.Instance.DialogItem = new DialogItem(Texts.MainText["dialog_old_sward"]);
-            OverlayDialog.Instance.Avatar = new Graphic(GFX.Gui["sward_face"]);
+            //OverlayDialog.Instance.Avatar = new Graphic(GFX.Gui["sward_face"]);
             OverlayDialog.Instance.Show();
             isShown = true;
         }

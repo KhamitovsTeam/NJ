@@ -54,7 +54,6 @@ namespace Chip
                 SFX.Play("coin");
                 Scene.Remove(this);
                 Player.Instance.PlayerData.Coins += 1;
-                Player.Instance.CoinHintVisible();
 
                 // TODO сохранить статус собранной монеты
 

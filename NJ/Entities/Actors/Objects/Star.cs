@@ -55,7 +55,6 @@ namespace Chip
                 Scene.Remove(this);
                 Player.Instance.PlayerData.Stars += 1;
                 Player.Instance.PlayerData.Coins += 10;
-                Player.Instance.StarHintVisible();
                 SFX.Play("star");
             }
             base.Update();

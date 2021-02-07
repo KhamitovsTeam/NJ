@@ -376,9 +376,9 @@
     <None Include="Content\Levels\01_02_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Content\Levels\01_05_01.oel">
+    <Content Include="Content\Levels\01_05_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="Content\Levels\02_02_01.oel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

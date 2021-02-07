@@ -47,7 +47,6 @@ namespace Chip
                 SFX.Play("coin");
                 Scene.Remove(this);
                 Player.Instance.PlayerData.Coins += 1;
-                Player.Instance.CoinHintVisible();
 
                 // Добавляем в список монет
                 var levelData = Level.Session.GetLevelData(Level.ID);

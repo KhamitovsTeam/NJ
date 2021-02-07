@@ -68,8 +68,6 @@ namespace Chip
 
         private static Player instance;
 
-        private readonly Animation coinHint;
-        private readonly Animation starHint;
         private readonly LightLine lightLine;
         private Vector2 pointing = new Vector2(1f, 0.0f);
         private Vector2 maxspeed;
@@ -148,18 +146,6 @@ namespace Chip
 
             // Player's weapon
             CurrentWeapon = Add(new Pistol());
-
-            coinHint = Add(new Animation(GFX.Gui["coin_hint"], 4, 6, ClearCoinHint));
-            coinHint.Add("idle", 10f, false, 0, 1, 0);
-            coinHint.X = -2;
-            coinHint.Y = -17;
-            coinHint.Visible = false;
-
-            starHint = Add(new Animation(GFX.Gui["star_hint"], 6, 6, ClearStarHint));
-            starHint.Add("idle", 10f, false, 0, 1, 0);
-            starHint.X = -2;
-            starHint.Y = -17;
-            starHint.Visible = false;
 
             lightLine = Add(new LightLine());
             lightLine.Width = 0f;
@@ -459,11 +445,11 @@ namespace Chip
                 }
             }
 
-            if (Position.Y + Sprite.Height / 2f >= Level.Height)
+            /*if (Position.Y + Sprite.Height / 2f >= Level.Height)
             {
                 PlayerData.Lives = 0;
                 StateMachine.Set(StateDead);
-            }
+            }*/
 
             //CameraPointing.X += (float) (((double) (this._direction * 32) - (double) this.CameraPointing.X) / 40.0);
             //CameraPointing.Y += (float) (((double) this.pointing.Y * 48.0 - (double) this.CameraPointing.Y) / 20.0);
@@ -874,30 +860,6 @@ namespace Chip
                 //  StateMachine.Set(STATE_NORMAL);
                 Sprite.Play("stand", true);
             }
-        }
-
-        public void CoinHintVisible()
-        {
-            coinHint.Visible = true;
-            coinHint.Play("idle", true);
-        }
-
-        public void ClearCoinHint(string anim)
-        {
-            coinHint.Stop();
-            coinHint.Visible = false;
-        }
-
-        public void StarHintVisible()
-        {
-            starHint.Visible = true;
-            starHint.Play("idle", true);
-        }
-
-        public void ClearStarHint(string anim)
-        {
-            starHint.Stop();
-            starHint.Visible = false;
         }
     }
 }

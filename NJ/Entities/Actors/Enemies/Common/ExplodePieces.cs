@@ -82,7 +82,7 @@ namespace Chip
                 if (axis == Hit.Horizontal)
                     Stick(Math.Sign(velocity.X), 0);
                 else
-                    Stick(0, Math.Sign(velocity.Y));
+                    Stick(0, - (int) Math.Abs(velocity.Y));
             }
             base.HitSolid(axis, ref velocity, collision);
         }

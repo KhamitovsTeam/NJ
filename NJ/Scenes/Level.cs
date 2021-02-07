@@ -106,6 +106,19 @@ namespace Chip
             SetBackgroundColor();
 
             LoadActor(Player, "intro");
+            if (Session != null)
+            {
+                // Прыжок в некоторых уровнях при переходе (типа выпрыгивает снизу вверх)
+                // Facing: -1 влево, 1 вправо
+                // Если Facing не задать, то прыгнет в ту сторону, в которую смотрел до прыжка
+                if (Session.ToLevel == "01_03" && Session.FromLevel == "01_05")
+                    // || Session.ToLevel == "01_05" && Session.FromLevel == "01_04"
+                {
+                    Player.PlayerData.Facing = 1;
+                    Player.Push.X = Player.PlayerData.Facing * 96f;
+                    Player.Push.Y = -64f;
+                }
+            }
 
             CurrentRoom = GetPlayerRoom();
             CurrentRoom.Visited = true;

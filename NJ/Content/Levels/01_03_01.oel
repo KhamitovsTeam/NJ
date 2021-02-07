@@ -35,12 +35,12 @@
   </Wall>
   <Actors />
   <Areas>
-    <ExitArea id="3" x="82" y="32" width="2" height="4" to="01_04" from="01_03" active="True" type="" />
-    <SpawnArea id="3" x="76" y="28" width="4" height="8" camX="0" camY="0" from="01_04" />
-    <SpawnArea id="3" x="6" y="28" width="4" height="8" camX="0" camY="0" from="01_02" />
-    <ExitArea id="3" x="0" y="32" width="2" height="4" to="01_02" from="01_03" active="True" type="" />
-    <ExitArea id="0" x="44" y="40" width="8" height="4" to="01_05" from="01_03" active="True" type="" />
-    <SpawnArea id="1" x="40" y="32" width="4" height="8" camX="0" camY="0" from="01_05" />
+    <ExitArea id="1" x="-2" y="20" width="1" height="30" to="01_02" from="01_03" active="True" type="" />
+    <ExitArea id="2" x="81" y="20" width="1" height="30" to="01_04" from="01_03" active="True" type="" />
+    <ExitArea id="3" x="46" y="46" width="8" height="2" to="01_05" from="01_03" active="True" type="" />
+    <SpawnArea id="4" x="76" y="28" width="4" height="8" camX="0" camY="0" from="01_04" />
+    <SpawnArea id="5" x="6" y="28" width="4" height="8" camX="0" camY="0" from="01_02" />
+    <SpawnArea id="6" x="46" y="30" width="8" height="2" camX="0" camY="0" from="01_05" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

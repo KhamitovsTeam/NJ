@@ -36,8 +36,8 @@
     <GoodRobot id="0" x="44" y="24" />
   </Actors>
   <Areas>
+    <ExitArea id="0" x="81" y="20" width="1" height="30" to="01_01" from="01_00" active="True" type="" />
     <SpawnArea id="1" x="12" y="24" width="4" height="8" camX="0" camY="0" from="wellboy" />
-    <ExitArea id="0" x="82" y="32" width="2" height="4" to="01_01" from="01_00" active="True" type="" />
     <SpawnArea id="2" x="76" y="28" width="4" height="8" camX="0" camY="0" from="01_01" />
   </Areas>
   <BackTiles exportMode="Rectangles" />

@@ -41,8 +41,7 @@ namespace Chip
             {
                 //Scene = new WorldSelect();
                 OverlayDialog.Instance.DialogItem = new DialogItem(
-                    "Привет! Текст на русском языке. Текст на русском языке. Текст на русском языке.",
-                    "Hello! How are you? How are you? How are you? How are you? How are you? Test"
+                    "Hello! How are you?"
                 );
                 OverlayDialog.Instance.Show();
             }

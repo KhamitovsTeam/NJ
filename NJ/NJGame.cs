@@ -71,8 +71,8 @@ namespace Chip
             Fonts.Load();
 
             Log.Message("[nj] Load Texts");
-            Localization.SetLang(Settings.Instance.Language);
-            Texts.Load(Localization.Lang);
+            Localization.SetLang("en");
+            Texts.Load("en");
 
             Log.Message("[nj] Init Game Particles");
             ParticlePresets.Init();

@@ -24,7 +24,7 @@
     <!-- Saver -->
     <string name="saver_saving">Saving…</string>
     <!-- End -->
-    <string name="end_title">Thanks for playing!</string>
+    <string name="end_title">Thank you!</string>
     <!-- GameOver -->
     <string name="gameover_title">Game over</string>
     <!-- Pause Overlay -->

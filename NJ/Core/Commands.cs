@@ -28,7 +28,6 @@ namespace Chip
         {
             SaveData.Instance.CurrentSession.ToLevel = "01_02";
             SaveData.Instance.CurrentSession.FromLevel = "01_01";
-            SaveData.Instance.CurrentSession.PlayerData?.Footwear.Add(Powerups.RocketBoots);
             Player.Instance.Position = new Vector2(434, 428);
             Engine.Scene = new Loader(SaveData.Instance.CurrentSession/*, Player.Instance*/);
         }

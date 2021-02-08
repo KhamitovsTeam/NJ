@@ -270,7 +270,6 @@
     </Compile>
     <Compile Include="Entities\Weapons\Pistol.cs" />
     <Compile Include="Entities\Weapons\Weapons.cs" />
-    <Compile Include="Entities\World\BackTiles.cs" />
     <Compile Include="Entities\World\LightLine.cs" />
     <Compile Include="Entities\World\Wall.cs" />
     <Compile Include="GUI\ButtonUI.cs" />

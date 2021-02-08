@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:0401a9e8b67dbe3dbbec00cde15d3962:38e443fac47b257e9f678a794040553e:1e6a5090ab1e732f101744ff34ac0440$ -->
-<TextureAtlas imagePath="Misc.png" width="128" height="82">
-    <SubTexture name="logo" x="0" y="16" width="115" height="50"/>
-    <SubTexture name="pixel" x="115" y="16" width="1" height="1"/>
-    <SubTexture name="ship" x="0" y="0" width="128" height="16"/>
-    <SubTexture name="ship_fire" x="0" y="66" width="80" height="16"/>
+<!-- $TexturePacker:SmartUpdate:d5f9a5bedfe81e819d2e4c566bfe2fa2:5fed5ceb09948693b325c05f4aaf5af7:1e6a5090ab1e732f101744ff34ac0440$ -->
+<TextureAtlas imagePath="Misc.png" width="1" height="1">
+    <SubTexture name="pixel" x="0" y="0" width="1" height="1"/>
 </TextureAtlas>

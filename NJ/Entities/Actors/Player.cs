@@ -174,19 +174,12 @@ namespace Chip
 
         public override void Update()
         {
-            CanBreakeFakeWalls = PlayerData.Armwear.Contains(Powerups.WallBreakerGun);
             pointing.X = PlayerData.Facing;
             pointing.Y = 0.0f;
 
 #if DEBUG && !CONSOLE && !__MOBILE__
             if (Input.Pressed("debug"))
             {
-                if (!PlayerData.Footwear.Contains(Powerups.RocketBoots))
-                    PlayerData.Footwear.Add(Powerups.RocketBoots);
-                if (!PlayerData.Armwear.Contains(Powerups.Claws))
-                    PlayerData.Armwear.Add(Powerups.Claws);
-                if (!PlayerData.Armwear.Contains(Powerups.WallBreakerGun))
-                    PlayerData.Armwear.Add(Powerups.WallBreakerGun);
                 Entity elevator = null;
                 foreach (var entity in Scene.GetEntities().Where(entity => entity.GetType() == typeof(ElevatorRope)))
                 {
@@ -371,13 +364,7 @@ namespace Chip
                 if (enemyCollider != null)
                 {
                     Actor entity = enemyCollider.Entity as Actor;
-                    if (PlayerData.Footwear.Contains(Powerups.SpikedBoots) && (StateMachine.State == StateAir || StateMachine.State == StateWall) && (Y < (double)entity.Y && entity is Enemy && (entity as Enemy).Stompable))
-                    {
-                        (entity as Enemy).Hurt(1, this);
-                        Speed.Y = -280f;
-                        StateMachine.Set(StateAir);
-                    }
-                    else if (entity is Laser laser)
+                    if (entity is Laser laser)
                     {
                         // TODO: 
                         hurtEnemy = laser;
@@ -482,15 +469,7 @@ namespace Chip
             }
             if (!solidDown)
             {
-                if (PlayerData.Footwear.Contains(Powerups.LevitationBoots) && Speed.Y >= 0.0 && pointing.Y <= 0.0)
-                {
-                    glassWalkTimer -= Engine.DeltaTime * 1.8f;
-                    if (glassWalkTimer > 0.0)
-                        return;
-                    StateMachine.Set(StateAir);
-                }
-                else
-                    StateMachine.Set(StateAir);
+                StateMachine.Set(StateAir);
             }
             else
                 glassWalkTimer = 1f;
@@ -520,13 +499,6 @@ namespace Chip
             Speed.X += AccelerationAir * direction * Engine.DeltaTime;
             if (!Moving)
                 Slowdown(FrictionAir, 0.0f);
-            if (PlayerData.Footwear.Contains(Powerups.RocketBoots) && jumpPressed && !doubleJumped)
-            {
-                Smoke.Burst(X, Y + 8f, 2f, 1.570796f, 0.3926991f, 2);
-                doubleJumped = true;
-                jumpTimer = JumpDuration;
-                StateMachine.Set(StateAir);
-            }
             jumpTimer -= Engine.DeltaTime;
             if (jumpKey && jumpTimer > 0.0)
             {
@@ -541,9 +513,9 @@ namespace Chip
                     Fall(450f);
                 else
                     Fall(Gravity);
-                if (MoveCollider.Check(direction, 0, Solids) && !(MoveCollider.Collide(direction, 0, (int)Tags.Solid).Entity is Jumpthrough)
+                /*if (MoveCollider.Check(direction, 0, Solids) && !(MoveCollider.Collide(direction, 0, (int)Tags.Solid).Entity is Jumpthrough)
                         && !(MoveCollider.Collide(direction, 0, (int)Tags.Solid).Entity is LevelWall) && PlayerData.Armwear.Contains(Powerups.Claws))
-                    StateMachine.Set(StateWall);
+                    StateMachine.Set(StateWall);*/
             }
             if (Speed.Y < 0.0 || !solidDown)
                 return;
@@ -838,8 +810,6 @@ namespace Chip
             }
             else
                 base.Render();
-            if (!solidDown && StateMachine.State == StateNormal && PlayerData.Footwear.Contains(Powerups.LevitationBoots))
-                Draw.Rect(Position.X - 6f, Position.Y + 8f, 12f, 2f, Constants.Light, glassWalkTimer * 1.5f);
             if (StateMachine.State == StateDead || StateMachine.State == StateLightShow)
                 Sprite.Render();
 

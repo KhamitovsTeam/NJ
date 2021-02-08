@@ -47,6 +47,11 @@ namespace Chip
 
         public static Player Instance => instance ?? (instance = new Player());
 
+        public void ClearPlayer()
+        {
+            instance = null;
+        }
+
         public readonly Animation Sprite;
         public readonly StateMachine StateMachine;
         public Weapon CurrentWeapon;

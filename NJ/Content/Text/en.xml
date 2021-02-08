@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Text lang="en">
     <!-- Common -->
-    <string name="chip">CHIP</string>
-    <string name="gamename">Rescuer of Kittens</string>
+    <string name="gamename">The Witch</string>
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
@@ -19,22 +18,11 @@
     <string name="menu_shoot">shoot</string>
     <string name="menu_new_game">New game</string>
     <string name="menu_continue">Continue</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_credits">Credits</string>
     <string name="menu_quit">Quit</string>
     <!-- Loader -->
     <string name="loader_loading">Loading…</string>
     <!-- Saver -->
     <string name="saver_saving">Saving…</string>
-    <!-- Emulator -->
-    <string name="insert">INSERT</string>
-    <string name="coin">COIN</string>
-    <!-- Settings -->
-    <string name="settings_language">Language</string>
-    <string name="settings_volume">Volume</string>
-    <string name="settings_display">Display</string>
-    <string name="settings_fullscreen">Fullscreen</string>
-    <string name="settings_window">Window x</string>
     <!-- End -->
     <string name="end_title">Thanks for playing!</string>
     <!-- GameOver -->
@@ -46,29 +34,4 @@
     <string name="pause_restart">Restart</string>
     <string name="pause_main_menu">Main menu</string>
     <string name="pause_quit">Quit</string>
-    <!-- Planets -->
-    <string name="World1">X147B</string>
-    <string name="World2">Planet Of Woods</string>
-    <string name="World3">Rock Planet</string>
-    <string name="World4">No Name Planet</string>
-    <string name="World5">Earth</string>
-    <!-- Powerups -->
-    <string name="powerup_name_pistol">Pistol</string>
-    <string name="powerup_description_pistol">Стреляет одиночными зарядами на небольшое расстояние</string>
-    <string name="powerup_name_claws">Claws</string>
-    <string name="powerup_description_claws">Allow clinging to walls</string>
-    <string name="powerup_name_rocket_boots">Rocket boots</string>
-    <string name="powerup_description_rocket_boots">Allow to make an extra jump in the air</string>
-    <string name="powerup_name_spiked_boots">Spiked boots</string>
-    <string name="powerup_description_spiked_boots">Позволяют прыгать на головы врагов нанося им урон</string>
-    <string name="powerup_name_levitation_boots">Levitation boots</string>
-    <string name="powerup_description_levitation_boots">Позволяют пройти небольшое расстояние "по-воздуху"</string>
-    <string name="powerup_name_jetpack">Jetpack</string>
-    <string name="powerup_description_jetpack">Позволяет подниматься в воздух посредством реактивной тяги</string>
-    <string name="powerup_name_wallbreaker_gun">Wall Breaker Gun</string>
-    <string name="powerup_description_wallbreaker_gun">Allow to breake some fake walls</string>
-    <!-- Dialogs -->
-    <string name="dialog_old_sward">The Greatsword is for one another hero</string>
-    <string name="dialog_robot_no_kitten1">Thank you Chip!</string>
-    <string name="dialog_robot_no_kitten2">But kittens are in another castle!</string>
 </Text>

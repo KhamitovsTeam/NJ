@@ -4,7 +4,7 @@ namespace Chip
 {
     public class Dialogs
     {
-        private Dictionary<string, DialogItem> _dialogs = new Dictionary<string, DialogItem>();
+        private Dictionary<string, DialogItem> dialogs = new Dictionary<string, DialogItem>();
 
         public void Load()
         {

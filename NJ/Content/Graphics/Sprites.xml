@@ -25,23 +25,6 @@
   </Sprite>
 
   <!-- Enemies -->
-  <Sprite name="Laser" texture="enemies/laser">
-    <Size width="16" height="16"/>
-    <Origin x="8" y="8"/>
-    <Animations>
-      <Anim name="idle" speed="1" frames="0"/>
-      <Anim name="light" speed="1" frames="1"/>
-    </Animations>
-  </Sprite>
-
-  <Sprite name="Copter" texture="enemies/copter">
-    <Size width="14" height="10"/>
-    <Origin x="7" y="6"/>
-    <Animations>
-      <Anim name="idle" speed="8" frames="0,1,2,3"/>
-    </Animations>
-  </Sprite>
-
   <Sprite name="FireBug" texture="enemies/fire_bug">
     <Size width="16" height="16"/>
     <Origin x="8" y="8"/>

@@ -27,8 +27,8 @@ namespace Chip
             sprite.Origin.Y = 8f;
             sprite.Play("empty");
 
-           // MoveCollider = Add(new Hitbox(-1, -1, 3, 7));
-           // MoveCollider.Tag((int)Tags.Item);
+            MoveCollider = Add(new Hitbox(0, 0, 12, 7));
+            MoveCollider.Tag((int)Tags.Item);
 
             // Если звезда была сохранёна, то делаем её пунктирной 
            /* var levelData = Level.Session.GetLevelData(Level.ID);
@@ -44,20 +44,14 @@ namespace Chip
 
         public override void Update()
         {
-          /*  if (MoveCollider != null && MoveCollider.Check((int)Tags.Player))
+            if (MoveCollider != null && MoveCollider.Check((int)Tags.Player))
             {
-                // Добавляем в список звёзд
-                var levelData = Level.Session.GetLevelData(Level.ID);
-                if (levelData == null)
+                if (Player.Instance.PlayerData.HasFire)
                 {
-                    levelData = new LevelData(Level.ID);
-                    Level.Session.LevelsData.Add(levelData);
+                    sprite.Play("shine");
                 }
-                levelData.Stars.Add(new EntityID(Level.ID, ID));
-                Scene.Remove(this);
-                Player.Instance.PlayerData.Stars += 1;
                 SFX.Play("star");
-            }*/
+            }
             base.Update();
         }
     }

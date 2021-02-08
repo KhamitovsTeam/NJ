@@ -80,6 +80,21 @@
     <Compile Include="Entities\Actors\Objects\Fire.cs" />
     <Compile Include="Entities\Actors\Sceneries\Grave.cs" />
     <Compile Include="Entities\Actors\Sceneries\House.cs" />
+    <Compile Include="Entities\Scripts\FireArea.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\GraveyardArea.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\ThirdVillager.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\TemplArea.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Entities\Scripts\SecondVillager.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Entities\Scripts\FirstVillager.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>

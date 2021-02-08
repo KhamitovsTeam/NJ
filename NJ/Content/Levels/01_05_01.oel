@@ -26,6 +26,7 @@
   <Areas>
     <ExitArea id="0" x="46" y="0" width="8" height="2" to="01_03" from="01_05" active="True" type="" />
     <SpawnArea id="1" x="46" y="8" width="4" height="8" camX="0" camY="0" from="01_03" />
+    <TriggerArea id="2" x="24" y="22" width="18" height="14" script="TemplArea" enter="True" exit="True" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

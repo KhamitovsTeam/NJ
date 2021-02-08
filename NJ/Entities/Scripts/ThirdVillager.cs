@@ -2,15 +2,16 @@ using KTEngine;
 
 namespace Chip
 {
-    public class FirstVillager : Script
+    public class ThirdVillager : Script
     {
         public override void OnTriggerEnter()
         {
            // Player.Instance.Weaponless = true;
             OverlayDialog.Instance.DialogItem = new DialogItem(
-                   "The Holy fire is gone!",
-                   "The Dead Come to Life!",
-                   "Help us!"
+                   "Spirit of the forest",
+                   "stole the holy fire.",
+                   "Protect yourself..",
+                   "from Zombies"
                );
             OverlayDialog.Instance.Show();
         }

@@ -71,28 +71,6 @@ namespace Chip
             isOpen = true;
             if (Content == Contents.Powerup)
             {
-                switch (_value)
-                {
-                    case "claws":
-                        powerup = Powerups.Claws;
-                        break;
-                    case "rocket_boots":
-                        powerup = Powerups.RocketBoots;
-                        break;
-                    case "spiked_boots":
-                        powerup = Powerups.SpikedBoots;
-                        break;
-                    case "levitation_boots":
-                        powerup = Powerups.LevitationBoots;
-                        break;
-                    case "jetpack":
-                        powerup = Powerups.Jetpack;
-                        break;
-                    case "wallbreaker_gun":
-                        powerup = Powerups.WallBreakerGun;
-                        break;
-                }
-
                 Player.Instance.AnimationGotItem();
 
                 OverlayPowerup.Instance.Title = powerup.Name;

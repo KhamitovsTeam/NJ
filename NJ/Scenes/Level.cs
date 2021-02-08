@@ -48,7 +48,6 @@ namespace Chip
         public XmlElement Xml;
         public Wall Wall;
         public Player Player;
-        public BackTiles BackTiles;
         public Room CurrentRoom;
         public GameplayRenderer GameplayRenderer;
         public HiresRenderer HiresRenderer;
@@ -368,7 +367,6 @@ namespace Chip
                 Player = new Player();*/
             UpdateLists();
             yield return Wall.Generate();
-            BackTiles = Add(new BackTiles("sceneries/building_back", GridBack, this), "parallax");
 
             // left wall
             Add(new LevelWall(-1, 0, 0, 0, 1, Height));
@@ -379,7 +377,7 @@ namespace Chip
             // top wall
             Add(new LevelWall(0, 0, 0, 0, Width, 2));
 
-            yield return BackTiles.Generate();
+            yield return 0f;
         }
 
         private void LoadRoom(Room room)

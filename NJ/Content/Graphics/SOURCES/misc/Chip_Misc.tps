@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>4</int>
         <key>texturePackerVersion</key>
-        <string>4.12.0</string>
+        <string>5.5.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -181,55 +181,18 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">logo.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>29,13,58,25</rect>
-                <key>scale9Paddings</key>
-                <rect>29,13,58,25</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">pixel.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
                 <rect>1,1,1,1</rect>
                 <key>scale9Paddings</key>
                 <rect>1,1,1,1</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">ship.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>24,4,48,8</rect>
-                <key>scale9Paddings</key>
-                <rect>24,4,48,8</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">ship_fire.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>20,4,40,8</rect>
-                <key>scale9Paddings</key>
-                <rect>20,4,40,8</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -237,9 +200,6 @@
         <key>fileList</key>
         <array>
             <filename>pixel.png</filename>
-            <filename>ship_fire.png</filename>
-            <filename>ship.png</filename>
-            <filename>logo.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

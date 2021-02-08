@@ -76,9 +76,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Actors\Enemies\Walkers\Worm.cs" />
+    <Compile Include="Entities\Actors\Objects\Torch.cs" />
     <Compile Include="Entities\Actors\Objects\Fire.cs" />
     <Compile Include="Entities\Actors\Sceneries\Grave.cs" />
     <Compile Include="Entities\Actors\Sceneries\House.cs" />
+    <Compile Include="Entities\Scripts\FirstVillager.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="NJGame.cs" />
     <Compile Include="Core\Commands.cs" />
     <Compile Include="Core\Constants.cs" />
@@ -116,13 +120,8 @@
     <Compile Include="Entities\Actors\Enemies\Static\WaterfallWater.cs" />
     <Compile Include="Entities\Actors\Enemies\Static\Spikes.cs" />
     <Compile Include="Entities\Actors\Enemies\Static\Water.cs" />
-    <Compile Include="Entities\Actors\Enemies\Walkers\EggEnemy.cs" />
-    <Compile Include="Entities\Actors\Enemies\Walkers\EnemyWalker.cs" />
-    <Compile Include="Entities\Actors\Enemies\Walkers\Walker5.cs" />
     <Compile Include="Entities\Actors\Enemies\Walkers\Walker1.cs" />
     <Compile Include="Entities\Actors\Enemies\Walkers\Walker2.cs" />
-    <Compile Include="Entities\Actors\Enemies\Walkers\Walker3.cs" />
-    <Compile Include="Entities\Actors\Enemies\Walkers\Walker4.cs" />
     <Compile Include="Entities\Actors\IExplodable.cs" />
     <Compile Include="Entities\Actors\IShootable.cs" />
     <Compile Include="Entities\Actors\Objects\Box.cs" />
@@ -132,7 +131,6 @@
     <Compile Include="Entities\Actors\Objects\Blocker.cs" />
     <Compile Include="Entities\Actors\Objects\Tv.cs" />
     <Compile Include="Entities\Actors\Objects\Switcher.cs" />
-    <Compile Include="Entities\Actors\Objects\Computer.cs" />
     <Compile Include="Entities\Actors\Objects\Doorjamb.cs" />
     <Compile Include="Entities\Actors\Objects\Elevator.cs" />
     <Compile Include="Entities\Actors\Objects\ElevatorRope.cs" />

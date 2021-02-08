@@ -23,6 +23,9 @@ namespace Chip
         {
             base.CreateFromXml(xml, room, offset, level);
 
+            X = offset.X + 1;
+            Y = offset.Y + 2;
+
             width = xml.AttrInt("width");
             height = xml.AttrInt("height");
             
@@ -30,7 +33,7 @@ namespace Chip
             enter = xml.AttrBool("enter", false);
             exit = xml.AttrBool("exit", false);
 
-            MoveCollider = Add(new Hitbox(-8, -8, width, height));
+            MoveCollider = Add(new Hitbox(-4, -4, width, height));
             MoveCollider.Tag((int) Tags.Trigger);
             
             // Init script

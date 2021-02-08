@@ -25,7 +25,7 @@
     <Tree id="0" x="16" y="28" type="1" />
     <Grave id="2" x="68" y="28" type="2" />
     <Grave id="2" x="60" y="28" type="1" />
-    <Grave id="2" x="44" y="28" type="3" />
+    <Grave id="2" x="48" y="28" type="3" />
     <Grave id="2" x="32" y="28" type="1" />
   </Sceneries>
   <Wall exportMode="Rectangles">
@@ -40,6 +40,7 @@
     <ExitArea id="0" x="44" y="38" width="4" height="4" to="02_02" from="02_01" active="True" type="" />
     <SpawnArea id="2" x="38" y="28" width="4" height="8" camX="0" camY="0" from="02_02" />
     <ExitArea id="3" x="0" y="32" width="2" height="4" to="02_00" from="02_01" active="True" type="" />
+    <TriggerArea id="4" x="80" y="26" width="4" height="10" script="GraveyardArea" enter="True" exit="True" />
   </Areas>
   <BackTiles exportMode="Rectangles" />
 </level>

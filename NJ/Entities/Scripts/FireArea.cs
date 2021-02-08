@@ -2,22 +2,20 @@ using KTEngine;
 
 namespace Chip
 {
-    public class FirstVillager : Script
+    public class FireArea : Script
     {
         public override void OnTriggerEnter()
         {
-           // Player.Instance.Weaponless = true;
+            Player.Instance.Weaponless = true;
             OverlayDialog.Instance.DialogItem = new DialogItem(
-                   "The Holy fire is gone!",
-                   "The Dead Come to Life!",
-                   "Help us!"
+                   "I must take it to the village."
                );
             OverlayDialog.Instance.Show();
         }
 
         public override void OnTriggerExit()
         {
-            //Player.Instance.Weaponless = false;
+            Player.Instance.Weaponless = false;
         }
     }
 }

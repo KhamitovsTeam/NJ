@@ -17,6 +17,7 @@ namespace Chip
         public int Lives = 9;
         public int HeartContainers = 3;
         public int Facing = 1;
+        public bool HasFire = false;
 
         /// <summary>
         /// Скилы для тела

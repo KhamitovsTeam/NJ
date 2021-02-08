@@ -29,12 +29,9 @@ namespace Chip
             if (Input.Pressed("confirm"))
             {
                 SFX.Play("menu_click");
-
                 Player.Instance.ClearPlayer();
-                var data = UserIO.Load<SaveData>(SaveData.GetFilename()) ?? new SaveData();
-                SaveData.Start(data);
-
-                Engine.Scene = new Loader(SaveData.Instance.CurrentSession);
+                SaveData.Start(new SaveData());
+                Engine.Scene = new Loader(null);
             }
         }
 

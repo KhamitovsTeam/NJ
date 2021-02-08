@@ -7,6 +7,7 @@ namespace Chip
         public override void OnTriggerEnter()
         {
             Player.Instance.Weaponless = true;
+            if (Player.Instance.PlayerData.HasFire) return;
             OverlayDialog.Instance.DialogItem = new DialogItem(
                    "The holy fire is gone!",
                    "The temple is empty!"

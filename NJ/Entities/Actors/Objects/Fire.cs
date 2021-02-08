@@ -55,7 +55,7 @@ namespace Chip
                 }
                 levelData.Stars.Add(new EntityID(Level.ID, ID));
                 Scene.Remove(this);
-                Player.Instance.PlayerData.Stars += 1;
+                Player.Instance.PlayerData.HasFire = true;
                 SFX.Play("star");
             }
             base.Update();

@@ -7,16 +7,22 @@ namespace Chip
         public override void OnTriggerEnter()
         {
             Player.Instance.Weaponless = true;
-            OverlayDialog.Instance.DialogItem = new DialogItem(
-                   "Hmm..",
-                   "The temple is empty..."
-               );
+            if (!Player.Instance.PlayerData.HasFire)
+            {
+                OverlayDialog.Instance.DialogItem = new DialogItem("Hmm..", "The temple is empty...");  
+            }
+            else
+            {
+                OverlayDialog.Instance.DialogItem = new DialogItem("Holy fire returned!");
+                OverlayDialog.Instance.Show();
+            }
             OverlayDialog.Instance.Show();
         }
 
         public override void OnTriggerExit()
         {
             Player.Instance.Weaponless = false;
+            Engine.Scene = new End();
         }
     }
 }

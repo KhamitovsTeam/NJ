@@ -1,6 +1,6 @@
 # 🧙‍♀️ The Witch
 
-[🇬🇧 English](#english) | [🇷🇺 Русский](README.ru.md)
+[🇷🇺 Русский](README.ru.md)
 
 ---
 
@@ -16,4 +16,5 @@
 
 ### 👩‍💻 Developers
 
-Azaliya Khamitova & Ural Khamitov
+Azaliya Khamitova ([@zazaraisovna](https://github.com/zazaraisovna))   
+Ural Khamitov ([@ukhamitov](https://github.com/ukhamitov))

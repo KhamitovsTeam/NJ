@@ -1,4 +1,4 @@
-# 🧙‍♀️ The Witch
+# 🧙‍♀️ The Witch (Ведьма)
 
 [🇬🇧 English](README.md)
 

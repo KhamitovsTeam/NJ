@@ -13,13 +13,6 @@
 
 ### 🔗 [Build / Itch.io / WIN](https://zaza.itch.io/the-witch)
 
-### 🎮 Controls (Keyboard)
-
-- **Arrows** — Movement  
-- **X** — Jump  
-- **C** — Attack  
-- **Esc** — Pause / Close dialog
-
 ### 👩‍💻 Developers
 
 Azaliya Khamitova ([@zazaraisovna](https://github.com/zazaraisovna))   
